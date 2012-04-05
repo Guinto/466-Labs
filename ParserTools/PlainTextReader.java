@@ -35,6 +35,7 @@ public class PlainTextReader {
          scanner = new Scanner(new File(fileName));
          scanner.useDelimiter("[ \t\u000B\f\r\u001C\u001D\u001E\u001F]"); // Delimits all white space except \n
          parseFile();
+         
       } catch (FileNotFoundException e) {
          System.err.println("FILE " + fileName + " NOT FOUND");
          e.printStackTrace();
@@ -54,16 +55,18 @@ public class PlainTextReader {
       for(int i = 0; i < document.size(); i++) {
          count += document.get(i).getSentences().size();
       }
-      return count;
+      return count / (getNumParagraphs() + 1);
    }
 
    public int getNumWords() {
       int count = 0;
       for (int i = 0; i < document.size(); i++) {
-         for(int j = 0; j < document.get(i).getSentences().size(); j++)
+         for(int j = 0; j < document.get(i).getSentences().size(); j++) {
             count += document.get(i).getSentences().get(j).getWords().size();
+         }
+         
       }
-      return count;
+      return count / (getNumParagraphs() + 1);
    }
 
    public int getNumUniqueWords() {
@@ -215,7 +218,7 @@ public class PlainTextReader {
       String word = "";
       int num;
       if (args.length != 0) {
-         PlainTextReader data = new PlainTextReader(args[0]);
+         PlainTextReader data = new PlainTextReader("joke01.txt");
          System.out.println("Number of paragraphs: " + data.getNumParagraphs()); 
 
          System.out.println("Number of sentences: " + data.getNumSentences());

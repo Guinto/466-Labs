@@ -19,7 +19,7 @@ public class CSV {
 	
 	public static void main(String[] args) {
    		if (args.length > 0) {
-   	   		new CSV(args[0]);
+   	   		new CSV("test02.csv");
    		}
    		else {
             System.err.println("Usage: CSV fileName");
