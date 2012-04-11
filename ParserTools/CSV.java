@@ -13,7 +13,6 @@ import java.util.Scanner;
 public class CSV {
 	
 	private ArrayList<Vector> vectors;
-   	
 	
 	public static void main(String[] args) {
    		if (args.length > 0) {
