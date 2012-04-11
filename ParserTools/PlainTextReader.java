@@ -218,7 +218,7 @@ public class PlainTextReader {
       String word = "";
       int num;
       if (args.length != 0) {
-         PlainTextReader data = new PlainTextReader("joke01.txt");
+         PlainTextReader data = new PlainTextReader(args[0]);
          System.out.println("Number of paragraphs: " + data.getNumParagraphs()); 
 
          System.out.println("Number of sentences: " + data.getNumSentences());
