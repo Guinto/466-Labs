@@ -8,15 +8,39 @@ import java.util.ArrayList;
 public class Domain {
 	
 	private ArrayList<Vector> attributesAndCategory;
+	private int numCategories;
+	
+	public Domain() {
+		numCategories = 2;
+	}
+	
+	public Domain(ArrayList<Vector> attributesAndCategory) {
+		this.attributesAndCategory = attributesAndCategory;
+	}
 	
 	public ArrayList<Domain> split() {
-		ArrayList<Domain> splitDomain = new ArrayList<Domain>();
+		ArrayList<Domain> splitDomain = new ArrayList<Domain>(numCategories);
 		
-		double firstCategory = attributesAndCategory.get(0).last();
 		for (Vector v : attributesAndCategory) {
-			//if ()
+			int index = (int) v.last();
+			Domain d = splitDomain.get(index);
+			d.addVector(v);
 		}
 		
 		return splitDomain;
 	}
+	
+	public void addVector(Vector v) {
+		attributesAndCategory.add(v);
+	}
+
+	public int getNumCategories() {
+		return numCategories;
+	}
+
+	public void setNumCategories(int numCategories) {
+		this.numCategories = numCategories;
+	}
+	
+	
 }
