@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * 
  * @author Trent Ellingsen
@@ -6,7 +8,8 @@
 public class C45 {
 	
 	private double getEnthropy(Domain d) {
-		return 0;
+		ArrayList<Domain> domains = d.split();
+		return  getEnthropy(domains.get(0).size(), domains.get(1).size());
 	}
 	
 	private double getEnthropy(double a, double b) {
