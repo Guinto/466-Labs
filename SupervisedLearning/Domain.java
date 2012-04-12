@@ -14,12 +14,13 @@ public class Domain {
 		numCategories = 2;
 	}
 	
-	public Domain(ArrayList<Vector> attributesAndCategory) {
+	public Domain(ArrayList<Vector> attributesAndCategory, int numCategories) {
 		this.attributesAndCategory = attributesAndCategory;
+		setNumCategories(numCategories);
 	}
 	
 	public ArrayList<Domain> split() {
-		ArrayList<Domain> splitDomain = new ArrayList<Domain>(numCategories);
+		ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
 		
 		for (Vector v : attributesAndCategory) {
 			int index = (int) v.last();
@@ -28,6 +29,10 @@ public class Domain {
 		}
 		
 		return splitDomain;
+	}
+	
+	public int size() {
+		return attributesAndCategory.size();
 	}
 	
 	public void addVector(Vector v) {
