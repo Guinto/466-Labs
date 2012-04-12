@@ -20,6 +20,8 @@ public class InduceC45 {
 	    } else {
 	    	restrict = new CSV(restrictFileName, 0);
 	    }
+	    trainer.editCat(restrict);
+	    trainer.findID(restrict);
 	    Domain test = new Domain(trainer.vectors, trainer.dataCounts.get(0).last());
 	    C45 run = new C45(test, restrict, trainer);
 	    

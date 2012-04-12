@@ -20,7 +20,7 @@ public class C45 {
       int base1 = 0;
       Vector check = trainer.getVectors().get(0);
       for(Vector v: trainer.getVectors()) {
-         if(check.last() != v.last()) {
+         if(check.get(check.findCat(restrict)) != v.get(v.findCat(restrict))) {
             base1 = 1;
          }
          if(base1 == 1) {
@@ -28,7 +28,7 @@ public class C45 {
          }
       }
       if(base1 == 0) {
-         return new DecisionTreeNode(check.last());
+         return new DecisionTreeNode(check.get(check.findCat(restrict)));
       }
       int base2 = 0;
       for(int i = 0; i < restrict.vectors.get(0).length(); i++) {
@@ -38,13 +38,13 @@ public class C45 {
          }
       }
       if(base2 == 0) {
-         return new DecisionTreeNode(findmostfreq(trainer)+1);
+         return new DecisionTreeNode(findmostfreq(trainer, restrict)+1);
       }
 
 
       int split = SelectSplittingAttribute(trainer, restrict, original);
       if(split == -1) {
-         return new DecisionTreeNode(findmostfreq(trainer)+1);
+         return new DecisionTreeNode(findmostfreq(trainer, restrict)+1);
       }
       else {
          DecisionTreeNode tree = new DecisionTreeNode(split);
@@ -61,7 +61,7 @@ public class C45 {
       double enthropy = getEnthropy(trainer);
       ArrayList<Double> enthropies = new ArrayList<Double>();
       for(int i = 0; i < restrict.vectors.get(0).size(); i++) {
-         if(restrict.vectors.get(0).get(i) == 1 && original.dataCounts.get(0).get(i) >= 0) {
+         if(restrict.vectors.get(0).get(i) == 1) {
             Domain[] split = trainer.split(i, original.dataCounts.get(0).get(i));
             double attrenthrop = 0;
             for(int j = 0; j < split.length; j++) {
@@ -84,12 +84,12 @@ public class C45 {
       return max;
    }
 
-   private static int findmostfreq(Domain trainer) {
+   private static int findmostfreq(Domain trainer, CSV restrict) {
       int[] count = new int[trainer.getNumCategories()];
       for(int i = 0; i < count.length; i++)
          count[i] = 0;
       for(Vector v: trainer.getVectors()) {
-         int index = (int) v.last();
+         int index = (int) v.get(v.findCat(restrict));
          count[index-1]++;
       }
 

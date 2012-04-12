@@ -171,4 +171,12 @@ public class Vector {
    public int length() {
       return elements.size();
    }
+
+      public int findCat(CSV restrictions) {
+      for(int i = 0; i < restrictions.vectors.get(0).size(); i++) {
+         if(restrictions.vectors.get(0).get(i) == -2)
+            return i;
+      }
+      return restrictions.vectors.get(0).size()-1;
+   }
 }
