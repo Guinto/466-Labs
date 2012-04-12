@@ -15,6 +15,8 @@ public class CSV {
    public ArrayList<Vector> vectors;
    public ArrayList<ArrayList<String>> data;
    public ArrayList<Vector> dataCounts;
+   public int category;
+   public int id;
 
    public static void main(String[] args) {
       if (args.length > 0) {
@@ -40,7 +42,7 @@ public class CSV {
       File file = new File(fileName);
       readVectorsFromFile(file);
    }
-   
+
    public CSV(int numVect) {
       this.vectors = new ArrayList<Vector>();
       this.vectors.add(new Vector());
@@ -117,10 +119,36 @@ public class CSV {
          e.printStackTrace();
       }
    }
+
+   public void editCat(CSV restrictions) {
+      for(int j = 0; j < this.data.get(1).size(); j++) {
+         for(int i = 0; i < this.data.get(0).size(); i++) {
+            if(this.data.get(1).get(j).equals(this.data.get(0).get(i))) {
+               restrictions.vectors.get(0).set(i, -2);
+            }
+         }
+      }
+   }
    
+   public int findCat(CSV restrictions) {
+      for(int i = 0; i < this.vectors.get(0).size(); i++) {
+         if(this.vectors.get(0).get(i) == -1)
+            return i;
+      }
+      return this.vectors.get(0).size()-1;
+   }
+
    public void printVectors() {
       for(int i = 0; i < vectors.size(); i++) {
          System.out.println(vectors.get(i));
+      }
+   }
+
+   public void findID(CSV restrict) {
+      for(int i = 0; i < this.dataCounts.get(0).size(); i++) {
+         if(this.dataCounts.get(0).get(i) == -1) {
+            restrict.vectors.get(0).set(i, -1);
+         }
       }
    }
 }
