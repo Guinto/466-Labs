@@ -1,11 +1,31 @@
+import java.util.ArrayList;
 
-public class Valdiation {
-   
-   public void overallMatrix(CSV trainer, CSV restrict, int folds, DecisionTreeNode tree) {
+
+public class Validation {
+
+	public static void main(String args[]) {
+		Evaluate eval = null;
+		if (args.length >= 4) {
+			eval = new Evaluate(args[0], args[1], Integer.parseInt(args[2]), args[3]);
+		} else if (args.length >= 3) {
+			eval = new Evaluate(args[0], args[1], Integer.parseInt(args[2]), null);
+		} else {
+			System.err.println("Usage: Evaluate domainFileName trainerFileName numFolds restrictFileName");
+			System.exit(1);
+		}
+		
+		Validation validation = new Validation();
+		
+		validation.overallMatrix(eval.getDomains(), new CSV(args[1]), new CSV(args[3]), Integer.parseInt(args[2]), eval.getTrees());
+		
+	}
+	
+	
+   public void overallMatrix(ArrayList<Domain> domains, CSV trainer, CSV restrict, int folds, ArrayList<DecisionTreeNode> tree) {
       double precision = 0, recall = 0, pF = 0, fMeasure = 0;
       matrix confusion = new matrix();
       for(int i = 0; i < folds; i++) {
-         matrix temp = confuseMatrix(trainer, tree);
+         matrix temp = confuseMatrix(domains.get(i), trainer, tree.get(i));
          confusion.tP += temp.tP;
          confusion.fP += temp.fP;
          confusion.fN += temp.fN;
@@ -21,13 +41,13 @@ public class Valdiation {
       System.out.println(confusion.tP + "     " + confusion.fN);
       System.out.println(confusion.fP + "     " + confusion.tN);
    }
-   public matrix confuseMatrix(CSV trainer, DecisionTreeNode tree) {
-      int records[] = new int[trainer.vectors.size()];
+   public matrix confuseMatrix(Domain domains, CSV trainer, DecisionTreeNode tree) {
+      int records[] = new int[(int)domains.size()];
       matrix confmatr = new matrix();
-      for(int i = 0; i < trainer.vectors.size(); i++) {
-         records[i] = checkTree(trainer.vectors.get(i), trainer, tree);
+      for(int i = 0; i < (int)domains.size(); i++) {
+         records[i] = checkTree(domains.getVectors().get(i), trainer, tree);
       }
-      for(int j = 0; j < trainer.vectors.size(); j++) {
+      for(int j = 0; j < (int)domains.size(); j++) {
          if(records[j] == 0)
             confmatr.tP++;
          else if(records[j] == 1)

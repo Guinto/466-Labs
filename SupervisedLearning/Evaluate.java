@@ -1,18 +1,14 @@
+import java.util.ArrayList;
+
 
 public class Evaluate {
-
-	public static void main(String args[]) {
-		if (args.length >= 4) {
-			new Evaluate(args[0], args[1], Integer.parseInt(args[2]), args[3]);
-		} else if (args.length >= 3) {
-			new Evaluate(args[0], args[1], Integer.parseInt(args[2]), null);
-		} else {
-			System.err.println("Usage: Evaluate domainFileName trainerFileName numFolds restrictFileName");
-			System.exit(1);
-		}
-	}
+	
+	private ArrayList<DecisionTreeNode> trees;
+	private ArrayList<Domain> splitDomain;
 
 	public Evaluate(String domainFileName, String trainerFileName, int numFolds, String restrictFileName) {
+		splitDomain = new ArrayList<Domain>();
+		trees = new ArrayList<DecisionTreeNode>();
 	    CSV trainer = new CSV(trainerFileName);
 	    CSV restrict;
 	    if (restrictFileName == null) {
@@ -40,11 +36,21 @@ public class Evaluate {
 			    	temp.getVectors().addAll(splitDomain[j].getVectors());
 		    	}
 		    }
+		    
+		    this.splitDomain.add(temp);
 
-	    	C45 run = new C45(test, restrict, trainer);
+	    	C45 run = new C45(temp, restrict, trainer);
 	    
 			DecisionTreeNode tree = run.getDecisionTree();
-			tree.print(new XML(domainFileName));
+			trees.add(tree);
 	    }
+	}
+	
+	public ArrayList<DecisionTreeNode> getTrees() {
+		return trees;
+	}
+	
+	public ArrayList<Domain> getDomains() {
+		return this.splitDomain;
 	}
 }
