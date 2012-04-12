@@ -48,6 +48,10 @@ public class Domain {
    public double size() {
       return attributesAndCategory.size();
    }
+   
+   public ArrayList<Vector> getVectors() {
+      return attributesAndCategory;
+   }
 	
 	
 }

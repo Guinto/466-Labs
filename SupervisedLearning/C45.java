@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * 
  * @author Trent Ellingsen
@@ -5,10 +7,10 @@
  */
 public class C45 {
 
-   public C45(CSV trainer, CSV restrict) {
+   public Node C45(Domain trainer, CSV restrict) {
       int base1 = 0;
-      Vector check = trainer.vectors.get(0);
-      for(Vector v: trainer.vectors) {
+      Vector check = trainer.getVectors().get(0);
+      for(Vector v: trainer.getVectors()) {
          if(check.last() != v.last()) {
             base1 = 1;
          }
@@ -27,24 +29,60 @@ public class C45 {
          }
       }
       if(base2 == 0)
-         return new Node(check.last());
+         return new Node(findmostfreq(trainer));
 
 
       int split = SelectSplittingAttribute();
       if(split == -1) {
-         return new Node(value = findmostfreq());
+         return new Node(findmostfreq(trainer));
       }
       else {
          Node tree = new Node(split);
          restrict.vectors.get(0).set(split, 0);
-
+         ArrayList<Domain> splitTrain = trainer.split();
+         for(int i = 0; i < splitTrain.size(); i++) {
+            tree.children.add(C45(splitTrain.get(i), restrict));
+         }
+         return tree;
       }
    }
 
 }
 
+private static int findmostfreq(Domain trainer) {
+   int[] count = new int[trainer.getNumCategories()];
+   for(int i = 0; i < count.length; i++)
+      count[i] = 0;
+   for(Vector v: trainer.getVectors()) {
+      int index = (int) v.last();
+      count[index]++;
+   }
+   
+   int index = 0;
+   for(int i = 1; i < count.length; i++) {
+      if(count[i] > count[index])
+         index = i;
+   }
+   
+   return index;
+   
+}
+public ArrayList<Domain> split() {
+   ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
+   
+   for (Vector v : attributesAndCategory) {
+      int index = (int) v.last();
+      Domain d = splitDomain.get(index);
+      d.addVector(v);
+   }
+   
+   return splitDomain;
+}
+
+
 private double getEnthropy(Domain d) {
-   return 0;
+   ArrayList<Domain> domains = d.split();
+   return  getEnthropy(domains.get(0).size(), domains.get(1).size());
 }
 
 private double getEnthropy(double a, double b) {
@@ -53,16 +91,10 @@ private double getEnthropy(double a, double b) {
 
 private class Node {
    public int value;
-   public Node left, right;
-   public Node() {
-      this.value = 0;
-      this.left = null;
-      this.right = null;
-   }
+   public ArrayList<Node> children;
+   
    public Node(int value) {
       this.value = value;
-      this.left = null;
-      this.right = null;
    }
 }
 }
