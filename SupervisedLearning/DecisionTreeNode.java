@@ -6,5 +6,6 @@ public class DecisionTreeNode {
    
 	public DecisionTreeNode(int value) {
 	   this.value = value;
+	   this.children = new ArrayList<DecisionTreeNode>();
 	}
 }

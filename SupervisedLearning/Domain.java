@@ -12,6 +12,7 @@ public class Domain {
 	
 	public Domain() {
 		numCategories = 2;
+		this.attributesAndCategory = new ArrayList<Vector>();
 	}
 	
 	public Domain(ArrayList<Vector> attributesAndCategory, int numCategories) {
@@ -21,24 +22,28 @@ public class Domain {
 	
 
 	
-	public ArrayList<Domain> split() {
-		ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
+	public Domain[] split() {
+		Domain[] splitDomain = new Domain[getNumCategories()];
+		for(int i = 0; i < getNumCategories(); i++)
+		   splitDomain[i] = new Domain();
 		
 		for (Vector v : attributesAndCategory) {
 			int index = (int) v.last();
-			Domain d = splitDomain.get(index);
+			Domain d = splitDomain[index-1];
 			d.addVector(v);
 		}
 		
 		return splitDomain;
 	}
 	
-	public ArrayList<Domain> split(int attribute, int numattr) {
-      ArrayList<Domain> splitDomain = new ArrayList<Domain>(numattr);
-      
+	public Domain[] split(int attribute, int numattr) {
+      Domain[] splitDomain = new Domain[numattr];
+      for(int i = 1; i < numattr; i++)
+         splitDomain[i] = new Domain();
+      System.out.println(numattr);
       for (Vector v : attributesAndCategory) {
          int index = (int) v.get(attribute);
-         Domain d = splitDomain.get(index);
+         Domain d = splitDomain[index-1];
          d.addVector(v);
       }
       

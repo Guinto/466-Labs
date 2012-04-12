@@ -14,6 +14,7 @@ public class CSV {
 
    public ArrayList<Vector> vectors;
    public ArrayList<ArrayList<String>> data;
+   public ArrayList<Vector> dataCounts;
 
    public static void main(String[] args) {
       if (args.length > 0) {
@@ -28,6 +29,7 @@ public class CSV {
    public CSV(String fileName) {
       this.vectors = new ArrayList<Vector>();
       this.data = new ArrayList<ArrayList<String>>();
+      this.dataCounts = new ArrayList<Vector>();
       File file = new File(fileName);
       readTextFromFile(file);
    }
@@ -43,6 +45,9 @@ public class CSV {
       this.vectors = new ArrayList<Vector>();
       this.vectors.add(vectors);
       for(int i = 0; i < this.vectors.get(0).size();i++) {
+         if(i == 0)
+            this.vectors.get(0).set(i,0);
+         else
             this.vectors.get(0).set(i, 1);
       }
    }
@@ -70,6 +75,8 @@ public class CSV {
             String[] tokens = line.split("[,]");
             if(count == 0 || count == 2)
                data.add(new ArrayList<String>(Arrays.asList(tokens)));
+            else if(count == 1)
+               dataCounts.add(new Vector(Arrays.asList(tokens)));
             else
                vectors.add(new Vector(Arrays.asList(tokens)));
             count++;
@@ -111,7 +118,7 @@ public class CSV {
       }
    }
    
-   private void printVectors() {
+   public void printVectors() {
       for(int i = 0; i < vectors.size(); i++) {
          System.out.println(vectors.get(i));
       }
