@@ -18,6 +18,8 @@ public class Domain {
 		this.attributesAndCategory = attributesAndCategory;
 	}
 	
+
+	
 	public ArrayList<Domain> split() {
 		ArrayList<Domain> splitDomain = new ArrayList<Domain>(numCategories);
 		

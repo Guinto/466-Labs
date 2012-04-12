@@ -3,32 +3,32 @@ import java.util.Collections;
 import java.util.List;
 
 public class Vector {
-	   	private ArrayList<Double> elements;
+	   	private ArrayList<Integer> elements;
 	   
 	   	public Vector(List<String> list) {
-		   setElements(new ArrayList<Double>());
+		   setElements(new ArrayList<Integer>());
 		   for (String e : list) {
 			   if (e.isEmpty()) {
-				   elements.add(0.0);
+				   elements.add( 0);
 			   } else {
-				   elements.add(Double.parseDouble(e));
+				   elements.add(Integer.parseInt(e));
 			   }
 		   }
 	   	}
 
-	   	public void add(double element) {
-	   		elements.add(element);
+	   	public void add(int element) {
+	   		elements.add((int) element);
 		}
 
 		public Vector() {
-			setElements(new ArrayList<Double>());
+			setElements(new ArrayList<Integer>());
 		}
 
-		public void setElements(ArrayList<Double> elements) {
+		public void setElements(ArrayList<Integer> elements) {
 	   		this.elements = elements;
 	   	}
 	   
-	   	public double get(int index) {
+	   	public int get(int index) {
 	   		return elements.get(index);
 	   	}
 	   
@@ -40,21 +40,14 @@ public class Vector {
 	   		return elements.toString();
 	   	}
 	   
-	   	public double getLength() {
-	   		double total = 0;
-	   		for (Double d : elements) {
-	   			total += d * d;
-	   		}
-	   		return Math.sqrt(total);
-	   	}
 	   
-	   	public double getDotProduct(Vector v) {
+	   	public int getDotProduct(Vector v) {
 	   		if (size() != v.size()) {
 	   			System.err.println("Vector lengths not equal: " + size() + " vs " + v.size());
 	   			return -1; //TODO Should throw exception
 	   		}
 	   		
-	   		double total = 0;
+	   		int total = 0;
 	   		for (int i = 0; i < size(); i++) {
 	   			total += get(i) * v.get(i);
 	   		}
@@ -62,13 +55,13 @@ public class Vector {
 	   		return total;
 	   	}
 	   
-	   	public double getEucledianDistance(Vector v) {
+	   	public int getEucledianDistance(Vector v) {
 	   		if (size() != v.size()) {
 	   			System.err.println("Vector lengths not equal: " + size() + " vs " + v.size());
 	   			return -1; //TODO Should throw exception
 	   		}
 	   		
-	   		double total = 0;
+	   		int total = 0;
 	   		for (int i = 0; i < size(); i++) {
 	   			total += Math.pow(get(i) - v.get(i), 2);
 	   		}
@@ -76,13 +69,13 @@ public class Vector {
 	   		return total;
 	   	}
 	   	
-	   	public double getManhattanDistance(Vector v) {
+	   	public int getManhattanDistance(Vector v) {
 	   		if (size() != v.size()) {
 	   			System.err.println("Vector lengths not equal: " + size() + " vs " + v.size());
 	   			return -1; //TODO Should throw exception
 	   		}
 	   		
-	   		double total = 0;
+	   		int total = 0;
 	   		for (int i = 0; i < size(); i++) {
 	   			total += Math.abs(get(i) - v.get(i));
 	   		}
@@ -90,13 +83,13 @@ public class Vector {
 	   		return total;
 	   	}
 	   	
-		public double getPearsonCorrelation(Vector v) {
+		public int getPearsonCorrelation(Vector v) {
 			if (size() != v.size()) {
 				System.err.println("Vector lengths not equal: " + size() + " vs " + v.size());
 				return -1; //TODO Should throw exception
 			}
 			
-			double total = 0;
+			int total = 0;
 			for (int i = 0; i < size(); i++) {
 				total += get(i) * v.get(i);
 			}
@@ -104,14 +97,14 @@ public class Vector {
 			return total;
 		}
 		
-		public double getLargestElement() {
+		public int getLargestElement() {
 			if (size() == 0) {
 				System.err.println("Vector size is 0");
 				return -1; //TODO Should throw exception
 			}
-			double largest = elements.get(0);
+			int largest = elements.get(0);
 			
-			for(double d : elements) {
+			for(int d : elements) {
 				if (d > largest) {
 					largest = d;
 				}
@@ -119,14 +112,14 @@ public class Vector {
 			return largest;
 		}
 		
-		public double getSmallestElement() {
+		public int getSmallestElement() {
 			if (size() == 0) {
 				System.err.println("Vector size is 0");
 				return -1; //TODO Should throw exception
 			}
-			double smallest = elements.get(0);
+			int smallest = elements.get(0);
 			
-			for(double d : elements) {
+			for(int d : elements) {
 				if (d < smallest) {
 					smallest = d;
 				}
@@ -134,7 +127,7 @@ public class Vector {
 			return smallest;
 		}
 		
-		public double getMedian() {
+		public int getMedian() {
 			if (size() == 0) {
 				System.err.println("Vector size is 0");
 				return -1; //TODO Should throw exception
@@ -147,47 +140,35 @@ public class Vector {
 			return elements.get(size() / 2);
 		}
 		
-		public double getMean() {
+		public int getMean() {
 			if (size() == 0) {
 				System.err.println("Vector size is 0");
 				return -1; //TODO Should throw exception
 			}
 			
-			double total = 0;
+			int total = 0;
 
-			for(double d : elements) {
+			for(int d : elements) {
 				total += d;
 			}
 			return total / size();
 			
 		}
 		
-		public double getStandardDeviation() {
-			if (size() == 0) {
-				System.err.println("Vector size is 0");
-				return -1; //TODO Should throw exception
-			}
-			
-			double mean = getMean();
-			ArrayList<Double> deviationList = new ArrayList<Double>();
-			
-			for (int i = 0; i < size(); i++) {
-				deviationList.add(Math.pow(get(i) - mean, 2));
-			}
-			
-			double total = 0;
-			for (Double d : deviationList) {
-				total += d;
-			}
-			
-			return Math.sqrt(total / (size() - 1));
-		}
-		
 		private void sortElements() {
 			Collections.sort(elements);
 		}
 
-		public double last() {
+		public int last() {
 			return elements.get(elements.size() - 1);
 		}
+
+      public void set(int i, int j) {
+         elements.set(i, j);
+         
+      }
+
+      public int length() {
+         return elements.size();
+      }
    	}
