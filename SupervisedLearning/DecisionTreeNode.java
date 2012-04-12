@@ -20,4 +20,11 @@ public class DecisionTreeNode {
 	public void setChildren(ArrayList<DecisionTreeNode> children) {
 		this.children = children;
 	}
+	
+	public void print() {
+		System.out.println(value);
+		for (DecisionTreeNode child : children) {
+			child.print();
+		}
+	}
 }

@@ -6,12 +6,17 @@ import java.util.ArrayList;
  *
  */
 public class C45 {
-   DecisionTreeNode decisionTree;
+   private DecisionTreeNode decisionTree;
+   
    public C45(Domain trainer, CSV restrict, CSV original) {
-      decisionTree = C45(trainer, restrict, original);
+      decisionTree = runC45(trainer, restrict, original);
+   }
+   
+   public DecisionTreeNode getDecisionTree() {
+	   return decisionTree;
    }
 
-   private DecisionTreeNode C45(Domain trainer, CSV restrict, CSV original) {
+   private DecisionTreeNode runC45(Domain trainer, CSV restrict, CSV original) {
       int base1 = 0;
       Vector check = trainer.getVectors().get(0);
       for(Vector v: trainer.getVectors()) {
@@ -44,7 +49,7 @@ public class C45 {
          DecisionTreeNode tree = new DecisionTreeNode(split);
          Domain[] splitTrain = trainer.split();
          for(int i = 0; i < splitTrain.length; i++) {
-            tree.children.add(C45(splitTrain[i], restrict, original));
+            tree.children.add(runC45(splitTrain[i], restrict, original));
          }
          restrict.vectors.get(0).set(split, 0);
          return tree;
