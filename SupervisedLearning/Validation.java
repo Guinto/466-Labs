@@ -10,7 +10,7 @@ public class Validation {
       } else if (args.length >= 3) {
          eval = new Evaluate(args[0], args[1], Integer.parseInt(args[2]), null);
       } else {
-         System.err.println("Usage: Evaluate domainFileName trainerFileName numFolds restrictFileName");
+         System.err.println("Usage: Validation domainFileName trainerFileName numFolds [restrictFileName]");
          System.exit(1);
       }
 
@@ -31,6 +31,8 @@ public class Validation {
             confusion.fP += temp.fP;
             confusion.fN += temp.fN;
             confusion.tN += temp.tN;
+            confusion.accuracy = temp.accuracy;
+            confusion.error = temp.error;
          }
       else if(folds == 0) {
          matrix temp = confuseMatrix(domains.get(0), trainer, tree.get(0));
@@ -38,6 +40,8 @@ public class Validation {
          confusion.fP += temp.fP;
          confusion.fN += temp.fN;
          confusion.tN += temp.tN;
+         confusion.accuracy = temp.accuracy;
+         confusion.error = temp.error;
       }
       else if(folds == -1)
          for(int i = 0; i < domains.size(); i++) {
@@ -46,6 +50,8 @@ public class Validation {
             confusion.fP += temp.fP;
             confusion.fN += temp.fN;
             confusion.tN += temp.tN;
+            confusion.accuracy = temp.accuracy;
+            confusion.error = temp.error;
          }
 
 
@@ -62,19 +68,9 @@ public class Validation {
       System.out.println("pF " + pF);
       System.out.println("f-measure " + fMeasure);
       System.out.println("overall Accuracy " + (double)(confusion.tP+confusion.tN)/trainer.vectors.size());
-      if(folds != -1 && folds != 0)
-         System.out.println("average Accuracy " + (double)(confusion.tP+confusion.tN)/trainer.vectors.size()/folds);
-      else if(folds == -1)
-         System.out.println("average Accuracy " + (double)(confusion.tP+confusion.tN)/trainer.vectors.size()/(trainer.vectors.size()-1));
-      else if(folds == 0)
-         System.out.println("average Accuracy " + (double)(confusion.tP+confusion.tN)/trainer.vectors.size());
+      System.out.println("average Accuracy " + confusion.accuracy);
       System.out.println("overall Error Rate " + (double)(confusion.fP+confusion.fN)/trainer.vectors.size());
-      if(folds != -1 && folds != 0)
-         System.out.println("average Error Rate " + (double)(confusion.fP+confusion.fN)/trainer.vectors.size()/folds);
-      else if(folds == -1)
-         System.out.println("average Error Rate " + (double)(confusion.fP+confusion.fN)/trainer.vectors.size()/(trainer.vectors.size()-1));
-      else if(folds == 0)
-         System.out.println("average Error Rate " + (double)(confusion.fP+confusion.fN)/trainer.vectors.size());
+      System.out.println("average Error Rate " + confusion.error);
    }
    public matrix confuseMatrix(Domain domains, CSV trainer, DecisionTreeNode tree) {
       int records[] = new int[(int)domains.size()];
@@ -92,6 +88,8 @@ public class Validation {
          else if(records[j] == 3)
             confmatr.tN++;
       }
+      confmatr.accuracy = (double)(confmatr.tP + confmatr.tN)/domains.size();
+      confmatr.error = (double)(confmatr.fP+confmatr.fN)/domains.size();
       return confmatr;
    }
 
@@ -119,11 +117,14 @@ public class Validation {
    }
    private class matrix {
       int tP, fN, fP, tN;
+      double accuracy, error;
       public matrix() {
          this.tP = 0;
          this.fN = 0;
          this.fP = 0;
          this.tN = 0;
+         this.accuracy = 0;
+         this.error = 0;
       }
    }
 }
