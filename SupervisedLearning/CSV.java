@@ -132,7 +132,7 @@ public class CSV {
    
    public int findCat(CSV restrictions) {
       for(int i = 0; i < this.vectors.get(0).size(); i++) {
-         if(this.vectors.get(0).get(i) == -1)
+         if(this.vectors.get(0).get(i) == -2)
             return i;
       }
       return this.vectors.get(0).size()-1;

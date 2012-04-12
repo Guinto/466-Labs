@@ -20,7 +20,7 @@ public class C45 {
       int base1 = 0;
       Vector check = trainer.getVectors().get(0);
       for(Vector v: trainer.getVectors()) {
-         if(check.findCat(restrict) != v.findCat(restrict)) {
+         if(check.get(check.findCat(restrict)) != v.get(v.findCat(restrict))) {
             base1 = 1;
          }
          if(base1 == 1) {
@@ -28,7 +28,7 @@ public class C45 {
          }
       }
       if(base1 == 0) {
-         return new DecisionTreeNode(check.findCat(restrict));
+         return new DecisionTreeNode(check.get(check.findCat(restrict)));
       }
       int base2 = 0;
       for(int i = 0; i < restrict.vectors.get(0).length(); i++) {
@@ -89,7 +89,7 @@ public class C45 {
       for(int i = 0; i < count.length; i++)
          count[i] = 0;
       for(Vector v: trainer.getVectors()) {
-         int index = (int) v.findCat(restrict);
+         int index = (int) v.get(v.findCat(restrict));
          count[index-1]++;
       }
 
