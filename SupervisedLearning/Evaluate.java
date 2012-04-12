@@ -32,7 +32,7 @@ public class Evaluate {
 		    
 	    	Domain temp = new Domain();
 		    for (int j = 0; j < splitDomain.length; j++) {
-		    	if (j != i) {
+		    	if (j == i) {
 			    	temp.getVectors().addAll(splitDomain[j].getVectors());
 		    	}
 		    }

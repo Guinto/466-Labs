@@ -16,12 +16,12 @@ public class Validation {
 		
 		Validation validation = new Validation();
 		
-		validation.overallMatrix(eval.getDomains(), new CSV(args[1]), new CSV(args[3]), Integer.parseInt(args[2]), eval.getTrees());
+		validation.overallMatrix(eval.getDomains(), new CSV(args[1]), Integer.parseInt(args[2]), eval.getTrees());
 		
 	}
 	
 	
-   public void overallMatrix(ArrayList<Domain> domains, CSV trainer, CSV restrict, int folds, ArrayList<DecisionTreeNode> tree) {
+   public void overallMatrix(ArrayList<Domain> domains, CSV trainer, int folds, ArrayList<DecisionTreeNode> tree) {
       double precision = 0, recall = 0, pF = 0, fMeasure = 0;
       matrix confusion = new matrix();
       for(int i = 0; i < folds; i++) {
@@ -33,13 +33,22 @@ public class Validation {
       }
       
       
-      precision = confusion.tP/(confusion.tP+confusion.fP);
-      recall = confusion.tP/(confusion.tP+confusion.fN);
-      pF = confusion.fP/(confusion.fP+confusion.tN);
-      fMeasure = (2 * precision * recall) /  (precision+recall);
+      precision = (double)confusion.tP/(confusion.tP+confusion.fP);
+      recall = (double)confusion.tP/(confusion.tP+confusion.fN);
+      pF = (double)confusion.fP/(confusion.fP+confusion.tN);
+      fMeasure = (double)(2 * precision * recall) /  (precision+recall);
       
       System.out.println(confusion.tP + "     " + confusion.fN);
       System.out.println(confusion.fP + "     " + confusion.tN);
+      
+      System.out.println("precision " + precision);
+      System.out.println("recall " + recall);
+      System.out.println("pF " + pF);
+      System.out.println("f-measure " + fMeasure);
+      System.out.println("overall Accuracy " + (double)(confusion.tP+confusion.tN)/trainer.vectors.size());
+      System.out.println("average Accuracy " + (double)(confusion.tP+confusion.tN)/trainer.vectors.size()/folds);
+      System.out.println("overall Error Rate " + (double)(confusion.fP+confusion.fN)/trainer.vectors.size());
+      System.out.println("average Error Rate " + (double)(confusion.fP+confusion.fN)/trainer.vectors.size()/folds);
    }
    public matrix confuseMatrix(Domain domains, CSV trainer, DecisionTreeNode tree) {
       int records[] = new int[(int)domains.size()];
