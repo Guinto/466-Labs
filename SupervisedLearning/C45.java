@@ -47,54 +47,42 @@ public class C45 {
       }
    }
 
-}
+   private static int findmostfreq(Domain trainer) {
+      int[] count = new int[trainer.getNumCategories()];
+      for(int i = 0; i < count.length; i++)
+         count[i] = 0;
+      for(Vector v: trainer.getVectors()) {
+         int index = (int) v.last();
+         count[index]++;
+      }
 
-private static int findmostfreq(Domain trainer) {
-   int[] count = new int[trainer.getNumCategories()];
-   for(int i = 0; i < count.length; i++)
-      count[i] = 0;
-   for(Vector v: trainer.getVectors()) {
-      int index = (int) v.last();
-      count[index]++;
+      int index = 0;
+      for(int i = 1; i < count.length; i++) {
+         if(count[i] > count[index])
+            index = i;
+      }
+
+      return index;
+
    }
-   
-   int index = 0;
-   for(int i = 1; i < count.length; i++) {
-      if(count[i] > count[index])
-         index = i;
+
+
+
+   private double getEnthropy(Domain d) {
+      ArrayList<Domain> domains = d.split();
+      return  getEnthropy(domains.get(0).size(), domains.get(1).size());
    }
-   
-   return index;
-   
-}
-public ArrayList<Domain> split() {
-   ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
-   
-   for (Vector v : attributesAndCategory) {
-      int index = (int) v.last();
-      Domain d = splitDomain.get(index);
-      d.addVector(v);
+
+   private double getEnthropy(double a, double b) {
+      return -a * Math.log(a)/Math.log(2) - -b * Math.log(b)/Math.log(2);
    }
-   
-   return splitDomain;
-}
 
+   private class Node {
+      public int value;
+      public ArrayList<Node> children;
 
-private double getEnthropy(Domain d) {
-   ArrayList<Domain> domains = d.split();
-   return  getEnthropy(domains.get(0).size(), domains.get(1).size());
-}
-
-private double getEnthropy(double a, double b) {
-   return -a * Math.log(a)/Math.log(2) - -b * Math.log(b)/Math.log(2);
-}
-
-private class Node {
-   public int value;
-   public ArrayList<Node> children;
-   
-   public Node(int value) {
-      this.value = value;
+      public Node(int value) {
+         this.value = value;
+      }
    }
-}
 }
