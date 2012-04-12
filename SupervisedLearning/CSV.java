@@ -45,7 +45,7 @@ public class CSV {
       this.vectors = new ArrayList<Vector>();
       this.vectors.add(new Vector());
       for(int i = 0; i < numVect;i++) {
-         if(i == 0)
+         if(i == 0 || i == numVect-1)
             this.vectors.get(0).add(0);
          else
             this.vectors.get(0).add(1);

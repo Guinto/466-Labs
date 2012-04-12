@@ -48,6 +48,7 @@ public class C45 {
             tree.children.add(C45(splitTrain[i], restrict, original));
          }
          restrict.vectors.get(0).set(split, 0);
+         restrict.printVectors();
          return tree;
       }
    }
@@ -56,24 +57,30 @@ public class C45 {
       double enthropy = getEnthropy(trainer);
       ArrayList<Double> enthropies = new ArrayList<Double>();
       for(int i = 0; i < restrict.vectors.get(0).size(); i++) {
-         if(restrict.vectors.get(0).get(i) == 1 && original.dataCounts.get(0).get(i) >= 0) {
+         if(restrict.vectors.get(0).get(i) == 1 && 
+          original.dataCounts.get(0).get(i) >= 0 && i != 
+          restrict.vectors.get(0).size()-1) {
             Domain[] split = trainer.split(i, original.dataCounts.get(0).get(i));
             double attrenthrop = 0;
             for(int j = 0; j < split.length; j++) {
-               if(split[j].size() > 0)
-               attrenthrop += split[j].size()/trainer.size() * getEnthropy(split[j]);
+               if(split[j].size() > 0) {
+                  attrenthrop += split[j].size()/trainer.size() * getEnthropy(split[j]);                  
+               }
             }
-            enthropies.add(new Double(getEnthropy(enthropy, attrenthrop)));
+            enthropies.add(new Double((enthropy - attrenthrop)));
          }
          else {
             enthropies.add(new Double(0));
          }
       }
       int max = 0;
+      System.out.println("new");
       for(int i = 1; i < restrict.vectors.get(0).size(); i++) {
+         System.out.println(enthropies.get(i));
          if(enthropies.get(i) > 0 && enthropies.get(max) < enthropies.get(i))
             max = i;
       }
+      System.out.println("max " + enthropies.get(max));
       if(max == 0)
          return -1;
       return max;
@@ -95,6 +102,15 @@ public class C45 {
       }
 
       return index;
+   }
+
+   public void printTree(DecisionTreeNode node) {
+
+      System.out.println("a node " + node.value + " " + node.children.size());
+      for(int i = 0; i < node.children.size(); i++) {
+//         System.out.println("child " + i);
+         printTree(node.children.get(i));
+      }
    }
 
    private double getEnthropy(Domain d) {
