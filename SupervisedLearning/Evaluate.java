@@ -31,11 +31,10 @@ public class Evaluate {
 		    trainer.findID(restrict);
 		    
 	    	Domain temp = new Domain();
-		    for (int j = 0; j < splitDomain.length; j++) {
-		    	if (j == i) {
-			    	temp.getVectors().addAll(splitDomain[j].getVectors());
-		    	}
-		    }
+		   
+			    	temp.getVectors().addAll(splitDomain[i].getVectors());
+		    	
+		    
 		    
 		    this.splitDomain.add(temp);
 

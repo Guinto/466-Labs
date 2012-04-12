@@ -43,8 +43,10 @@ public class C45 {
          return new DecisionTreeNode(findmostfreq(trainer, restrict)+1);
       }
 
-
       int split = SelectSplittingAttribute(trainer, restrict, original);
+      if(split != -1)
+         restrict.vectors.get(0).set(split, 0);
+      
       if(split == -1) {
          return new DecisionTreeNode(findmostfreq(trainer, restrict)+1);
       }
@@ -54,7 +56,7 @@ public class C45 {
          for(int i = 0; i < splitTrain.length; i++) {
             tree.children.add(runC45(splitTrain[i], restrict, original));
          }
-         restrict.vectors.get(0).set(split, 0);
+
          return tree;
       }
    }
