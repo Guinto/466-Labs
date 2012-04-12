@@ -41,14 +41,14 @@ public class CSV {
       readVectorsFromFile(file);
    }
    
-   public CSV(Vector vectors) {
+   public CSV(int numVect) {
       this.vectors = new ArrayList<Vector>();
-      this.vectors.add(vectors);
-      for(int i = 0; i < this.vectors.get(0).size();i++) {
+      this.vectors.add(new Vector());
+      for(int i = 0; i < numVect;i++) {
          if(i == 0)
-            this.vectors.get(0).set(i,0);
+            this.vectors.get(0).add(0);
          else
-            this.vectors.get(0).set(i, 1);
+            this.vectors.get(0).add(1);
       }
    }
 
