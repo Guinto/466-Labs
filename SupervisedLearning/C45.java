@@ -5,7 +5,7 @@
  */
 public class C45 {
 
-   public C45(CSV trainer, CSV restrict) {
+   /*public C45(CSV trainer, CSV restrict) {
       int base1 = 0;
       Vector check = trainer.vectors.get(0);
       for(Vector v: trainer.vectors) {
@@ -39,9 +39,8 @@ public class C45 {
          restrict.vectors.get(0).set(split, 0);
 
       }
-   }
+   }*/
 
-}
 
 private double getEnthropy(Domain d) {
    return 0;

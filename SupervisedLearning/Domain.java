@@ -19,8 +19,6 @@ public class Domain {
 		setNumCategories(numCategories);
 	}
 	
-
-	
 	public ArrayList<Domain> split() {
 		ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
 		
