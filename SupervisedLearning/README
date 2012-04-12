@@ -9,3 +9,5 @@ Classify CSVFile XMLFile
 
 Validation.java Usage:
 Validation domainFileName trainerFileName numFolds [restrictFileName]
+
+Note: validation run with tree01-1000-numbers.csv output to file "ValidationOutput.txt".
