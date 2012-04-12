@@ -16,6 +16,8 @@ public class XML {
 	 private ArrayList<Element> variableList;
 	 private Element category;
 	 
+	 private DecisionTreeNode decisionTree;
+	 
 	 public static void main(String args[]) {
 		new XML("tree.xml", new CSV("data/tree03-20-numbers.csv"));
 	 }
@@ -31,13 +33,13 @@ public class XML {
 	 
 	 public XML(String fileName, CSV csv) {
 		 try {
-			 parseTree(fileName, csv);
+			 this.setDecisionTree(parseTree(fileName, csv));
 		 } catch (Exception e) {
 			 e.printStackTrace();
 		 } 
 	 }
-	 
-	 public XML() {
+
+	public XML() {
 		 variableList = new ArrayList<Element>();
 		 try {
 			 //parseDomain("data/domain.xml");
@@ -95,7 +97,7 @@ public class XML {
 		 }
 	 }
 	 
-	 public void parseTree(String fileName, CSV csv) throws ParserConfigurationException, SAXException, IOException {
+	 public DecisionTreeNode parseTree(String fileName, CSV csv) throws ParserConfigurationException, SAXException, IOException {
          File fXmlFile = new File(fileName);
          DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
          DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -115,7 +117,7 @@ public class XML {
 			 }
 		 }
 		 
-		 tree.print();
+		 return tree;
 	 }
 	 
 	 private ArrayList<DecisionTreeNode> fillTree(Element node, CSV csv) {
@@ -187,4 +189,13 @@ public class XML {
 	public void setCategory(Element category) {
 		this.category = category;
 	}
+
+	public DecisionTreeNode getDecisionTree() {
+		return decisionTree;
+	}
+	 
+	private void setDecisionTree(DecisionTreeNode parseTree) {
+		this.decisionTree = parseTree;
+	}
+
 }

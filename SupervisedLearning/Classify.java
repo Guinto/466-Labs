@@ -1,6 +1,19 @@
 
 public class Classify {
-   public void Classify(DecisionTreeNode tree, CSV trainer) {
+	
+	public static void main(String args[]) {
+		if (args.length >= 2) {
+			String csvFileName = args[0];
+			String xmlFileName = args[1];
+			XML xml = new XML(xmlFileName, new CSV(csvFileName));
+			new Classify(xml.getDecisionTree(), new CSV(csvFileName));
+		} else {
+			System.err.println("Usage: Classify CSVFile XMLFile");
+			System.exit(1);
+		}
+	}
+	
+   public Classify(DecisionTreeNode tree, CSV trainer) {
       int[] records = new int[trainer.vectors.size()];
       int correct = 0, wrong = 0;
       for(int i = 0; i < trainer.vectors.size(); i++) {
