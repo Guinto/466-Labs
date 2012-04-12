@@ -26,5 +26,6 @@ public class InduceC45 {
 		DecisionTreeNode tree = run.getDecisionTree();
 		tree.outputTree("tree.xml", new XML("data/domain.xml"));
 		tree.print(new XML("data/domain.xml"));
+		tree.print();
 	}
 }

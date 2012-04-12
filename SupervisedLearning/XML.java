@@ -1,9 +1,13 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import org.w3c.dom.*;
 import org.xml.sax.*;
+
+import com.sun.corba.se.spi.legacy.connection.GetEndPointInfoAgainException;
 
 import javax.xml.parsers.*;
 
@@ -12,14 +16,24 @@ public class XML {
 	 private ArrayList<Element> variableList;
 	 private Element category;
 	 
+	 private DecisionTreeNode tree;
+	 
 	 public static void main(String args[]) {
-		 new XML();
+		new XML("tree.xml", new CSV("data/tree03-20-numbers.csv"));
 	 }
 	 
 	 public XML(String fileName) {
 		 variableList = new ArrayList<Element>();
 		 try {
 			 parseDomain(fileName);
+		 } catch (Exception e) {
+			 e.printStackTrace();
+		 } 
+	 }
+	 
+	 public XML(String fileName, CSV csv) {
+		 try {
+			 parseTree(fileName, csv);
 		 } catch (Exception e) {
 			 e.printStackTrace();
 		 } 
@@ -38,6 +52,14 @@ public class XML {
 	 
 	 public ArrayList<Element> getListOfVariables() {
 		 return variableList;
+	 }
+	 
+	 public int getEnd(Element e) {
+		 return Integer.parseInt(e.getAttribute("end"));
+	 }
+	 
+	 public String getVar(Element e) {
+		 return e.getAttribute("var");
 	 }
 	 
 	 public String getName(Element e) {
@@ -75,24 +97,49 @@ public class XML {
 		 }
 	 }
 	 
-	 public DecisionTreeNode parseTree(String fileName) throws ParserConfigurationException, SAXException, IOException {
+	 public void parseTree(String fileName, CSV csv) throws ParserConfigurationException, SAXException, IOException {
          File fXmlFile = new File(fileName);
          DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
          DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
          Document document = dBuilder.parse(fXmlFile);
          document.getDocumentElement().normalize();
          
-         DecisionTreeNode root = new DecisionTreeNode(-1);
-		 NodeList attributes = document.getDocumentElement().getChildNodes();
+         tree = new DecisionTreeNode(-1);
+		 NodeList nodes = document.getDocumentElement().getChildNodes();
 
-		 for (int i = 0; i < attributes.getLength(); i++) {
-			 Node attributeNode = attributes.item(i);
-			 if (attributeNode.getNodeType() == Node.ELEMENT_NODE) {
-				 Element variable = (Element) attributeNode;
-				 System.out.println(getName(variable));
+		 for (int i = 0; i < nodes.getLength(); i++) {
+			 Node nodeNode = nodes.item(i);
+			 if (nodeNode.getNodeType() == Node.ELEMENT_NODE) {
+				 Element node = (Element) nodeNode;
+				 tree.value = csv.data.get(0).indexOf(getVar(node));
+				 System.out.println(tree.value);
+				 fillTree(node, csv);
 			 }
 		 }
-		 return root;
+		 
+		 tree.print();
+	 }
+	 
+	 private void fillTree(Element node, CSV csv) {
+		 ArrayList<Element> edges = getChildElementsFromType(node, "edge");
+		 
+		 for (int i = 0; i < edges.size(); i++) {
+			 tree.value = i;
+			 System.out.println(tree.value);
+			 ArrayList<Element> nodesOrDecision;
+			 if (getChildElementsFromType(edges.get(i), "decision").size() != 0) {
+				 nodesOrDecision = getChildElementsFromType(edges.get(i), "decision");
+				 tree.value = getEnd(nodesOrDecision.get(0));
+				 System.out.println(tree.value);
+			 } else {
+				 nodesOrDecision = getChildElementsFromType(edges.get(i), "node");
+				 for (Element e : nodesOrDecision) {
+					 tree.value = csv.data.get(0).indexOf(getVar(e));
+					 System.out.println(tree.value);
+				 	 fillTree(e, csv);
+				 }
+			 }
+		 }
 	 }
 
 	 public void parseDomain(String fileName) throws ParserConfigurationException, SAXException, IOException {
