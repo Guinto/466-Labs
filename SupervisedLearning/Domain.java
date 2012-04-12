@@ -43,6 +43,10 @@ public class Domain {
 	public void setNumCategories(int numCategories) {
 		this.numCategories = numCategories;
 	}
+
+   public double size() {
+      return attributesAndCategory.size();
+   }
 	
 	
 }
