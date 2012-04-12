@@ -7,7 +7,7 @@ public class InduceC45 {
 		} else if (args.length >= 1) {
 			new InduceC45(args[0], null);
 		} else {
-			System.err.println("Usage: InduceC45 trainerFileName");
+			System.err.println("Usage: InduceC45 trainerFileName restrictFileName");
 			System.exit(1);
 		}
 	}

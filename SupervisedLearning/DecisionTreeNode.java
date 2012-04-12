@@ -48,10 +48,16 @@ public class DecisionTreeNode {
 	}
 	
 	public void print() {
-		System.out.println(value);
+		if(children.size() == 0) {
+		System.out.println("decision " + value);
+		}
+		else {
+			System.out.println("node " + value);
+		
 		for (int i = 0; i < children.size(); i++) {
-			System.out.println(i);
+			System.out.println("edge " + i);
 			children.get(i).print();
+		}
 		}
 	}
 	

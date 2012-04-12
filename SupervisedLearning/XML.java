@@ -16,8 +16,6 @@ public class XML {
 	 private ArrayList<Element> variableList;
 	 private Element category;
 	 
-	 private DecisionTreeNode tree;
-	 
 	 public static void main(String args[]) {
 		new XML("tree.xml", new CSV("data/tree03-20-numbers.csv"));
 	 }
@@ -104,42 +102,46 @@ public class XML {
          Document document = dBuilder.parse(fXmlFile);
          document.getDocumentElement().normalize();
          
-         tree = new DecisionTreeNode(-1);
+         DecisionTreeNode tree = null;
+         
 		 NodeList nodes = document.getDocumentElement().getChildNodes();
 
 		 for (int i = 0; i < nodes.getLength(); i++) {
 			 Node nodeNode = nodes.item(i);
 			 if (nodeNode.getNodeType() == Node.ELEMENT_NODE) {
 				 Element node = (Element) nodeNode;
-				 tree.value = csv.data.get(0).indexOf(getVar(node));
-				 System.out.println(tree.value);
-				 fillTree(node, csv);
+				 tree = new DecisionTreeNode(csv.data.get(0).indexOf(getVar(node)));
+				 tree.setChildren(fillTree(node, csv));
 			 }
 		 }
 		 
 		 tree.print();
 	 }
 	 
-	 private void fillTree(Element node, CSV csv) {
+	 private ArrayList<DecisionTreeNode> fillTree(Element node, CSV csv) {
 		 ArrayList<Element> edges = getChildElementsFromType(node, "edge");
+		 ArrayList<DecisionTreeNode> nodes = new ArrayList<DecisionTreeNode>();
 		 
 		 for (int i = 0; i < edges.size(); i++) {
-			 tree.value = i;
-			 System.out.println(tree.value);
 			 ArrayList<Element> nodesOrDecision;
+			 
 			 if (getChildElementsFromType(edges.get(i), "decision").size() != 0) {
 				 nodesOrDecision = getChildElementsFromType(edges.get(i), "decision");
-				 tree.value = getEnd(nodesOrDecision.get(0));
-				 System.out.println(tree.value);
+				 
+				 DecisionTreeNode decision = new DecisionTreeNode(getEnd(nodesOrDecision.get(0)));
+				 nodes.add(decision);
+				 
 			 } else {
 				 nodesOrDecision = getChildElementsFromType(edges.get(i), "node");
+				 
 				 for (Element e : nodesOrDecision) {
-					 tree.value = csv.data.get(0).indexOf(getVar(e));
-					 System.out.println(tree.value);
-				 	 fillTree(e, csv);
+					 DecisionTreeNode xmlNode = new DecisionTreeNode(csv.data.get(0).indexOf(getVar(e)));
+					 xmlNode.setChildren(fillTree(e, csv));
+					 nodes.add(xmlNode);
 				 }
 			 }
 		 }
+		 return nodes;
 	 }
 
 	 public void parseDomain(String fileName) throws ParserConfigurationException, SAXException, IOException {
