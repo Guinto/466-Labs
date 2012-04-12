@@ -130,10 +130,11 @@ public class CSV {
       }
    }
    
-   public int findCat(CSV restrictions) {
-      for(int i = 0; i < this.vectors.get(0).size(); i++) {
-         if(this.vectors.get(0).get(i) == -2)
+   public int findCat() {
+      for(int i = 0; i < this.data.get(0).size(); i++) {
+         if(this.data.get(1).get(0).equals(this.data.get(0).get(i))) {
             return i;
+         }
       }
       return this.vectors.get(0).size()-1;
    }

@@ -20,6 +20,24 @@ public class Domain {
 		setNumCategories(numCategories);
 	}
 	
+	public Domain[] split(int numFolds) {
+		if (numFolds == 0) {
+			numFolds = 1;
+		} else if (numFolds == -1) {
+			numFolds = attributesAndCategory.size() - 1;
+		}
+		Domain[] splitDomain = new Domain[numFolds];
+		for(int i = 0; i < numFolds; i++)
+		   splitDomain[i] = new Domain();
+		
+		for (int i = 0; i < attributesAndCategory.size(); i++) {
+			Domain d = splitDomain[i % numFolds];
+			d.addVector(attributesAndCategory.get(i));
+		}
+		
+		return splitDomain;
+	}
+	
 	public Domain[] split() {
 		Domain[] splitDomain = new Domain[getNumCategories()];
 		for(int i = 0; i < getNumCategories(); i++)
@@ -47,7 +65,6 @@ public class Domain {
       
       return splitDomain;
    }
-	
 	
 	public void addVector(Vector v) {
 		attributesAndCategory.add(v);

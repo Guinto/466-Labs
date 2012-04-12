@@ -18,21 +18,23 @@ public class C45 {
 
    private DecisionTreeNode runC45(Domain trainer, CSV restrict, CSV original) {
       int base1 = 0;
-      Vector check = trainer.getVectors().get(0);
-      for(Vector v: trainer.getVectors()) {
-         if(check.get(check.findCat(restrict)) != v.get(v.findCat(restrict))) {
-            base1 = 1;
-         }
-         if(base1 == 1) {
-            break;
-         }
-      }
-      if(base1 == 0) {
-         return new DecisionTreeNode(check.get(check.findCat(restrict)));
+      if (trainer.getVectors().size() > 0) {
+	      Vector check = trainer.getVectors().get(0);
+	      for(Vector v: trainer.getVectors()) {
+	         if(check.get(check.findCat(restrict)) != v.get(v.findCat(restrict))) {
+	            base1 = 1;
+	         }
+	         if(base1 == 1) {
+	            break;
+	         }
+	      }
+	      if(base1 == 0) {
+	         return new DecisionTreeNode(check.get(check.findCat(restrict)));
+	      }
       }
       int base2 = 0;
       for(int i = 0; i < restrict.vectors.get(0).length(); i++) {
-         if(restrict.vectors.get(0).get(i) != 0) {
+         if(restrict.vectors.get(0).get(i) == 1) {
             base2 = 1;
             break;
          }
