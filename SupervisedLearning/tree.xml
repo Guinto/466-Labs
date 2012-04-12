@@ -1,0 +1,30 @@
+<Tree>
+<node var="Bush Approval">
+<edge var="Obama">
+<decision end="2"/>
+</edge>
+<edge var="McCain">
+<node var="Religion">
+<edge var="Less than 30000">
+<decision end="1"/>
+</edge>
+<edge var="30000-49999">
+<node var="Political Party">
+<edge var="Liberal">
+<decision end="1"/>
+</edge>
+<edge var="Moderate">
+<decision end="1"/>
+</edge>
+<edge var="Conservative">
+<decision end="2"/>
+</edge>
+</node>
+</edge>
+<edge var="50000-74999">
+<decision end="2"/>
+</edge>
+</node>
+</edge>
+</node>
+</Tree>

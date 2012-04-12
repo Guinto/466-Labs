@@ -20,8 +20,6 @@ public class Domain {
 		setNumCategories(numCategories);
 	}
 	
-
-	
 	public Domain[] split() {
 		Domain[] splitDomain = new Domain[getNumCategories()];
 		for(int i = 0; i < getNumCategories(); i++)

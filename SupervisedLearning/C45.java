@@ -7,11 +7,16 @@ import java.util.ArrayList;
  */
 public class C45 {
    public DecisionTreeNode decisionTree;
+   
    public C45(Domain trainer, CSV restrict, CSV original) {
-      decisionTree = C45(trainer, restrict, original);
+      decisionTree = runC45(trainer, restrict, original);
+   }
+   
+   public DecisionTreeNode getDecisionTree() {
+	   return decisionTree;
    }
 
-   private DecisionTreeNode C45(Domain trainer, CSV restrict, CSV original) {
+   private DecisionTreeNode runC45(Domain trainer, CSV restrict, CSV original) {
       int base1 = 0;
       Vector check = trainer.getVectors().get(0);
       for(Vector v: trainer.getVectors()) {
@@ -45,10 +50,9 @@ public class C45 {
          DecisionTreeNode tree = new DecisionTreeNode(split);
          Domain[] splitTrain = trainer.split(split, original.dataCounts.get(0).get(split));
          for(int i = 0; i < splitTrain.length; i++) {
-            tree.children.add(C45(splitTrain[i], restrict, original));
+            tree.children.add(runC45(splitTrain[i], restrict, original));
          }
          restrict.vectors.get(0).set(split, 0);
-         restrict.printVectors();
          return tree;
       }
    }
@@ -57,30 +61,24 @@ public class C45 {
       double enthropy = getEnthropy(trainer);
       ArrayList<Double> enthropies = new ArrayList<Double>();
       for(int i = 0; i < restrict.vectors.get(0).size(); i++) {
-         if(restrict.vectors.get(0).get(i) == 1 && 
-          original.dataCounts.get(0).get(i) >= 0 && i != 
-          restrict.vectors.get(0).size()-1) {
+         if(restrict.vectors.get(0).get(i) == 1 && original.dataCounts.get(0).get(i) >= 0) {
             Domain[] split = trainer.split(i, original.dataCounts.get(0).get(i));
             double attrenthrop = 0;
             for(int j = 0; j < split.length; j++) {
-               if(split[j].size() > 0) {
-                  attrenthrop += split[j].size()/trainer.size() * getEnthropy(split[j]);                  
-               }
+               if(split[j].size() > 0)
+               attrenthrop += split[j].size()/trainer.size() * getEnthropy(split[j]);
             }
-            enthropies.add(new Double((enthropy - attrenthrop)));
+            enthropies.add(new Double(getEnthropy(enthropy, attrenthrop)));
          }
          else {
             enthropies.add(new Double(0));
          }
       }
       int max = 0;
-      System.out.println("new");
       for(int i = 1; i < restrict.vectors.get(0).size(); i++) {
-         System.out.println(enthropies.get(i));
          if(enthropies.get(i) > 0 && enthropies.get(max) < enthropies.get(i))
             max = i;
       }
-      System.out.println("max " + enthropies.get(max));
       if(max == 0)
          return -1;
       return max;
@@ -105,11 +103,10 @@ public class C45 {
    }
 
    public void printTree(DecisionTreeNode node) {
-
       System.out.println("a node " + node.value + " " + node.children.size());
       for(int i = 0; i < node.children.size(); i++) {
-//         System.out.println("child " + i);
-         printTree(node.children.get(i));
+          System.out.println(i);
+    	  printTree(node.children.get(i));
       }
    }
 
