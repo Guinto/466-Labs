@@ -2,17 +2,19 @@
 public class InduceC45 {
 	
 	public static void main(String[] args) {
-		if (args.length >= 2) {
-			new InduceC45(args[0], args[1]);
-		} else if (args.length >= 1) {
-			new InduceC45(args[0], null);
+		if (args.length >= 3) {
+			new InduceC45(args[0], args[1], args[2]);
+		} else if (args.length >= 2) {
+			new InduceC45(args[0], args[1], null);
 		} else {
-			System.err.println("Usage: InduceC45 trainerFileName restrictFileName");
+			System.err.println("Usage: InduceC45 domainFileName trainerFileName restrictFileName");
 			System.exit(1);
 		}
+		
+		System.out.println("check tree.xml file for output");
 	}
 	
-	public InduceC45(String trainerFileName, String restrictFileName) {
+	public InduceC45(String domainFileName, String trainerFileName, String restrictFileName) {
 	    CSV trainer = new CSV(trainerFileName);
 	    CSV restrict;
 	    if (restrictFileName == null) {
@@ -26,6 +28,6 @@ public class InduceC45 {
 	    C45 run = new C45(test, restrict, trainer);
 	    
 		DecisionTreeNode tree = run.getDecisionTree();
-		tree.outputTree("tree.xml", new XML("data/domain.xml"));
+		tree.outputTree("tree.xml", new XML(domainFileName));
 	}
 }
