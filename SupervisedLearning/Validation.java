@@ -105,7 +105,7 @@ public class Validation {
          if(tree.value == v.get(trainer.findCat()) && tree.value == 1) {
             return 0;
          }
-         else if(tree.value == v.get(trainer.findCat()) && tree.value == 0) {
+         else if(tree.value == v.get(trainer.findCat()) && tree.value == 2) {
             return 3;
          }
          else if(tree.value != v.get(trainer.findCat()) && tree.value == 1) {
