@@ -33,10 +33,6 @@ public class Domain {
 		return splitDomain;
 	}
 	
-	public int size() {
-		return attributesAndCategory.size();
-	}
-	
 	public void addVector(Vector v) {
 		attributesAndCategory.add(v);
 	}
