@@ -16,9 +16,9 @@ public class Parser {
          System.err.println("Usage: CSV fileName");
          System.exit(1);
       }
-      Domain test = new Domain(trainer.vectors,trainer.dataCounts.get(0).last());
+      Domain test = new Domain(trainer.vectors, trainer.dataCounts.get(0).last());
       C45 tree = new C45(test, restrict, trainer);
-      tree.getDecisionTree().print();
-      //tree.printTree(tree.decisionTree);
+      //tree.getDecisionTree().print();
+      tree.printTree(tree.decisionTree);
    }
 }

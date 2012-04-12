@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
 
@@ -29,6 +31,22 @@ public class DecisionTreeNode {
 		this.children = children;
 	}
 	
+	public void outputTree(String fileName, XML xml) {
+		try {
+			FileWriter file = new FileWriter(fileName);
+			file.write(toXMLString(xml));
+			file.close();
+		} catch (IOException e) {
+			System.err.println("Error writing file: " + fileName);
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void print(XML xml) {
+		System.out.println(toXMLString(xml));
+	}
+	
 	public void print() {
 		System.out.println(value);
 		for (int i = 0; i < children.size(); i++) {
@@ -37,7 +55,7 @@ public class DecisionTreeNode {
 		}
 	}
 	
-	public void printXML(XML xml) {
+	public String toXMLString(XML xml) {
 		try {
 			DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
@@ -61,12 +79,14 @@ public class DecisionTreeNode {
             trans.transform(source, result);
             String xmlString = sw.toString();
 
-            //print xml
-            System.out.println(xmlString);
+            //return xml
+            return xmlString;
 
 		} catch (Exception e) {
        		e.printStackTrace();
         }
+		
+		return "";
 	}
 
 	private void print(XML xml, Element node, Document doc) {
@@ -93,10 +113,10 @@ public class DecisionTreeNode {
 	}
 	
 	private String getNodeName(int index, XML xml) {
-		if (index == xml.getListOfVariables().size()) {
+		if ((index - 1) == xml.getListOfVariables().size()) {
 			return xml.getName(xml.getCategory());
 		}
-		return xml.getName(xml.getListOfVariables().get(index));
+		return xml.getName(xml.getListOfVariables().get(index - 1));
 	}
 	
 	private String getEdgeName(int parentValue, int index, XML xml) {
