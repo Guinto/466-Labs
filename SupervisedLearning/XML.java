@@ -20,7 +20,7 @@ public class XML {
 		 variableList = new ArrayList<Element>();
 		 try {
 			 //parseDomain("data/domain.xml");
-			 //parseTree("data/treeHouse01.xml");
+			 parseTree("data/treeHouse01.xml");
 		 } catch (Exception e) {
 			 e.printStackTrace();
 		 }
@@ -66,25 +66,24 @@ public class XML {
 		 }
 	 }
 	 
-	 public void parseTree(String fileName) throws ParserConfigurationException, SAXException, IOException {
+	 public DecisionTreeNode parseTree(String fileName) throws ParserConfigurationException, SAXException, IOException {
          File fXmlFile = new File(fileName);
          DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
          DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
          Document document = dBuilder.parse(fXmlFile);
          document.getDocumentElement().normalize();
          
+         DecisionTreeNode root = new DecisionTreeNode(-1);
 		 NodeList attributes = document.getDocumentElement().getChildNodes();
 
 		 for (int i = 0; i < attributes.getLength(); i++) {
 			 Node attributeNode = attributes.item(i);
-			 if (attributeNode.getNodeType() == Node.ELEMENT_NODE && ((Element) attributeNode).getTagName().equals("variable")) {
+			 if (attributeNode.getNodeType() == Node.ELEMENT_NODE) {
 				 Element variable = (Element) attributeNode;
-				 variableList.add(variable);
-			 } else if (attributeNode.getNodeType() == Node.ELEMENT_NODE && ((Element) attributeNode).getTagName().equals("Category")) {
-				 category = (Element) attributeNode;
+				 System.out.println(getName(variable));
 			 }
 		 }
-		 return;
+		 return root;
 	 }
 
 	 public void parseDomain(String fileName) throws ParserConfigurationException, SAXException, IOException {
