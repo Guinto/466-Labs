@@ -16,13 +16,13 @@ public class CSV {
    public ArrayList<ArrayList<String>> data;
 
    public static void main(String[] args) {
-    //  if (args.length > 0) {
+      if (args.length > 0) {
          new CSV("tree03-20-numbers.csv");
-   //   }
-     // else {
-  //       System.err.println("Usage: CSV fileName");
-    //     System.exit(1);
-     // }
+      }
+      else {
+         System.err.println("Usage: CSV fileName");
+         System.exit(1);
+      }
    }
 
    public CSV(String fileName) {
