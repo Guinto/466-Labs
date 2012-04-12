@@ -32,23 +32,37 @@ public class C45 {
          return new DecisionTreeNode(findmostfreq(trainer));
 
 
-      int split = SelectSplittingAttribute();
+      int split = SelectSplittingAttribute(trainer, restrict);
       if(split == -1) {
          return new DecisionTreeNode(findmostfreq(trainer));
       }
       else {
          DecisionTreeNode tree = new DecisionTreeNode(split);
-         restrict.vectors.get(0).set(split, 0);
          ArrayList<Domain> splitTrain = trainer.split();
          for(int i = 0; i < splitTrain.size(); i++) {
             tree.children.add(C45(splitTrain.get(i), restrict));
          }
+         restrict.vectors.get(0).set(split, 0);
          return tree;
       }
    }
 
-   private int SelectSplittingAttribute() {
-	   return 0;
+   private int SelectSplittingAttribute(Domain trainer, CSV restrict) {
+	   double enthropy = getEnthropy(trainer);
+	   ArrayList<Double> enthropies = new ArrayList<Double>();
+	   for(int i = 0; i < restrict.vectors.size(); i++) {
+	      ArrayList<Domain> split = trainer.split(i, restrict.vectors.get(0).get(i));
+	      int attrenthrop = 0;
+	      for(int j = 0; j < split.size(); j++) {
+	         attrenthrop += split.get(j).size()/trainer.size() * getEnthropy(split.get(j));
+	      }
+	   }
+	   int max = 0;
+	   for(int i = 1; i < restrict.vectors.size(); i++) {
+	      if(enthropies.get(max) < enthropies.get(i))
+	         max = i;
+	   }
+	   return max;
    }
 
 	private static int findmostfreq(Domain trainer) {
@@ -72,7 +86,7 @@ public class C45 {
 
 	private double getEnthropy(Domain d) {
 	   ArrayList<Domain> domains = d.split();
-	   return  getEnthropy(domains.get(0).size(), domains.get(1).size());
+	   return  getEnthropy(domains.get(0).getYesRatio(), (1-domains.get(1).getYesRatio()));
 	}
 	
 	private double getEnthropy(double a, double b) {

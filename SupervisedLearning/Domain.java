@@ -33,6 +33,28 @@ public class Domain {
 		return splitDomain;
 	}
 	
+	public ArrayList<Domain> split(int attribute, int numattr) {
+      ArrayList<Domain> splitDomain = new ArrayList<Domain>(numattr);
+      
+      for (Vector v : attributesAndCategory) {
+         int index = (int) v.get(attribute);
+         Domain d = splitDomain.get(index);
+         d.addVector(v);
+      }
+      
+      return splitDomain;
+   }
+	
+	public double getYesRatio() {
+	   int count = 0;
+	   for(Vector v: attributesAndCategory) {
+	      if(v.last() == 1) {
+	         count++;
+	      }
+	   }
+	   return count/size();
+	}
+	
 	public void addVector(Vector v) {
 		attributesAndCategory.add(v);
 	}
