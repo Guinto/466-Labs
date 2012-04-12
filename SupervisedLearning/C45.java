@@ -6,7 +6,7 @@ import java.util.ArrayList;
  *
  */
 public class C45 {
-   private DecisionTreeNode decisionTree;
+   public DecisionTreeNode decisionTree;
    
    public C45(Domain trainer, CSV restrict, CSV original) {
       decisionTree = runC45(trainer, restrict, original);
@@ -52,6 +52,7 @@ public class C45 {
             tree.children.add(runC45(splitTrain[i], restrict, original));
          }
          restrict.vectors.get(0).set(split, 0);
+System.out.println("split " + split);
          return tree;
       }
    }
@@ -60,7 +61,7 @@ public class C45 {
       double enthropy = getEnthropy(trainer);
       ArrayList<Double> enthropies = new ArrayList<Double>();
       for(int i = 0; i < restrict.vectors.size(); i++) {
-         if(restrict.vectors.get(0).get(i) == 1) {
+         if(restrict.vectors.get(0).get(i) == 1 && original.dataCounts.get(0).get(i) >= 0) {
             Domain[] split = trainer.split(i, original.dataCounts.get(0).get(i));
             int attrenthrop = 0;
             for(int j = 0; j < split.length; j++) {
@@ -68,8 +69,10 @@ public class C45 {
             }
          }
       }
-      int max = 0;
-      for(int i = 1; i < restrict.vectors.size(); i++) {
+      int max = 1;
+      System.out.println("hello " + restrict.vectors.size());
+      for(int i = 2; i < restrict.vectors.get(0).size(); i++) {
+         System.out.println(enthropies.get(i));
          if(enthropies.get(max) < enthropies.get(i))
             max = i;
       }
@@ -94,6 +97,13 @@ public class C45 {
       return index;
    }
 
+   public void printTree(DecisionTreeNode node) {
+      System.out.println("a node " + node.value + " " + node.children.size());
+      for(int i = 0; i < node.children.size(); i++) {
+          System.out.println(i);
+    	  printTree(node.children.get(i));
+      }
+   }
 
    private double getEnthropy(Domain d) {
       Domain[] domains = d.split();

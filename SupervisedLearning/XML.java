@@ -16,11 +16,20 @@ public class XML {
 		 new XML();
 	 }
 	 
+	 public XML(String fileName) {
+		 variableList = new ArrayList<Element>();
+		 try {
+			 parseDomain(fileName);
+		 } catch (Exception e) {
+			 e.printStackTrace();
+		 } 
+	 }
+	 
 	 public XML() {
 		 variableList = new ArrayList<Element>();
 		 try {
 			 //parseDomain("data/domain.xml");
-			 parseTree("data/treeHouse01.xml");
+			 //parseTree("data/treeHouse01.xml");
 		 } catch (Exception e) {
 			 e.printStackTrace();
 		 }
@@ -60,8 +69,8 @@ public class XML {
 			 }
 			 System.out.println();
 		 }
-		 System.out.println(getName(category));
-		 for (Element choice : getChildElementsFromType(category, "choice")) {
+		 System.out.println(getName(getCategory()));
+		 for (Element choice : getChildElementsFromType(getCategory(), "choice")) {
 			 System.out.println(getAttributes(choice));
 		 }
 	 }
@@ -101,13 +110,13 @@ public class XML {
 				 Element variable = (Element) attributeNode;
 				 variableList.add(variable);
 			 } else if (attributeNode.getNodeType() == Node.ELEMENT_NODE && ((Element) attributeNode).getTagName().equals("Category")) {
-				category = (Element) attributeNode;
+				setCategory((Element) attributeNode);
 			 }
 		 }
 		 return;
 	 }
 	 
-	 private ArrayList<Element> getChildElementsFromType(Element e, String type) {
+	 public ArrayList<Element> getChildElementsFromType(Element e, String type) {
 		 ArrayList<Element> elementList = new ArrayList<Element>();
 		 
 		 NodeList childElements = e.getChildNodes();
@@ -121,4 +130,12 @@ public class XML {
 		 
 		 return elementList;
 	 }
+
+	public Element getCategory() {
+		return category;
+	}
+
+	public void setCategory(Element category) {
+		this.category = category;
+	}
 }
