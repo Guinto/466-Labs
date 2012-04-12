@@ -19,12 +19,12 @@ public class XML {
 	 public XML() {
 		 variableList = new ArrayList<Element>();
 		 try {
-			 parseDomain("data/domain.xml");
+			 //parseDomain("data/domain.xml");
 			 //parseTree("data/treeHouse01.xml");
 		 } catch (Exception e) {
 			 e.printStackTrace();
 		 }
-		 printDomain();
+		 //printDomain();
 	 }
 	 
 	 public ArrayList<Element> getListOfVariables() {
