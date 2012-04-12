@@ -19,7 +19,6 @@ public class Classify {
       for(int i = 0; i < trainer.vectors.size(); i++) {
          records[i] = checkTree(trainer.vectors.get(i), trainer, tree);
       }
-      
       for(int j = 0; j < trainer.vectors.size(); j++) {
          if(records[j] == 1)
             correct++;
@@ -29,14 +28,15 @@ public class Classify {
       System.out.println("total number " + trainer.vectors.size());
       System.out.println("correct " + correct);
       System.out.println("wrong " + wrong);
-      System.out.println("accuracy " + correct/trainer.vectors.size());
-      System.out.println("error " + wrong/trainer.vectors.size());
+      System.out.println("accuracy " + (double)correct/trainer.vectors.size());
+      System.out.println("error " + (double)wrong/trainer.vectors.size());
    }
    
    public int checkTree(Vector v, CSV trainer, DecisionTreeNode tree) {
       int value = v.get(tree.value);
+      int correct = 0;
       if(tree.children.size() != 0) {
-         checkTree(v, trainer, tree.children.get(value-1));
+         correct = checkTree(v, trainer, tree.children.get(value-1));
       }
       else {
          if(tree.value == v.last()) {
@@ -46,6 +46,6 @@ public class Classify {
             return 0;
          }
       }
-      return 0;
+      return correct;
    }
 }

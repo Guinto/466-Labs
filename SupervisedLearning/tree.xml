@@ -1,27 +1,27 @@
 <Tree>
 <node var="Bush Approval">
-<edge var="Obama">
+<edge var="Approve">
 <decision end="2"/>
 </edge>
-<edge var="McCain">
+<edge var="Disapprove">
 <node var="Religion">
-<edge var="Less than 30000">
+<edge var="Protestant">
 <decision end="1"/>
 </edge>
-<edge var="30000-49999">
+<edge var="Catholic">
 <node var="Political Party">
-<edge var="Liberal">
+<edge var="Democratic">
 <decision end="1"/>
 </edge>
-<edge var="Moderate">
+<edge var="Republican">
 <decision end="1"/>
 </edge>
-<edge var="Conservative">
+<edge var="Independent">
 <decision end="2"/>
 </edge>
 </node>
 </edge>
-<edge var="50000-74999">
+<edge var="Other">
 <decision end="2"/>
 </edge>
 </node>

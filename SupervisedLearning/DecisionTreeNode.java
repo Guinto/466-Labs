@@ -54,10 +54,10 @@ public class DecisionTreeNode {
 		else {
 			System.out.println("node " + value);
 		
-		for (int i = 0; i < children.size(); i++) {
-			System.out.println("edge " + i);
-			children.get(i).print();
-		}
+			for (int i = 0; i < children.size(); i++) {
+				System.out.println("edge " + i);
+				children.get(i).print();
+			}
 		}
 	}
 	
@@ -126,9 +126,9 @@ public class DecisionTreeNode {
 	}
 	
 	private String getEdgeName(int parentValue, int index, XML xml) {
-		if (parentValue == xml.getListOfVariables().size()) {
+		if ((parentValue - 1) == xml.getListOfVariables().size()) {
 			return xml.getName(xml.getChildElementsFromType(xml.getCategory(), "choice").get(index));
 		}
-		return xml.getName(xml.getChildElementsFromType(xml.getListOfVariables().get(parentValue), "group").get(index));
+		return xml.getName(xml.getChildElementsFromType(xml.getListOfVariables().get(parentValue - 1), "group").get(index));
 	}
 }
