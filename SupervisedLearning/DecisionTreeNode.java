@@ -19,5 +19,6 @@ public class DecisionTreeNode {
 	
 	public void setChildren(ArrayList<DecisionTreeNode> children) {
 		this.children = children;
+	   this.children = new ArrayList<DecisionTreeNode>();
 	}
 }
