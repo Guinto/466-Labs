@@ -19,6 +19,8 @@ public class Domain {
 		setNumCategories(numCategories);
 	}
 	
+
+	
 	public ArrayList<Domain> split() {
 		ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
 		
@@ -46,6 +48,10 @@ public class Domain {
 	public void setNumCategories(int numCategories) {
 		this.numCategories = numCategories;
 	}
+
+   public double size() {
+      return attributesAndCategory.size();
+   }
 	
 	
 }
