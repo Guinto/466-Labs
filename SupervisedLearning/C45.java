@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class C45 {
 
-   public Node C45(Domain trainer, CSV restrict) {
+   public DecisionTreeNode C45(Domain trainer, CSV restrict) {
       int base1 = 0;
       Vector check = trainer.getVectors().get(0);
       for(Vector v: trainer.getVectors()) {
@@ -19,7 +19,7 @@ public class C45 {
          }
       }
       if(base1 == 0) {
-         return new Node(check.last());
+         return new DecisionTreeNode(check.last());
       }
       int base2 = 0;
       for(int i = 0; i < restrict.vectors.get(0).length(); i++) {
@@ -29,15 +29,15 @@ public class C45 {
          }
       }
       if(base2 == 0)
-         return new Node(findmostfreq(trainer));
+         return new DecisionTreeNode(findmostfreq(trainer));
 
 
       int split = SelectSplittingAttribute();
       if(split == -1) {
-         return new Node(findmostfreq(trainer));
+         return new DecisionTreeNode(findmostfreq(trainer));
       }
       else {
-         Node tree = new Node(split);
+         DecisionTreeNode tree = new DecisionTreeNode(split);
          restrict.vectors.get(0).set(split, 0);
          ArrayList<Domain> splitTrain = trainer.split();
          for(int i = 0; i < splitTrain.size(); i++) {
@@ -47,54 +47,35 @@ public class C45 {
       }
    }
 
-}
-
-private static int findmostfreq(Domain trainer) {
-   int[] count = new int[trainer.getNumCategories()];
-   for(int i = 0; i < count.length; i++)
-      count[i] = 0;
-   for(Vector v: trainer.getVectors()) {
-      int index = (int) v.last();
-      count[index]++;
+   private int SelectSplittingAttribute() {
+	   return 0;
    }
-   
-   int index = 0;
-   for(int i = 1; i < count.length; i++) {
-      if(count[i] > count[index])
-         index = i;
-   }
-   
-   return index;
-   
-}
-public ArrayList<Domain> split() {
-   ArrayList<Domain> splitDomain = new ArrayList<Domain>(getNumCategories());
-   
-   for (Vector v : attributesAndCategory) {
-      int index = (int) v.last();
-      Domain d = splitDomain.get(index);
-      d.addVector(v);
-   }
-   
-   return splitDomain;
-}
+
+	private static int findmostfreq(Domain trainer) {
+	   int[] count = new int[trainer.getNumCategories()];
+	   for(int i = 0; i < count.length; i++)
+	      count[i] = 0;
+	   for(Vector v: trainer.getVectors()) {
+	      int index = (int) v.last();
+	      count[index]++;
+	   }
+	   
+	   int index = 0;
+	   for(int i = 1; i < count.length; i++) {
+	      if(count[i] > count[index])
+	         index = i;
+	   }
+	   
+	   return index;
+	}
 
 
-private double getEnthropy(Domain d) {
-   ArrayList<Domain> domains = d.split();
-   return  getEnthropy(domains.get(0).size(), domains.get(1).size());
-}
-
-private double getEnthropy(double a, double b) {
-   return -a * Math.log(a)/Math.log(2) - -b * Math.log(b)/Math.log(2);
-}
-
-private class Node {
-   public int value;
-   public ArrayList<Node> children;
-   
-   public Node(int value) {
-      this.value = value;
-   }
-}
+	private double getEnthropy(Domain d) {
+	   ArrayList<Domain> domains = d.split();
+	   return  getEnthropy(domains.get(0).size(), domains.get(1).size());
+	}
+	
+	private double getEnthropy(double a, double b) {
+	   return -a * Math.log(a)/Math.log(2) - -b * Math.log(b)/Math.log(2);
+	}
 }
