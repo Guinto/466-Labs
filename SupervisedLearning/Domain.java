@@ -36,9 +36,9 @@ public class Domain {
 	
 	public Domain[] split(int attribute, int numattr) {
       Domain[] splitDomain = new Domain[numattr];
-      for(int i = 1; i < numattr; i++)
+      for(int i = 0; i < numattr; i++)
          splitDomain[i] = new Domain();
-      System.out.println(numattr);
+
       for (Vector v : attributesAndCategory) {
          int index = (int) v.get(attribute);
          Domain d = splitDomain[index-1];
@@ -48,15 +48,6 @@ public class Domain {
       return splitDomain;
    }
 	
-	public double getYesRatio() {
-	   int count = 0;
-	   for(Vector v: attributesAndCategory) {
-	      if(v.last() == 1) {
-	         count++;
-	      }
-	   }
-	   return count/size();
-	}
 	
 	public void addVector(Vector v) {
 		attributesAndCategory.add(v);

@@ -37,22 +37,22 @@ public class C45 {
             break;
          }
       }
-      if(base2 == 0)
-         return new DecisionTreeNode(findmostfreq(trainer));
+      if(base2 == 0) {
+         return new DecisionTreeNode(findmostfreq(trainer)+1);
+      }
 
 
       int split = SelectSplittingAttribute(trainer, restrict, original);
       if(split == -1) {
-         return new DecisionTreeNode(findmostfreq(trainer));
+         return new DecisionTreeNode(findmostfreq(trainer)+1);
       }
       else {
          DecisionTreeNode tree = new DecisionTreeNode(split);
-         Domain[] splitTrain = trainer.split();
+         Domain[] splitTrain = trainer.split(split, original.dataCounts.get(0).get(split));
          for(int i = 0; i < splitTrain.length; i++) {
             tree.children.add(runC45(splitTrain[i], restrict, original));
          }
          restrict.vectors.get(0).set(split, 0);
-System.out.println("split " + split);
          return tree;
       }
    }
@@ -60,22 +60,27 @@ System.out.println("split " + split);
    private int SelectSplittingAttribute(Domain trainer, CSV restrict, CSV original) {
       double enthropy = getEnthropy(trainer);
       ArrayList<Double> enthropies = new ArrayList<Double>();
-      for(int i = 0; i < restrict.vectors.size(); i++) {
+      for(int i = 0; i < restrict.vectors.get(0).size(); i++) {
          if(restrict.vectors.get(0).get(i) == 1 && original.dataCounts.get(0).get(i) >= 0) {
             Domain[] split = trainer.split(i, original.dataCounts.get(0).get(i));
-            int attrenthrop = 0;
+            double attrenthrop = 0;
             for(int j = 0; j < split.length; j++) {
+               if(split[j].size() > 0)
                attrenthrop += split[j].size()/trainer.size() * getEnthropy(split[j]);
             }
+            enthropies.add(new Double(getEnthropy(enthropy, attrenthrop)));
+         }
+         else {
+            enthropies.add(new Double(0));
          }
       }
-      int max = 1;
-      System.out.println("hello " + restrict.vectors.size());
-      for(int i = 2; i < restrict.vectors.get(0).size(); i++) {
-         System.out.println(enthropies.get(i));
-         if(enthropies.get(max) < enthropies.get(i))
+      int max = 0;
+      for(int i = 1; i < restrict.vectors.get(0).size(); i++) {
+         if(enthropies.get(i) > 0 && enthropies.get(max) < enthropies.get(i))
             max = i;
       }
+      if(max == 0)
+         return -1;
       return max;
    }
 
@@ -85,7 +90,7 @@ System.out.println("split " + split);
          count[i] = 0;
       for(Vector v: trainer.getVectors()) {
          int index = (int) v.last();
-         count[index]++;
+         count[index-1]++;
       }
 
       int index = 0;
@@ -107,10 +112,12 @@ System.out.println("split " + split);
 
    private double getEnthropy(Domain d) {
       Domain[] domains = d.split();
-      return  getEnthropy(domains[0].getYesRatio(), (1-domains[1].getYesRatio()));
+      return  getEnthropy(domains[0].size()/d.size(), domains[1].size()/d.size());
    }
 
    private double getEnthropy(double a, double b) {
-      return -a * Math.log(a)/Math.log(2) - -b * Math.log(b)/Math.log(2);
+      if(a != 0.0 && b != 0.0)
+         return -a * Math.log(a)/Math.log(2) - b * Math.log(b)/Math.log(2);
+      return 0.0;
    }
 }
