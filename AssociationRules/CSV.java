@@ -1,7 +1,7 @@
 /**
-* @author Trent Ellingsen & Thomas Wong
-* @file CSV.java
-*/
+ * @author Trent Ellingsen & Thomas Wong
+ * @file CSV.java
+ */
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -16,7 +16,7 @@ public class CSV {
    public ArrayList<Vector> vectors;
    public ArrayList<ArrayList<String>> data;
    public ArrayList<Vector> dataCounts;
-   public Hashtable sets;
+   public Hashtable<Integer, ArrayList<Integer>> sets;
    public int category;
    public int id;
 
@@ -32,7 +32,7 @@ public class CSV {
 
    public CSV(String fileName) {
       this.vectors = new ArrayList<Vector>();
-      this.sets = new Hashtable();
+      this.sets = new Hashtable<Integer, ArrayList<Integer>>();
       File file = new File(fileName);
       readVectorsFromFile(file);
    }
@@ -67,25 +67,22 @@ public class CSV {
          e.printStackTrace();
       }
    }
-   
+
 
    public void printVectors() {
       for(int i = 0; i < vectors.size(); i++) {
          System.out.println(vectors.get(i));
       }
    }
-   
+
    public void getHash() {
       for(Vector v: vectors) {
-         if(sets.containsKey(v.get(0))) {
-            for(int i = 1; i < v.size(); i++) {
-               ((ArrayList<Integer>) sets.get(v.get(0))).add(v.get(i));
+         for(int i = 1; i < v.size(); i++) {
+            if(sets.containsKey(v.get(i))) {
+               ((ArrayList<Integer>) sets.get(v.get(i))).add(v.get(0));
             }
-         }
-         else {
-            sets.put(v.get(0), new ArrayList());
-            for(int i = 1; i < v.size(); i++) {
-               ((ArrayList<Integer>) sets.get(v.get(0))).add(v.get(i));
+            else {
+               sets.put(v.get(i), new ArrayList<Integer>(v.get(0)));
             }
          }
       }

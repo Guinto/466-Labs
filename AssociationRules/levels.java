@@ -12,7 +12,7 @@ public class levels {
       ArrayList<Node> next = new ArrayList<Node>();
       Node temp;
       for(int i = 0; i < prev.size(); i++) {
-         for(int j = i; j < prev.size(); j++) {
+         for(int j = i + 1; j < prev.size(); j++) {
             if(almostEqual(prev.get(i), prev.get(j))) {
                temp = new Node(unionName(prev.get(i), prev.get(j)), prev.get(i), prev.get(j));
                if(next.contains(temp)) {
@@ -60,6 +60,12 @@ public class levels {
          this.children = new ArrayList<Node>();
          this.children.add(child1);
          this.children.add(child2);
+         this.skyline = false;
+      }
+      
+      public Node(ArrayList<Integer> name) {
+         this.name = name;
+         this.children = null;
          this.skyline = false;
       }
 
