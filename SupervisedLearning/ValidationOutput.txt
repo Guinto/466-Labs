@@ -1,0 +1,10 @@
+927     0
+62     11
+precision 0.9373104145601617
+recall 1.0
+pF 0.8493150684931506
+f-measure 0.9676409185803757
+overall Accuracy 0.938
+average Accuracy 0.93
+overall Error Rate 0.062
+average Error Rate 0.07

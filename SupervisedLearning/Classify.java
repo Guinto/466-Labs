@@ -39,7 +39,9 @@ public class Classify {
          correct = checkTree(v, trainer, tree.children.get(value-1));
       }
       else {
-         if (tree.value == v.get(trainer.findCat())) {
+          System.out.print(tree.value + " ");
+          System.out.println(v);
+    	  if (tree.value == v.get(trainer.findCat())) {
             return 1;
          }
          else {
