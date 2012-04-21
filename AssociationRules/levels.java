@@ -26,6 +26,17 @@ public class levels {
       }
       return next;
    }
+   
+   public void findSkyline() {
+      for(int i = 1; i < levels.size(); i++) {
+         for(int j = 0; j < levels.get(i).size(); j++) {
+            levels.get(i).get(j).skyline = true;
+            for(int k = 0; k < levels.get(i).get(j).children.size(); k++) {
+               levels.get(i-1).get(levels.get(i-1).indexOf(levels.get(i).get(j).children.get(k))).skyline = false;
+            }
+         }
+      }
+   }
 
    public static boolean almostEqual(Node first, Node second) {
       int count = 0;
@@ -66,7 +77,7 @@ public class levels {
       public Node(ArrayList<Integer> name) {
          this.name = name;
          this.children = null;
-         this.skyline = false;
+         this.skyline = true;
       }
 
       public boolean equals (Object x) {
