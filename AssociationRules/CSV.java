@@ -14,15 +14,11 @@ import java.util.Scanner;
 public class CSV {
 
    public ArrayList<Vector> vectors;
-   public ArrayList<ArrayList<String>> data;
-   public ArrayList<Vector> dataCounts;
    public Hashtable<Integer, ArrayList<Integer>> sets;
-   public int category;
-   public int id;
 
    public static void main(String[] args) {
       if (args.length > 0) {
-         new CSV("tree03-20-numbers.csv");
+         new CSV("data/1000/1000i.csv");
       }
       else {
          System.err.println("Usage: CSV fileName");
@@ -35,20 +31,7 @@ public class CSV {
       this.sets = new Hashtable<Integer, ArrayList<Integer>>();
       File file = new File(fileName);
       readVectorsFromFile(file);
-   }
-
-   private Vector getListFromColumn(int column) {
-      Vector columnList = new Vector();
-
-      for (int i = 0; i < vectors.size(); i++) {
-         if (vectors.get(i) == null) {
-            // TODO Should throw better exception?
-            throw new NullPointerException("Not all vectors conform to same length");
-         }
-         columnList.add(vectors.get(i).get(column));
-      }
-
-      return columnList;
+      getHash();
    }
 
    private void readVectorsFromFile(File file) {
