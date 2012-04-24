@@ -4,6 +4,8 @@ public class Node {
    private ArrayList<Integer> name;
    private ArrayList<Node> children;
    private Boolean skyline;
+   private Double support;
+   private Double confidence;
    
    public Node(ArrayList<Integer> name, Node child1, Node child2) {
       this.setName(name);
@@ -47,19 +49,35 @@ public class Node {
 	   return this.getName().toString();
    }
 
-public Boolean getSkyline() {
-	return skyline;
-}
-
-public void setSkyline(Boolean skyline) {
-	this.skyline = skyline;
-}
-
-public ArrayList<Integer> getName() {
-	return name;
-}
-
-public void setName(ArrayList<Integer> name) {
-	this.name = name;
-}
+	public Boolean getSkyline() {
+		return skyline;
+	}
+	
+	public void setSkyline(Boolean skyline) {
+		this.skyline = skyline;
+	}
+	
+	public ArrayList<Integer> getName() {
+		return name;
+	}
+	
+	public void setName(ArrayList<Integer> name) {
+		this.name = name;
+	}
+	
+	public Double getSupport() {
+		return support;
+	}
+	
+	public void setSupport(Double support) {
+		this.support = support;
+	}
+	
+	public Double getConfidence() {
+		return confidence;
+	}
+	
+	public void setConfidence(Double confidence) {
+		this.confidence = confidence;
+	}
 }

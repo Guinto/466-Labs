@@ -19,9 +19,14 @@ public class Apriori {
 			levels.addLevel();
 			levels.setLevel(i + 1, levels.findUnions(levels.get(i)));
 			prune(levels, minSup, data);
-		} 
+		}
+		
+		levels.removeLastLevel(); // it is empty
 		
 		System.out.println(levels);
+		
+		levels.markSkyline();
+		levels.showSkyline();
 	}
 	
 	private void prune(Levels levels, double minSup, CSV data) {
@@ -29,7 +34,9 @@ public class Apriori {
 		for (int i = 0; i < levels.get(levels.size() - 1).size(); i++) {
 			Node node = levels.get(levels.size() - 1).get(i);
 			double support = support(node, data);
-			double conf = confidence(node, data);
+			double confidence = confidence(node, data);
+			node.setSupport(support);
+			node.setConfidence(confidence);
 			if (support < minSup) {
 				nodesToRemove.add(node);
 			}

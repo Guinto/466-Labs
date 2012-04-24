@@ -55,7 +55,7 @@ public class Levels {
       return next;
    }
    
-   public void findSkyline() {
+   public void markSkyline() {
       for(int i = 1; i < levels.size(); i++) {
          for(int j = 0; j < levels.get(i).size(); j++) {
             levels.get(i).get(j).setSkyline(true);
@@ -64,6 +64,19 @@ public class Levels {
             }
          }
       }
+   }
+   
+   public void showSkyline() {
+	   for (ArrayList<Node> level : levels) {
+		   for (Node node : level) {
+			   if (node.getSkyline()) {
+				   System.out.println("Skyline node: " + node.getName());
+				   System.out.println("Support: " + node.getSupport());
+				   System.out.println("Confidence: " + node.getConfidence());
+				   System.out.println();
+			   }
+		   }
+	   }
    }
 
    public static boolean almostEqual(Node first, Node second) {
@@ -92,5 +105,9 @@ public class Levels {
 
 	public int size() {
 		return levels.size();
+	}
+
+	public void removeLastLevel() {
+		levels.remove(levels.size() - 1);
 	}
 }
