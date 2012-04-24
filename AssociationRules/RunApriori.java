@@ -11,6 +11,6 @@ public class RunApriori {
 		}
 		
 		Apriori apriori = new Apriori();
-		apriori.run(data, 0.09, 0);
+		apriori.run(data, 0.000000000000000001, 0);
 	}
 }

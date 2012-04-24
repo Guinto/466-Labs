@@ -44,6 +44,7 @@ public class Levels {
             if(almostEqual(prev.get(i), prev.get(j))) {
                temp = new Node(unionName(prev.get(i), prev.get(j)), prev.get(i), prev.get(j));
                if(next.contains(temp)) {
+                  if(!next.get(next.indexOf(temp)).getChildren().contains(prev.get(j)))
                   next.get(next.indexOf(temp)).getChildren().add(prev.get(j));
                }
                else {
@@ -77,6 +78,17 @@ public class Levels {
 			   }
 		   }
 	   }
+   }
+   
+   public void showLevels() {
+      for (ArrayList<Node> level : levels) {
+         for (Node node : level) {
+               System.out.println("Skyline node: " + node.getName());
+               System.out.println("Support: " + node.getSupport());
+               System.out.println("Confidence: " + node.getConfidence());
+               System.out.println();
+         }
+      }
    }
 
    public static boolean almostEqual(Node first, Node second) {

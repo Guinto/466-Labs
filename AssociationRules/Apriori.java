@@ -25,7 +25,6 @@ public class Apriori {
 		}
 		
 		levels.removeLastLevel(); // it is empty
-		
 		System.out.println(levels);
 		levels.markSkyline();
 		levels.showSkyline();
@@ -39,7 +38,7 @@ public class Apriori {
 			double confidence = confidence(node, data);
 			node.setSupport(support);
 			node.setConfidence(confidence);
-			if (support < minSup) {
+			if (support < minSup || node.getChildren().size() < levels.size()-1) {
 				nodesToRemove.add(node);
 			}
 		}
@@ -70,7 +69,7 @@ public class Apriori {
 		if(s1 > 0 || s2 > 0.0)
 		   return s1 / s2;
 		else
-		   return 5.0;
+		   return 1.0;
 	}
 
    public double support(ArrayList<Node> items, CSV data) {
