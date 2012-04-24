@@ -17,7 +17,7 @@ public class CSV {
    public Hashtable<Integer, ArrayList<Integer>> sets;
 
    public static void main(String[] args) {
-      if (args.length > 0) {
+      if (args.length >= 0) {
          new CSV("data/1000/1000i.csv");
       }
       else {
@@ -32,6 +32,7 @@ public class CSV {
       File file = new File(fileName);
       readVectorsFromFile(file);
       getHash();
+      System.out.println(sets);
    }
 
    private void readVectorsFromFile(File file) {
@@ -62,10 +63,12 @@ public class CSV {
       for(Vector v: vectors) {
          for(int i = 1; i < v.size(); i++) {
             if(sets.containsKey(v.get(i))) {
-               ((ArrayList<Integer>) sets.get(v.get(i))).add(v.get(0));
+            	((ArrayList<Integer>) sets.get(v.get(i))).add(v.get(0));
             }
             else {
-               sets.put(v.get(i), new ArrayList<Integer>(v.get(0)));
+            	ArrayList<Integer> firstElement = new ArrayList<Integer>();
+            	firstElement.add(v.get(0));
+            	sets.put(v.get(i), firstElement);
             }
          }
       }
