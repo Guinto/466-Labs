@@ -30,7 +30,6 @@ public class Apriori {
 			Node node = levels.get(levels.size() - 1).get(i);
 			double support = support(node, data);
 			double conf = confidence(node, data);
-			System.out.println("sup " + support + " conf: " + conf);
 			if (support < minSup) {
 				nodesToRemove.add(node);
 			}
@@ -58,10 +57,9 @@ public class Apriori {
 	}
 	
 	public double confidence(Node node, CSV data) {
-		Node n = new Node(node.getName().get(0));
+		Node n = node.getChildren().get(0);
 		double s1 = support(node, data), s2 = support(n, data);
-		System.out.println(node.getName() + " + " + n.getName());
-		return support(node, data) / support(new Node(node.getName().get(0)), data);
+		return s1 / s2;
 	}
 
    public double support(ArrayList<Node> items, CSV data) {

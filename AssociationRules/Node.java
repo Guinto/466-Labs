@@ -17,8 +17,9 @@ public class Node {
 	   ArrayList<Integer> singleNameList = new ArrayList<Integer>();
 	   singleNameList.add(name);
 	   this.setName(singleNameList);
+	   this.children = new ArrayList<Node>();
    }
-
+   
    public Node(ArrayList<Integer> name) {
       this.setName(name);
       this.children = null;
@@ -27,6 +28,10 @@ public class Node {
    
    public ArrayList<Node> getChildren() {
 	   return children;
+   }
+   
+   public void addChild(Node node) {
+	   children.add(node);
    }
    
    public boolean equals(Object x) {
