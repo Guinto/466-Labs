@@ -17,7 +17,7 @@ public class Node {
       this.children = null;
       this.skyline = true;
    }
-
+   
    public boolean equals (Object x) {
       int count = 0;
       for(Integer check: this.name) {
@@ -28,5 +28,9 @@ public class Node {
       if(((Node) x).children.size() != count)
          return false;
       return true;
+   }
+   
+   public String toString() {
+	   return this.name.toString();
    }
 }

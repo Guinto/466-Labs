@@ -1,11 +1,35 @@
 import java.util.ArrayList;
 
 
-public class levels {
-   ArrayList<ArrayList<Node>> levels;
+public class Levels {
+   private ArrayList<ArrayList<Node>> levels;
 
-   public levels() {
-      this.levels = new ArrayList<ArrayList<Node>>();
+   public Levels() {
+      levels = new ArrayList<ArrayList<Node>>();
+   }
+   
+   public ArrayList<Node> get(int level) {
+	   return levels.get(level);
+   }
+   
+   public void addLevel() {
+	   levels.add(new ArrayList<Node>());
+   }
+   
+   public void addNodeToLevel(Node node, int level) {
+	   levels.get(level).add(node);
+   }
+   
+   public void setLevel(int i, ArrayList<Node> level) {
+	   levels.set(i, level);
+   }
+   
+   public String toString() {
+	   String string = "";
+	   for (ArrayList<Node> level : levels) {
+		   string += level + "\n";
+	   }
+	   return string;
    }
 
    public ArrayList<Node> findUnions(ArrayList<Node> prev) {
@@ -61,6 +85,4 @@ public class levels {
       }
       return ans;
    }
-
-
 }

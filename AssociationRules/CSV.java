@@ -13,26 +13,23 @@ import java.util.Scanner;
 
 public class CSV {
 
-   public ArrayList<Vector> vectors;
-   public Hashtable<Integer, ArrayList<Integer>> sets;
-
-   public static void main(String[] args) {
-      if (args.length >= 0) {
-         new CSV("data/1000/1000i.csv");
-      }
-      else {
-         System.err.println("Usage: CSV fileName");
-         System.exit(1);
-      }
+   private ArrayList<Vector> vectors;
+   private Hashtable<Integer, ArrayList<Integer>> sets;
+   
+   public ArrayList<Vector> getVectors() {
+	   return vectors;
    }
-
+   
+   public Hashtable<Integer, ArrayList<Integer>> getSets() {
+	   return sets;
+   }
+   
    public CSV(String fileName) {
       this.vectors = new ArrayList<Vector>();
       this.sets = new Hashtable<Integer, ArrayList<Integer>>();
       File file = new File(fileName);
       readVectorsFromFile(file);
       getHash();
-      System.out.println(sets);
    }
 
    private void readVectorsFromFile(File file) {
@@ -52,6 +49,9 @@ public class CSV {
       }
    }
 
+   public int size() {
+	   return vectors.size();
+   }
 
    public void printVectors() {
       for(int i = 0; i < vectors.size(); i++) {
