@@ -6,7 +6,7 @@ public class Apriori {
    public void run(CSV data, double minSup, double minConf) {
       Levels levels = new Levels();
       levels.addLevel(); // Set up base level
-      for (int i = 0; i < data.getSets().size(); i++) {
+      for (int i = 1; i < data.getSets().size(); i++) {
          double firstLevelSupport = 100.0 * data.getSets().get(i).size() / data.size();
          if (firstLevelSupport >= minSup) {
             ArrayList<Integer> firstLevelNode = new ArrayList<Integer>();
@@ -17,7 +17,6 @@ public class Apriori {
             levels.addNodeToLevel(node, 0);
          }
       }
-
       for (int i = 0; levels.get(i).size() > 0; i++) {
          levels.addLevel();
          levels.setLevel(i + 1, levels.findUnions(levels.get(i)));
@@ -25,7 +24,7 @@ public class Apriori {
       }
 
       levels.removeLastLevel(); // it is empty
-      System.out.println(levels);
+
       levels.markSkyline();
       levels.showSkyline();
    }
@@ -49,7 +48,7 @@ public class Apriori {
          }
       }
 
-      levels.removeAllNodesFromLevel(nodesToRemove, levels.size() - 1);
+      levels.removeNodesFromLevel(nodesToRemove, levels.size() - 1);
    }
 
    public double support(Node node, CSV data) {
@@ -74,9 +73,9 @@ public class Apriori {
       for(Node n: node.getChildren()) {
          double s1 = support(node, data), s2 = support(n, data);
          if(s1 > 0.0 || s2 > 0.0)
-            confidences.add(s1 / s2);
+            confidences.add(100.0 * s1 / s2);
          else
-            confidences.add(1.0);
+            confidences.add(100.0);
       }
       return confidences;
    }

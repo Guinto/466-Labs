@@ -74,8 +74,8 @@ public class Levels {
 			   if (node.getSkyline()) {
 				   for(int j = 0; j < node.getChildren().size(); j++) {
 				      System.out.print("Rule " + ++i + ":     ");
-				      System.out.print(node.getChildren().get(j) + "---> ");
-				      System.out.print(node.getChildren().get(node.getChildren().size()-j-1));
+				      System.out.print(node.getChildren().get(j) + " ---> ");
+				      System.out.print(node.getName().get(node.getChildren().size()-j-1));
 				     // System.out.printf("   [sup=%f   conf=", node.getSupport());
 				      System.out.print("   [sup=" + node.getSupport() + "   conf=");
 				      System.out.printf("%.8f]\n", node.getConfidence().get(j));
