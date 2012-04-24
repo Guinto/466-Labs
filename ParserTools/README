@@ -1,0 +1,4 @@
+Trent Ellingsen
+Thomas Wong
+
+The CSV.java contains code in order to first read a CSV file. The program takes in the name of the file as an argument and when run computes the Eucledian distance, Manhattan distance, Pearson distance of a pair of vectors as well as the largest, smallest, mean and the median of the vectors. The PlainTextReader.java contains code that reads a plain text file. The program takes in the name of the file as an argument and when run computes the total number of words, different words, sentences, and paragraphs found in a document. It also reports the words of the most frequent words, all words with frequences given by a user and all words greater than a frequency given by a user. It also can check if a word is found in the document.

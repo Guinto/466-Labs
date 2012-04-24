@@ -1,0 +1,112 @@
+<Tree>
+<node var="Bush Approval">
+<edge var="Approve">
+<node var="Age">
+<edge var="18-29">
+<decision end="1"/>
+</edge>
+<edge var="30-44">
+<decision end="1"/>
+</edge>
+<edge var="45-64">
+<node var="Political Party">
+<edge var="Democratic">
+<decision end="1"/>
+</edge>
+<edge var="Republican">
+<node var="Race">
+<edge var="Black">
+<decision end="1"/>
+</edge>
+<edge var="White">
+<node var="Region">
+<edge var="Northeast">
+<decision end="1"/>
+</edge>
+<edge var="South">
+<node var="Ideology">
+<edge var="Liberal">
+<decision end="1"/>
+</edge>
+<edge var="Moderate">
+<decision end="2"/>
+</edge>
+<edge var="Conservative">
+<decision end="2"/>
+</edge>
+</node>
+</edge>
+<edge var="Midwest">
+<node var="Gender">
+<edge var="Male">
+<decision end="1"/>
+</edge>
+<edge var="Female">
+<decision end="1"/>
+</edge>
+</node>
+</edge>
+<edge var="West">
+<node var="Religion">
+<edge var="Protestant">
+<node var="Education">
+<edge var="H.S. diploma or less">
+<decision end="1"/>
+</edge>
+<edge var="College">
+<decision end="1"/>
+</edge>
+<edge var="Post-Grad">
+<decision end="1"/>
+</edge>
+</node>
+</edge>
+<edge var="Catholic">
+<decision end="1"/>
+</edge>
+<edge var="Other">
+<decision end="1"/>
+</edge>
+</node>
+</edge>
+</node>
+</edge>
+<edge var="Other">
+<decision end="2"/>
+</edge>
+</node>
+</edge>
+<edge var="Independent">
+<node var="Family Income">
+<edge var="Less than 30000">
+<decision end="1"/>
+</edge>
+<edge var="30000-49999">
+<decision end="1"/>
+</edge>
+<edge var="50000-74999">
+<decision end="1"/>
+</edge>
+<edge var="75000-99999">
+<decision end="2"/>
+</edge>
+<edge var="100000-149999">
+<decision end="2"/>
+</edge>
+<edge var="150000+">
+<decision end="1"/>
+</edge>
+</node>
+</edge>
+</node>
+</edge>
+<edge var="65+">
+<decision end="1"/>
+</edge>
+</node>
+</edge>
+<edge var="Disapprove">
+<decision end="1"/>
+</edge>
+</node>
+</Tree>
