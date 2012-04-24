@@ -11,7 +11,9 @@ public class Apriori {
 			if (firstLevelSupport >= minSup) {
 				ArrayList<Integer> firstLevelNode = new ArrayList<Integer>();
 				firstLevelNode.add(i);
-				levels.addNodeToLevel(new Node(firstLevelNode), 0);
+				Node node = new Node(firstLevelNode);
+				node.setSupport(firstLevelSupport);
+				levels.addNodeToLevel(node, 0);
 			}
 		}
 		
