@@ -50,8 +50,9 @@ public class CSV {
    }
 
    public int size() {
-	   return vectors.size();
+	   return sets.size();
    }
+   
 
    public void printVectors() {
       for(int i = 0; i < vectors.size(); i++) {

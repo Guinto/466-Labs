@@ -13,6 +13,7 @@ public class Apriori {
 				firstLevelNode.add(i);
 				Node node = new Node(firstLevelNode);
 				node.setSupport(firstLevelSupport);
+				node.setConfidence(1.0);
 				levels.addNodeToLevel(node, 0);
 			}
 		}
@@ -26,7 +27,6 @@ public class Apriori {
 		levels.removeLastLevel(); // it is empty
 		
 		System.out.println(levels);
-		
 		levels.markSkyline();
 		levels.showSkyline();
 	}
@@ -61,14 +61,16 @@ public class Apriori {
 			matchedNumbers.removeAll(removeNumbers);
 			removeNumbers = new ArrayList<Integer>();
 		}
-		
 		return matchedNumbers.size() / (double) data.size();
 	}
 	
 	public double confidence(Node node, CSV data) {
 		Node n = node.getChildren().get(0);
 		double s1 = support(node, data), s2 = support(n, data);
-		return s1 / s2;
+		if(s1 > 0 || s2 > 0.0)
+		   return s1 / s2;
+		else
+		   return 5.0;
 	}
 
    public double support(ArrayList<Node> items, CSV data) {
