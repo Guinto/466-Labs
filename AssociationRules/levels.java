@@ -20,6 +20,10 @@ public class Levels {
 	   levels.get(level).add(node);
    }
    
+   public void removeAllNodesFromLevel(ArrayList<Node> nodes, int level) {
+	   levels.get(level).removeAll(nodes);
+   }
+   
    public void setLevel(int i, ArrayList<Node> level) {
 	   levels.set(i, level);
    }
@@ -40,7 +44,7 @@ public class Levels {
             if(almostEqual(prev.get(i), prev.get(j))) {
                temp = new Node(unionName(prev.get(i), prev.get(j)), prev.get(i), prev.get(j));
                if(next.contains(temp)) {
-                  next.get(next.indexOf(temp)).children.add(prev.get(j));
+                  next.get(next.indexOf(temp)).getChildren().add(prev.get(j));
                }
                else {
                   next.add(new Node(unionName(prev.get(i), prev.get(j)), prev.get(i), prev.get(j)));
@@ -54,9 +58,9 @@ public class Levels {
    public void findSkyline() {
       for(int i = 1; i < levels.size(); i++) {
          for(int j = 0; j < levels.get(i).size(); j++) {
-            levels.get(i).get(j).skyline = true;
-            for(int k = 0; k < levels.get(i).get(j).children.size(); k++) {
-               levels.get(i-1).get(levels.get(i-1).indexOf(levels.get(i).get(j).children.get(k))).skyline = false;
+            levels.get(i).get(j).setSkyline(true);
+            for(int k = 0; k < levels.get(i).get(j).getChildren().size(); k++) {
+               levels.get(i-1).get(levels.get(i-1).indexOf(levels.get(i).get(j).getChildren().get(k))).setSkyline(false);
             }
          }
       }
@@ -64,25 +68,29 @@ public class Levels {
 
    public static boolean almostEqual(Node first, Node second) {
       int count = 0;
-      for(Integer base: first.name) {
-         if(second.name.contains(base)) {
+      for(Integer base: first.getName()) {
+         if(second.getName().contains(base)) {
             count++;
          }
       }
-      if(count == first.name.size()-1)
+      if(count == first.getName().size()-1)
          return true;
       return false;
    }
 
    public static ArrayList<Integer> unionName(Node first, Node second) {
       ArrayList<Integer> ans = new ArrayList<Integer>();
-      for(Integer base: first.name) {
+      for(Integer base: first.getName()) {
          ans.add(base);
       }
-      for(Integer base: second.name) {
+      for(Integer base: second.getName()) {
          if(!ans.contains(base))
             ans.add(base);
       }
       return ans;
    }
+
+	public int size() {
+		return levels.size();
+	}
 }
