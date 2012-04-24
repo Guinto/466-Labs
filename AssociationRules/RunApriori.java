@@ -11,6 +11,10 @@ public class RunApriori {
 		}
 		
 		Apriori apriori = new Apriori();
+<<<<<<< HEAD
 		apriori.run(data, 0.000000000000000001, 0);
+=======
+		apriori.run(data, 0.03, 0);
+>>>>>>> changed the name of a method
 	}
 }

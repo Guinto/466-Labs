@@ -43,9 +43,10 @@ public class Apriori {
 			}
 		}
 		
-		levels.removeAllNodesFromLevel(nodesToRemove, levels.size() - 1);
+		levels.removeNodesFromLevel(nodesToRemove, levels.size() - 1);
 	}
 	
+	// Maybe should take in level rather than data
 	public double support(Node node, CSV data) {
 		ArrayList<Integer> matchedNumbers = data.getSets().get(node.getName().get(0));
 		ArrayList<Integer> removeNumbers = new ArrayList<Integer>();

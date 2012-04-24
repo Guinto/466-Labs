@@ -20,7 +20,7 @@ public class Levels {
 	   levels.get(level).add(node);
    }
    
-   public void removeAllNodesFromLevel(ArrayList<Node> nodes, int level) {
+   public void removeNodesFromLevel(ArrayList<Node> nodes, int level) {
 	   levels.get(level).removeAll(nodes);
    }
    
