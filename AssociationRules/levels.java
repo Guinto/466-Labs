@@ -68,13 +68,18 @@ public class Levels {
    }
    
    public void showSkyline() {
+      int i = 0;
 	   for (ArrayList<Node> level : levels) {
 		   for (Node node : level) {
 			   if (node.getSkyline()) {
-				   System.out.println("Skyline node: " + node.getName());
-				   System.out.println("Support: " + node.getSupport());
-				   System.out.println("Confidence: " + node.getConfidence());
-				   System.out.println();
+				   for(int j = 0; j < node.getChildren().size(); j++) {
+				      System.out.print("Rule " + ++i + ":     ");
+				      System.out.print(node.getChildren().get(j) + "---> ");
+				      System.out.print(node.getChildren().get(node.getChildren().size()-j-1));
+				     // System.out.printf("   [sup=%f   conf=", node.getSupport());
+				      System.out.print("   [sup=" + node.getSupport() + "   conf=");
+				      System.out.printf("%.8f]\n", node.getConfidence().get(j));
+				   }
 			   }
 		   }
 	   }

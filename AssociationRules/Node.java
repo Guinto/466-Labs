@@ -5,11 +5,12 @@ public class Node {
    private ArrayList<Node> children;
    private Boolean skyline;
    private Double support;
-   private Double confidence;
+   private ArrayList<Double> confidence;
    
    public Node(ArrayList<Integer> name, Node child1, Node child2) {
       this.setName(name);
       this.children = new ArrayList<Node>();
+      this.confidence = new ArrayList<Double>();
       this.children.add(child1);
       this.children.add(child2);
       this.setSkyline(false);
@@ -20,11 +21,13 @@ public class Node {
 	   singleNameList.add(name);
 	   this.setName(singleNameList);
 	   this.children = new ArrayList<Node>();
+      this.confidence = new ArrayList<Double>();
    }
    
    public Node(ArrayList<Integer> name) {
       this.setName(name);
-      this.children = null;
+      this.children = new ArrayList<Node>();
+      this.confidence = new ArrayList<Double>();
       this.setSkyline(true);
    }
    
@@ -73,11 +76,11 @@ public class Node {
 		this.support = support;
 	}
 	
-	public Double getConfidence() {
+	public ArrayList<Double> getConfidence() {
 		return confidence;
 	}
 	
-	public void setConfidence(Double confidence) {
+	public void setConfidence(ArrayList<Double> confidence) {
 		this.confidence = confidence;
 	}
 }
