@@ -36,6 +36,7 @@ public class Apriori {
 			Node node = levels.get(levels.size() - 1).get(i);
 			double support = support(node, data);
 			double confidence = confidence(node, data);
+			System.out.println(node.getName() + " sup: " + support);
 			node.setSupport(support);
 			node.setConfidence(confidence);
 			if (support < minSup || node.getChildren().size() < levels.size()-1) {
@@ -48,7 +49,7 @@ public class Apriori {
 	
 	// Maybe should take in level rather than data
 	public double support(Node node, CSV data) {
-		ArrayList<Integer> matchedNumbers = data.getSets().get(node.getName().get(0));
+		ArrayList<Integer> matchedNumbers = new ArrayList<Integer>(data.getSets().get(node.getName().get(0)));
 		ArrayList<Integer> removeNumbers = new ArrayList<Integer>();
 		
 		for (int i = 1; i < node.getName().size(); i++) {
