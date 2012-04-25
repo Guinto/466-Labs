@@ -1,0 +1,6 @@
+Trent Ellingsen & Thomas Wang
+Input File Type: Sparse Vector Files
+
+Usage: RunApriori fileName minSupport minConfidence [flag]
+
+Note: use flag argument for running the factor file (can be anything)

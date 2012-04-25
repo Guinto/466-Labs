@@ -36,12 +36,11 @@ public class Apriori {
       levels.removeLastLevel(); // it is empty
 
       levels.markSkyline();
-      levels.showSkyline();
-      /*if (inAll.size() == 0) {
-    	  levels.showSkyline();
+      if (inAll.size() == 0) {
+    	  levels.showSkyline(minConf);
       } else {
-    	  levels.showFactorsSkyline(inAll);
-      }*/
+    	  levels.showFactorsSkyline(inAll, minConf);
+      }
    }
 
    private void prune(Levels levels, double minSup, double minConf, CSV data) {
@@ -54,12 +53,6 @@ public class Apriori {
          node.setConfidence(confidence);
          if (support < minSup || node.getChildren().size() < levels.size()-1) {
             nodesToRemove.add(node);
-         }
-         else {
-            for(Double c: node.getConfidence()) {
-               if(c < minConf)
-                  nodesToRemove.add(node);
-            }
          }
       }
 
@@ -93,34 +86,5 @@ public class Apriori {
             confidences.add(100.0);
       }
       return confidences;
-   }
-
-   public double support(ArrayList<Node> items, CSV data) {
-      ArrayList<Integer> names = new ArrayList<Integer>();
-      ArrayList<Integer> check = new ArrayList<Integer>();
-
-      for(int i = 0; i < items.size(); i++) {
-         for(int j = 0; j < items.get(i).getName().size(); j++) {
-            if(!names.contains(items.get(i).getName().get(j))) {
-               names.add(items.get(i).getName().get(j));
-            }
-         }
-      }
-
-      check.addAll(data.getSets().get(names.get(0)));
-
-      for(int i = 1; i < names.size(); i++) {
-         for(int j = 0; j < check.size(); j++) {
-            if(!data.getSets().get(names.get(i)).contains(check.get(j))) {
-               check.remove(check.get(j));
-            }
-         }
-      }
-
-      return (double)check.size()/data.getSets().size();
-   }
-
-   public double confidence(ArrayList<Node> items, ArrayList<Node> items2, CSV data) {
-      return support(items, data)/support(items2, data);
    }
 }
