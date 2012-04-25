@@ -14,6 +14,6 @@ public class RunApriori {
          System.exit(1);
       }
       Apriori apriori = new Apriori();
-      apriori.run(data, 5, 0);
+      apriori.run(data, 92, 0);
    }
 }

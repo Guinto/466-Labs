@@ -8,6 +8,10 @@ public class Levels {
       levels = new ArrayList<ArrayList<Node>>();
    }
    
+   public ArrayList<ArrayList<Node>> getLevels() {
+	   return levels;
+   }
+   
    public ArrayList<Node> get(int level) {
 	   return levels.get(level);
    }
@@ -75,6 +79,30 @@ public class Levels {
 				   for(int j = 0; j < node.getChildren().size(); j++) {
 				      System.out.print("Rule " + ++i + ":     ");
 				      System.out.print(node.getChildren().get(j) + " ---> ");
+				      System.out.print(node.getName().get(node.getChildren().size()-j-1));
+				     // System.out.printf("   [sup=%f   conf=", node.getSupport());
+				      System.out.print("   [sup=" + node.getSupport() + "   conf=");
+				      System.out.printf("%.8f]\n", node.getConfidence().get(j));
+				   }
+			   }
+		   }
+	   }
+   }
+   
+   public void showFactorsSkyline(Levels inAll) {
+      int i = 0;
+	   for (ArrayList<Node> level : levels) {
+		   for (Node node : level) {
+			   if (node.getSkyline()) {
+				   for(int j = 0; j < node.getChildren().size(); j++) {
+				      System.out.print("Rule " + ++i + ":     ");
+				      System.out.print(node.getChildren().get(j));
+		    		  for (ArrayList<Node> list : inAll.getLevels()) {
+		    			  for (Node n : list) {
+		    				  System.out.print(" " + n.getName());
+		    			  }
+		    		  }
+				      System.out.print(" ---> ");
 				      System.out.print(node.getName().get(node.getChildren().size()-j-1));
 				     // System.out.printf("   [sup=%f   conf=", node.getSupport());
 				      System.out.print("   [sup=" + node.getSupport() + "   conf=");

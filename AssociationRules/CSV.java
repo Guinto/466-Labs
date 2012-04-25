@@ -103,15 +103,17 @@ public class CSV {
    }
    public void getFactorsHash() {
       for(Vector v: vectors) {
-         for(int i = 2; i < v.size(); i++) {
-            if(sets.containsKey(v.get(i))) {
-               ((ArrayList<Integer>) sets.get(v.get(i))).add(v.get(0));
-            }
-            else {
-               ArrayList<Integer> firstElement = new ArrayList<Integer>();
-               firstElement.add(v.get(0));
-               sets.put(v.get(i), firstElement);
-            }
+         for(int i = 1; i < v.size(); i++) {
+        	 if (i % 2 == 1) {
+	            if(sets.containsKey(v.get(i))) {
+	               ((ArrayList<Integer>) sets.get(v.get(i))).add(v.get(0));
+	            }
+	            else {
+	               ArrayList<Integer> firstElement = new ArrayList<Integer>();
+	               firstElement.add(v.get(0));
+	               sets.put(v.get(i), firstElement);
+	            }
+        	 }
          }
       }
    }
