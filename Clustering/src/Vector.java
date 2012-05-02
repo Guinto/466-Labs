@@ -55,13 +55,13 @@ public class Vector {
       return total;
    }
 
-   public int getEucledianDistance(Vector v) {
+   public double getEucledianDistance(Vector v) {
       if (size() != v.size()) {
          System.err.println("Vector lengths not equal: " + size() + " vs " + v.size());
          return -1; //TODO Should throw exception
       }
 
-      int total = 0;
+      double total = 0;
       for (int i = 0; i < size(); i++) {
          total += Math.pow(get(i) - v.get(i), 2);
       }

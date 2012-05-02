@@ -15,20 +15,22 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 	
 public class DecisionTreeNode {
-	public int value;
-	public ArrayList<DecisionTreeNode> children;
+	public ArrayList<Node> children;
    
-	public DecisionTreeNode(int value) {
-	   this.value = value;
-	   children = new ArrayList<DecisionTreeNode>();
+	public DecisionTreeNode() {
+	   children = new ArrayList<Node>();
 	}
 	
-	public ArrayList<DecisionTreeNode> getChildren() {
+	public ArrayList<Node> getChildren() {
 		return children;
 	}
 	
-	public void setChildren(ArrayList<DecisionTreeNode> children) {
+	public void setChildren(ArrayList<Node> children) {
 		this.children = children;
+	}
+	
+	public void remove(Node child) {
+	   children.remove(child);
 	}
 	
 	public void outputTree(String fileName, XML xml) {
@@ -46,7 +48,7 @@ public class DecisionTreeNode {
 	public void print(XML xml) {
 		System.out.println(toXMLString(xml));
 	}
-	
+	/*
 	public void print() {
 		if(children.size() == 0) {
 		System.out.println("decision " + value);
@@ -59,7 +61,7 @@ public class DecisionTreeNode {
 				children.get(i).print();
 			}
 		}
-	}
+	}*/
 	
 	public String toXMLString(XML xml) {
 		try {
@@ -70,7 +72,7 @@ public class DecisionTreeNode {
             Element root = doc.createElement("Tree");
             doc.appendChild(root);
            
-            print(xml, root, doc);
+    //        print(xml, root, doc);
 
             //set up a transformer
             TransformerFactory transfac = TransformerFactory.newInstance();
@@ -94,7 +96,7 @@ public class DecisionTreeNode {
 		
 		return "";
 	}
-
+/*
 	private void print(XML xml, Element node, Document doc) {
         Element nodeOrDecision;
 		if (isLeaf()) {
@@ -110,10 +112,11 @@ public class DecisionTreeNode {
 	        edge.setAttribute("var", getEdgeName(value, index, xml));
 	        nodeOrDecision.appendChild(edge);
 	        
-			children.get(index).print(xml, edge, doc);
+		//	children.get(index).print(xml, edge, doc);
 		}
+		
 	}
-	
+	*/
 	private boolean isLeaf() {
 		return children.size() == 0;
 	}
