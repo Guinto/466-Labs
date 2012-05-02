@@ -108,7 +108,7 @@ public class XML {
 			 Node nodeNode = nodes.item(i);
 			 if (nodeNode.getNodeType() == Node.ELEMENT_NODE) {
 				 Element node = (Element) nodeNode;
-				 tree = new DecisionTreeNode(csv.data.get(0).indexOf(getVar(node)));
+				 //tree = new DecisionTreeNode(csv.data.get(0).indexOf(getVar(node)));
 				 tree.setChildren(fillTree(node, csv));
 			 }
 		 }
@@ -133,9 +133,9 @@ public class XML {
 				 nodesOrDecision = getChildElementsFromType(edges.get(i), "node");
 				 
 				 for (Element e : nodesOrDecision) {
-					 DecisionTreeNode xmlNode = new DecisionTreeNode(csv.data.get(0).indexOf(getVar(e)));
+					 /*DecisionTreeNode xmlNode = new DecisionTreeNode(csv.data.get(0).indexOf(getVar(e)));
 					 xmlNode.setChildren(fillTree(e, csv));
-					 nodes.add(xmlNode);
+					 nodes.add(xmlNode);*/
 				 }
 			 }
 		 }

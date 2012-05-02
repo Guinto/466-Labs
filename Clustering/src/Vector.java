@@ -3,32 +3,32 @@ import java.util.Collections;
 import java.util.List;
 
 public class Vector {
-   private ArrayList<Integer> elements;
+   private ArrayList<Float> elements;
 
    public Vector(List<String> list) {
-      setElements(new ArrayList<Integer>());
+      setElements(new ArrayList<Float>());
       for (String e : list) {
          if (e.isEmpty()) {
-            elements.add( 0);
+            elements.add(0.0f);
          } else {
-            elements.add(Integer.parseInt(e));
+            elements.add(Float.parseFloat(e));
          }
       }
    }
 
-   public void add(int element) {
-      elements.add((int) element);
+   public void add(float element) {
+      elements.add(element);
    }
 
    public Vector() {
-      setElements(new ArrayList<Integer>());
+      setElements(new ArrayList<Float>());
    }
 
-   public void setElements(ArrayList<Integer> elements) {
+   public void setElements(ArrayList<Float> elements) {
       this.elements = elements;
    }
 
-   public int get(int index) {
+   public float get(int index) {
       return elements.get(index);
    }
 
@@ -97,14 +97,14 @@ public class Vector {
       return total;
    }
 
-   public int getLargestElement() {
+   public float getLargestElement() {
       if (size() == 0) {
          System.err.println("Vector size is 0");
          return -1; //TODO Should throw exception
       }
-      int largest = elements.get(0);
+      float largest = elements.get(0);
 
-      for(int d : elements) {
+      for(float d : elements) {
          if (d > largest) {
             largest = d;
          }
@@ -112,14 +112,14 @@ public class Vector {
       return largest;
    }
 
-   public int getSmallestElement() {
+   public float getSmallestElement() {
       if (size() == 0) {
          System.err.println("Vector size is 0");
          return -1; //TODO Should throw exception
       }
-      int smallest = elements.get(0);
+      float smallest = elements.get(0);
 
-      for(int d : elements) {
+      for(float d : elements) {
          if (d < smallest) {
             smallest = d;
          }
@@ -127,7 +127,7 @@ public class Vector {
       return smallest;
    }
 
-   public int getMedian() {
+   public float getMedian() {
       if (size() == 0) {
          System.err.println("Vector size is 0");
          return -1; //TODO Should throw exception
@@ -148,7 +148,7 @@ public class Vector {
 
       int total = 0;
 
-      for(int d : elements) {
+      for(float d : elements) {
          total += d;
       }
       return total / size();
@@ -159,20 +159,19 @@ public class Vector {
       Collections.sort(elements);
    }
 
-   public int last() {
+   public float last() {
       return elements.get(elements.size() - 1);
    }
 
-   public void set(int i, int j) {
+   public void set(int i, float j) {
       elements.set(i, j);
-
    }
 
    public int length() {
       return elements.size();
    }
 
-      public int findCat(CSV restrictions) {
+   public int findCat(CSV restrictions) {
       for(int i = 0; i < restrictions.vectors.get(0).size(); i++) {
          if(restrictions.vectors.get(0).get(i) == -2)
             return i;

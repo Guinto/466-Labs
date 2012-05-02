@@ -13,12 +13,13 @@ import java.util.Scanner;
 public class CSV {
 
    public ArrayList<Vector> vectors;
-   public ArrayList<ArrayList<String>> data;
-   public ArrayList<Vector> dataCounts;
+   public Vector restrictions;
+   //public ArrayList<ArrayList<String>> data;
+   //public ArrayList<Vector> dataCounts;
    public int category;
    public int id;
 
-   public static void main(String[] args) {
+   /*public static void main(String[] args) {
       if (args.length > 0) {
          new CSV("tree03-20-numbers.csv");
       }
@@ -26,17 +27,18 @@ public class CSV {
          System.err.println("Usage: CSV fileName");
          System.exit(1);
       }
-   }
+   }*/
 
    public CSV(String fileName) {
       this.vectors = new ArrayList<Vector>();
-      this.data = new ArrayList<ArrayList<String>>();
-      this.dataCounts = new ArrayList<Vector>();
+      this.restrictions = new Vector();
+      /*this.data = new ArrayList<ArrayList<String>>();
+      this.dataCounts = new ArrayList<Vector>();*/
       File file = new File(fileName);
       readTextFromFile(file);
    }
 
-   public CSV(String fileName, int flag) {
+   /*public CSV(String fileName, int flag) {
       this.vectors = new ArrayList<Vector>();
       this.data = new ArrayList<ArrayList<String>>();
       File file = new File(fileName);
@@ -52,7 +54,7 @@ public class CSV {
          else
             this.vectors.get(0).add(1);
       }
-   }
+   }*
 
    private Vector getListFromColumn(int column) {
       Vector columnList = new Vector();
@@ -66,7 +68,8 @@ public class CSV {
       }
 
       return columnList;
-   }
+   }*/
+   
    private void readTextFromFile(File file) {
       Scanner scanner;
       try {
@@ -75,12 +78,18 @@ public class CSV {
          while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             String[] tokens = line.split("[,]");
-            if(count == 0 || count == 2)
-               data.add(new ArrayList<String>(Arrays.asList(tokens)));
-            else if(count == 1)
-               dataCounts.add(new Vector(Arrays.asList(tokens)));
-            else
-               vectors.add(new Vector(Arrays.asList(tokens)));
+            if(count == 0) {
+               restrictions = new Vector(Arrays.asList(tokens));
+            }
+            else {
+            	Vector v = new Vector();
+            	for (int i = 0; i < tokens.length; i++) {
+            		if (restrictions.get(i) == 1) {
+            			v.add(Float.parseFloat(tokens[i]));
+            		}
+            	}
+               vectors.add(v);
+            }
             count++;
          }
       }
@@ -89,7 +98,18 @@ public class CSV {
          e.printStackTrace();
       }
    }
-   private void readOneVector(File file) {
+   
+   public String toString() {
+	   String str = restrictions.toString() + "\n";
+	   
+	   for(int i = 0; i < vectors.size(); i++) {
+		   str += vectors.get(i) + "\n";
+	   }
+      
+      return str;
+   }
+   
+   /*private void readOneVector(File file) {
       Scanner scanner;
       try {
          scanner = new Scanner(file);
@@ -104,6 +124,7 @@ public class CSV {
          e.printStackTrace();
       }
    }
+   
    private void readVectorsFromFile(File file) {
       Scanner scanner;
       try {
@@ -151,5 +172,5 @@ public class CSV {
             restrict.vectors.get(0).set(i, -1);
          }
       }
-   }
+   }*/
 }
