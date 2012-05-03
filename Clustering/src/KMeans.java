@@ -106,6 +106,15 @@ public class KMeans {
 
       return max;
    }
+   
+   private double findSSE(ArrayList<Vector> cluster) {
+	   double sse = 0;
+	   Vector avg = findAvg(cluster);
+	   for (int i = 0; i < cluster.size(); i++) {
+		  sse += Math.pow(cluster.get(i).getEucledianDistance(avg), 2); 
+	   }
+	   return sse;
+   }
 
    private Vector findAvg(ArrayList<Vector> cluster, int size) {
       float[] vector = new float[size];
