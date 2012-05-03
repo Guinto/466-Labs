@@ -5,11 +5,10 @@ public class KMeans {
 
    public static void main(String[] args) {
       CSV data = null;
-      if (args.length != 2) {
-         data = new CSV("lab4data/planets.csv");
-     //    System.out.println(data);
+      if (args.length == 2) {
+         data = new CSV(args[0]);
 
-         new KMeans(data, 4);
+         new KMeans(data, Integer.parseInt(args[1]));
       } else {
          System.err.println("Usage: KMeans <fileName> <k>");
          System.exit(1);

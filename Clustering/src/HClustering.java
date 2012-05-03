@@ -8,9 +8,9 @@ public class HClustering {
 		if (args.length == 2) { //TODO CHANGE BACK AFTER
 			data = new CSV(args[0]);
 			new HClustering(data, Integer.parseInt(args[1]));
-		} else if (args.length != 1) {
-			data = new CSV("lab4data/planets.csv");
-			new HClustering(data, 500);
+		} else if (args.length == 1) {
+			data = new CSV(args[0]);
+			new HClustering(data, -1);
 		} else {
 			System.err.println("Usage: HClustering <fileName> [<threshold>]");
 			System.exit(1);
