@@ -102,6 +102,8 @@ Sum of Squared Errors 1606.9630115435627
 
 
 4 4clusters.csv
+The data sets were pretty evenly clustered
+
 Number of points in Cluster: 10
 Centroid: [9.9]
 Min Distance 0.010000076294090832
@@ -287,6 +289,8 @@ Sum of Squared Errors 813.3733571298754
 [1.0, 3.0, 2.0, 4.0, 45.0, 1.0]
 
 3 AccidentSets03.csv
+Everything separated into clusters very nicely
+
 Number of points in Cluster: 21
 Centroid: [1.1904762, 0.33333334, 2.0, 1.0952381]
 Min Distance 0.1564625862504352
@@ -581,6 +585,8 @@ Sum of Squared Errors 356.0
 [9.0]
 
 4 planets.csv
+Was hard to cluster due to the big discrepencies between points.
+
 Number of points in Cluster: 3
 Centroid: [49.748, 7.580667]
 Min Distance 38.350313376448184
