@@ -5,10 +5,19 @@ public class HClustering {
 
 
    public static void main(String[] args) {
-
+      CSV data = null;
+      if (args.length != 2) {
+         data = new CSV("lab4data/birth_death_rate.csv");
+         System.out.println(data);
+         
+         createTree(data);
+      } else {
+         System.err.println("Usage: KMeans <fileName> <k>");
+         System.exit(1);
+      }
    }
 
-   public void createTree(CSV data) {
+   public static void createTree(CSV data) {
       DecisionTreeNode tree = new DecisionTreeNode();
 
       for(Vector v: data.vectors) {
@@ -20,7 +29,7 @@ public class HClustering {
       }
    }
 
-   public void findShortest(DecisionTreeNode tree) {
+   public static void findShortest(DecisionTreeNode tree) {
       Node[] answer = new Node[2];
       double value = tree.children.get(0).findDist(tree.children.get(1));
       answer[0] = tree.children.get(0);
