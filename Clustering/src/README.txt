@@ -7,7 +7,7 @@ Usage: KMeans <Filename> <k>
 
 Note: <k> is the number of clusters the program has to produce
 
-We picked random initial cluster centroids. To recompute we found the average point of the cluster to find new centroids. We used no point reassignment or no centroid change for our stopping points. The SSE threshold we used was anything under 100 change. The program was implemented using Eucledean distance without dealing with outliers.
+We picked random initial cluster centroids. To recompute we found the average point of the cluster to find new centroids. We used zero point reassignment or zero centroid change for our stopping points. The SSE threshold we used was anything under 100 change. The program was implemented using Eucledean distance without dealing with outliers.
 
 Hierarchical Clustering
 

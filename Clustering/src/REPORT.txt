@@ -1,3 +1,633 @@
-For the kmeans algorithm picked random initial cluster centroids. To recompute we found the average point of the cluster to find new centroids. We used no point reassignment or no centroid change for our stopping points. The SSE threshold we used was anything under 100 change. The program was implemented using Eucledean distance without dealing with outliers.
+For the kmeans algorithm picked random initial cluster centroids. To recompute we found the average point of the cluster to find new centroids. We used zero point reassignment or zero centroid change for our stopping points. The SSE threshold we used was anything under 100 change. The program was implemented using Eucledean distance without dealing with outliers.
 
 For the hclustering we used eucledean distance as the measure for the distance between two points. We use complete-link as the method for distance measures for clusters.
+
+
+4 birth_death_rate
+
+Number of points in Cluster: 21
+Centroid: [17.24762]
+Min Distance 0.0027436233503976837
+Max Distance 17.202745421705913
+Avg Distance 2.2920179616193783
+Sum of Squared Errors 410.76313184305656
+[17.3]
+[14.8]
+[17.4]
+[18.8]
+[17.1]
+[18.2]
+[16.4]
+[16.9]
+[17.6]
+[18.1]
+[18.2]
+[17.5]
+[18.5]
+[17.4]
+[13.1]
+[19.0]
+[17.5]
+[19.0]
+[15.7]
+[14.8]
+[18.9]
+Number of points in Cluster: 12
+Centroid: [35.50833]
+Min Distance 0.08507018619275186
+Max Distance 21.08340744866291
+Avg Distance 5.649097827278941
+Sum of Squared Errors 851.073195477537
+[34.0]
+[32.1]
+[33.5]
+[34.8]
+[33.0]
+[33.6]
+[36.4]
+[35.8]
+[37.3]
+[36.3]
+[39.2]
+[40.1]
+Number of points in Cluster: 17
+Centroid: [45.85294]
+Min Distance 0.06103808445914183
+Max Distance 105.0022154526232
+Avg Distance 18.684841828134857
+Sum of Squared Errors 22437.476572897114
+[42.1]
+[55.8]
+[56.1]
+[41.8]
+[46.1]
+[41.7]
+[41.4]
+[46.3]
+[49.9]
+[47.7]
+[46.6]
+[45.1]
+[42.9]
+[45.0]
+[44.0]
+[44.2]
+[42.8]
+Number of points in Cluster: 20
+Centroid: [23.425]
+Min Distance 6.24980926659191E-4
+Max Distance 24.750628795623925
+Avg Distance 6.140875679016972
+Sum of Squared Errors 1606.9630115435627
+[23.4]
+[21.7]
+[21.8]
+[22.5]
+[22.3]
+[23.5]
+[21.5]
+[21.2]
+[21.4]
+[21.6]
+[20.9]
+[20.9]
+[25.0]
+[24.8]
+[25.5]
+[20.5]
+[26.2]
+[27.7]
+[27.7]
+[28.4]
+
+
+4 4clusters.csv
+The data sets were pretty evenly clustered
+
+Number of points in Cluster: 10
+Centroid: [9.9]
+Min Distance 0.010000076294090832
+Max Distance 15.209997024536278
+Avg Distance 5.690000000000145
+Sum of Squared Errors 540.0169787598153
+[10.0]
+[8.0]
+[13.0]
+[7.0]
+[9.0]
+[12.0]
+[6.0]
+[13.0]
+[9.0]
+[12.0]
+Number of points in Cluster: 7
+Centroid: [32.285713]
+Min Distance 0.08163203025469556
+Max Distance 10.795911205059383
+Avg Distance 3.9183673469399634
+Sum of Squared Errors 193.57430185053943
+[32.0]
+[34.0]
+[35.0]
+[34.0]
+[31.0]
+[31.0]
+[29.0]
+Number of points in Cluster: 16
+Centroid: [40.0625]
+Min Distance 0.00390625
+Max Distance 24.37890625
+Avg Distance 5.68359375
+Sum of Squared Errors 1129.382080078125
+[41.0]
+[39.0]
+[42.0]
+[44.0]
+[38.0]
+[41.0]
+[45.0]
+[38.0]
+[42.0]
+[39.0]
+[37.0]
+[38.0]
+[38.0]
+[37.0]
+[40.0]
+[42.0]
+Number of points in Cluster: 6
+Centroid: [24.0]
+Min Distance 1.0
+Max Distance 25.0
+Avg Distance 7.0
+Sum of Squared Errors 690.0
+[25.0]
+[26.0]
+[26.0]
+[26.0]
+[22.0]
+[19.0]
+
+4 AccidentSets01.csv
+Number of points in Cluster: 4
+Centroid: [2.0, 4.5]
+Min Distance 0.25
+Max Distance 0.25
+Avg Distance 0.25
+Sum of Squared Errors 0.25
+[2.0, 4.0]
+[2.0, 4.0]
+[2.0, 5.0]
+[2.0, 5.0]
+Number of points in Cluster: 4
+Centroid: [4.25, 15.0]
+Min Distance 0.5625
+Max Distance 21.0625
+Avg Distance 8.1875
+Sum of Squared Errors 537.828125
+[5.0, 15.0]
+[5.0, 14.0]
+[5.0, 12.0]
+[2.0, 19.0]
+Number of points in Cluster: 7
+Centroid: [5.0, 8.857142]
+Min Distance 0.02040828004192008
+Max Distance 4.591838486340748
+Avg Distance 1.5510204081634325
+Sum of Squared Errors 35.76676985405322
+[5.0, 7.0]
+[5.0, 9.0]
+[5.0, 8.0]
+[5.0, 10.0]
+[5.0, 8.0]
+[5.0, 9.0]
+[5.0, 11.0]
+Number of points in Cluster: 4
+Centroid: [2.0, 1.75]
+Min Distance 0.0625
+Max Distance 0.5625
+Avg Distance 0.1875
+Sum of Squared Errors 0.328125
+[2.0, 1.0]
+[2.0, 2.0]
+[2.0, 2.0]
+[2.0, 2.0]
+
+4 AccidentSets02.csv
+Number of points in Cluster: 11
+Centroid: [1.7272727, 5.090909, 0.54545456, 3.3636363, 35.0, 1.3636364]
+Min Distance 1.008264392860685
+Max Distance 21.73553767283103
+Avg Distance 5.900826494555847
+Sum of Squared Errors 871.5597603641747
+[3.0, 4.0, 0.0, 4.0, 35.0, 1.0]
+[2.0, 6.0, 0.0, 4.0, 35.0, 1.0]
+[3.0, 4.0, 0.0, 4.0, 35.0, 2.0]
+[1.0, 4.0, 0.0, 4.0, 35.0, 3.0]
+[2.0, 4.0, 0.0, 4.0, 35.0, 1.0]
+[1.0, 4.0, 0.0, 4.0, 35.0, 1.0]
+[1.0, 5.0, 1.0, 3.0, 35.0, 1.0]
+[1.0, 6.0, 5.0, 3.0, 35.0, 2.0]
+[2.0, 6.0, 0.0, 3.0, 35.0, 1.0]
+[1.0, 4.0, 0.0, 2.0, 35.0, 1.0]
+[2.0, 9.0, 0.0, 2.0, 35.0, 1.0]
+Number of points in Cluster: 11
+Centroid: [1.4545455, 2.0, 0.45454547, 7.4545455, 35.0, 1.0]
+Min Distance 0.7107438331793219
+Max Distance 5.7107438060863
+Avg Distance 3.2892561835691008
+Sum of Squared Errors 133.3463550638566
+[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]
+[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]
+[2.0, 1.0, 0.0, 9.0, 35.0, 1.0]
+[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]
+[1.0, 1.0, 0.0, 9.0, 35.0, 1.0]
+[1.0, 2.0, 1.0, 7.0, 35.0, 1.0]
+[1.0, 1.0, 0.0, 6.0, 35.0, 1.0]
+[2.0, 2.0, 0.0, 6.0, 35.0, 1.0]
+[1.0, 3.0, 1.0, 6.0, 35.0, 1.0]
+[2.0, 3.0, 0.0, 6.0, 35.0, 1.0]
+[3.0, 3.0, 0.0, 6.0, 35.0, 1.0]
+Number of points in Cluster: 15
+Centroid: [1.7333333, 4.5333333, 0.0, 2.0, 70.0, 1.2666667]
+Min Distance 1.8933333142598485
+Max Distance 424.56002077102687
+Avg Distance 39.040001165601964
+Sum of Squared Errors 183122.97212752514
+[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]
+[2.0, 2.0, 0.0, 2.0, 70.0, 1.0]
+[6.0, 9.0, 0.0, 2.0, 70.0, 2.0]
+[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]
+[4.0, 25.0, 0.0, 2.0, 70.0, 2.0]
+[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 3.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 6.0, 0.0, 2.0, 70.0, 3.0]
+[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 8.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 2.0, 0.0, 2.0, 70.0, 1.0]
+[3.0, 5.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 2.0, 0.0, 2.0, 70.0, 1.0]
+[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]
+Number of points in Cluster: 12
+Centroid: [1.4166666, 3.0833333, 0.9166667, 4.0, 45.0, 1.1666666]
+Min Distance 0.21527771486177372
+Max Distance 22.881946149799592
+Avg Distance 4.368055605226106
+Sum of Squared Errors 813.3733571298754
+[1.0, 3.0, 1.0, 4.0, 45.0, 1.0]
+[1.0, 7.0, 0.0, 4.0, 45.0, 1.0]
+[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]
+[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]
+[2.0, 2.0, 0.0, 4.0, 45.0, 1.0]
+[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]
+[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]
+[1.0, 3.0, 2.0, 4.0, 45.0, 2.0]
+[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]
+[1.0, 3.0, 1.0, 4.0, 45.0, 1.0]
+[5.0, 6.0, 0.0, 4.0, 45.0, 2.0]
+[1.0, 3.0, 2.0, 4.0, 45.0, 1.0]
+
+3 AccidentSets03.csv
+Everything separated into clusters very nicely
+
+Number of points in Cluster: 21
+Centroid: [1.1904762, 0.33333334, 2.0, 1.0952381]
+Min Distance 0.1564625862504352
+Max Distance 1.1088435017332756
+Avg Distance 0.4625850207681295
+Sum of Squared Errors 6.972464858887111
+[2.0, 0.0, 2.0, 1.0]
+[2.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 1.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 2.0]
+[2.0, 1.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[2.0, 1.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 2.0]
+[1.0, 1.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 0.0, 2.0, 1.0]
+[1.0, 1.0, 2.0, 1.0]
+[1.0, 1.0, 2.0, 1.0]
+[1.0, 1.0, 2.0, 1.0]
+Number of points in Cluster: 16
+Centroid: [3.875, 0.125, 3.25, 1.0]
+Min Distance 0.59375
+Max Distance 38.09375
+Avg Distance 4.03125
+Sum of Squared Errors 1504.328125
+[3.0, 0.0, 2.0, 1.0]
+[5.0, 0.0, 4.0, 1.0]
+[5.0, 0.0, 4.0, 1.0]
+[3.0, 0.0, 2.0, 1.0]
+[4.0, 0.0, 4.0, 1.0]
+[10.0, 0.0, 4.0, 1.0]
+[4.0, 0.0, 2.0, 1.0]
+[3.0, 1.0, 2.0, 1.0]
+[3.0, 1.0, 2.0, 1.0]
+[4.0, 0.0, 2.0, 1.0]
+[3.0, 0.0, 4.0, 1.0]
+[3.0, 0.0, 4.0, 1.0]
+[3.0, 0.0, 4.0, 1.0]
+[3.0, 0.0, 4.0, 1.0]
+[3.0, 0.0, 4.0, 1.0]
+[3.0, 0.0, 4.0, 1.0]
+Number of points in Cluster: 25
+Centroid: [1.04, 0.88, 4.0, 1.16]
+Min Distance 0.041599987411501615
+Max Distance 4.161600111389163
+Avg Distance 0.43840000000000257
+Sum of Squared Errors 27.601409575958346
+[1.0, 0.0, 4.0, 2.0]
+[2.0, 0.0, 4.0, 2.0]
+[1.0, 0.0, 4.0, 1.0]
+[1.0, 0.0, 4.0, 3.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 2.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+[1.0, 1.0, 4.0, 1.0]
+
+4 economy.csv
+Number of points in Cluster: 5
+Centroid: [10.6, 9.4, 9.0, 9.2, 9.2, 10.2, 10.8, 11.2, 10.2]
+Min Distance 3.5600008392339078
+Max Distance 16.160003128052267
+Avg Distance 9.44000000000051
+Sum of Squared Errors 572.6560139465997
+[9.0, 9.0, 9.0, 9.0, 9.0, 10.0, 11.0, 11.0, 11.0]
+[10.0, 10.0, 10.0, 10.0, 11.0, 11.0, 12.0, 12.0, 13.0]
+[13.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 8.0]
+[10.0, 9.0, 8.0, 8.0, 8.0, 9.0, 9.0, 11.0, 9.0]
+[11.0, 9.0, 9.0, 10.0, 9.0, 11.0, 12.0, 12.0, 10.0]
+Number of points in Cluster: 11
+Centroid: [9.727273, 8.545455, 8.0, 9.181818, 9.090909, 11.363636, 13.0, 14.363636, 12.363636]
+Min Distance 3.4462808341040727
+Max Distance 18.7190107077613
+Avg Distance 11.371900826446934
+Sum of Squared Errors 1736.7828712264586
+[10.0, 9.0, 9.0, 10.0, 10.0, 12.0, 13.0, 13.0, 12.0]
+[10.0, 9.0, 8.0, 10.0, 10.0, 12.0, 14.0, 14.0, 12.0]
+[13.0, 10.0, 9.0, 10.0, 10.0, 11.0, 14.0, 15.0, 13.0]
+[10.0, 8.0, 8.0, 9.0, 10.0, 13.0, 14.0, 15.0, 13.0]
+[8.0, 6.0, 6.0, 8.0, 8.0, 10.0, 13.0, 15.0, 13.0]
+[8.0, 7.0, 7.0, 8.0, 8.0, 10.0, 12.0, 15.0, 11.0]
+[9.0, 9.0, 10.0, 9.0, 9.0, 10.0, 11.0, 15.0, 13.0]
+[9.0, 8.0, 7.0, 9.0, 8.0, 12.0, 13.0, 13.0, 12.0]
+[11.0, 11.0, 9.0, 10.0, 9.0, 13.0, 14.0, 16.0, 13.0]
+[10.0, 10.0, 10.0, 10.0, 10.0, 12.0, 12.0, 13.0, 12.0]
+[9.0, 7.0, 5.0, 8.0, 8.0, 10.0, 13.0, 14.0, 12.0]
+Number of points in Cluster: 4
+Centroid: [13.5, 12.75, 12.0, 13.25, 13.5, 14.5, 16.75, 16.5, 14.25]
+Min Distance 11.75
+Max Distance 44.75
+Avg Distance 29.75
+Sum of Squared Errors 4314.25
+[14.0, 14.0, 11.0, 16.0, 17.0, 17.0, 20.0, 16.0, 12.0]
+[13.0, 12.0, 11.0, 12.0, 12.0, 14.0, 18.0, 21.0, 18.0]
+[13.0, 13.0, 14.0, 13.0, 13.0, 13.0, 14.0, 14.0, 14.0]
+[14.0, 12.0, 12.0, 12.0, 12.0, 14.0, 15.0, 15.0, 13.0]
+Number of points in Cluster: 4
+Centroid: [8.5, 5.75, 4.75, 6.0, 7.0, 9.75, 10.75, 10.75, 9.25]
+Min Distance 4.125
+Max Distance 17.625
+Avg Distance 8.875
+Sum of Squared Errors 423.3125
+[8.0, 7.0, 6.0, 5.0, 7.0, 9.0, 10.0, 10.0, 8.0]
+[9.0, 4.0, 4.0, 6.0, 8.0, 10.0, 10.0, 10.0, 9.0]
+[8.0, 6.0, 5.0, 6.0, 6.0, 9.0, 11.0, 10.0, 8.0]
+[9.0, 6.0, 4.0, 7.0, 7.0, 11.0, 12.0, 13.0, 12.0]
+
+4 mammal_milk.csv
+Number of points in Cluster: 6
+Centroid: [68.333336, 9.55, 17.416666, 2.9166667]
+Min Distance 11.957510476115715
+Max Distance 48.23747635685669
+Avg Distance 31.714158840717165
+Sum of Squared Errors 6889.163949822931
+[70.7, 3.6, 17.6, 5.6]
+[71.3, 12.3, 13.1, 1.9]
+[72.5, 9.2, 12.6, 3.3]
+[65.9, 10.4, 19.7, 2.6]
+[64.8, 10.7, 20.3, 2.5]
+[64.8, 11.1, 21.2, 1.6]
+Number of points in Cluster: 7
+Centroid: [81.185715, 7.428572, 6.9, 4.0142856]
+Min Distance 2.328368250400956
+Max Distance 35.16119603916809
+Avg Distance 9.053058279781405
+Sum of Squared Errors 1390.3520079383475
+[82.8, 7.1, 5.1, 3.7]
+[81.6, 6.6, 5.9, 4.9]
+[82.1, 5.9, 7.9, 4.7]
+[82.0, 5.6, 6.4, 4.7]
+[81.9, 7.4, 7.2, 2.7]
+[81.6, 10.1, 6.3, 4.4]
+[76.3, 9.3, 9.5, 3.0]
+Number of points in Cluster: 2
+Centroid: [45.65, 10.15, 38.45, 0.45]
+Min Distance 13.569994400740288
+Max Distance 13.569995259047719
+Avg Distance 13.569994829894004
+Sum of Squared Errors 368.28951936670035
+[46.4, 9.7, 42.0, 0.0]
+[44.9, 10.6, 34.9, 0.9]
+Number of points in Cluster: 10
+Centroid: [88.5, 2.57, 2.8, 5.68]
+Min Distance 0.6752999755883593
+Max Distance 12.019304919912841
+Avg Distance 5.871702699474325
+Sum of Squared Errors 464.86242298931353
+[90.1, 2.6, 1.0, 6.9]
+[88.5, 1.4, 3.5, 6.0]
+[88.4, 2.2, 2.7, 6.4]
+[90.3, 1.7, 1.4, 6.2]
+[90.4, 0.6, 4.5, 4.4]
+[90.0, 2.0, 1.8, 5.5]
+[87.7, 3.5, 3.4, 4.8]
+[86.9, 4.8, 1.7, 5.7]
+[86.2, 3.0, 4.8, 5.3]
+[86.5, 3.9, 3.2, 5.6]
+
+6 many_clusters.csv
+Number of points in Cluster: 6
+Centroid: [45.333332]
+Min Distance 0.44444613986706827
+Max Distance 21.777789645726443
+Avg Distance 4.888888888890506
+Sum of Squared Errors 487.11158130815494
+[44.0]
+[44.0]
+[46.0]
+[50.0]
+[44.0]
+[44.0]
+Number of points in Cluster: 13
+Centroid: [35.307693]
+Min Distance 0.09467527852393687
+Max Distance 18.556223130086437
+Avg Distance 7.136094674557591
+Sum of Squared Errors 1262.7399128924585
+[38.0]
+[38.0]
+[38.0]
+[31.0]
+[35.0]
+[34.0]
+[36.0]
+[37.0]
+[35.0]
+[37.0]
+[31.0]
+[38.0]
+[31.0]
+Number of points in Cluster: 13
+Centroid: [41.0]
+Min Distance 0.0
+Max Distance 4.0
+Avg Distance 2.1538461538461537
+Sum of Squared Errors 100.0
+[42.0]
+[41.0]
+[43.0]
+[41.0]
+[42.0]
+[41.0]
+[43.0]
+[43.0]
+[40.0]
+[40.0]
+[39.0]
+[39.0]
+[39.0]
+Number of points in Cluster: 15
+Centroid: [23.333334]
+Min Distance 0.11111153496676707
+Max Distance 28.444451226128876
+Avg Distance 8.222222222222626
+Sum of Squared Errors 2125.1113066499665
+[24.0]
+[19.0]
+[23.0]
+[22.0]
+[24.0]
+[26.0]
+[23.0]
+[20.0]
+[26.0]
+[26.0]
+[28.0]
+[18.0]
+[23.0]
+[21.0]
+[27.0]
+Number of points in Cluster: 13
+Centroid: [11.692307]
+Min Distance 0.0946746916461052
+Max Distance 18.556214913814074
+Avg Distance 3.1360946745562615
+Sum of Squared Errors 412.2777182570911
+[10.0]
+[13.0]
+[10.0]
+[11.0]
+[11.0]
+[12.0]
+[16.0]
+[11.0]
+[10.0]
+[13.0]
+[11.0]
+[10.0]
+[14.0]
+Number of points in Cluster: 13
+Centroid: [7.0]
+Min Distance 0.0
+Max Distance 16.0
+Avg Distance 3.3846153846153846
+Sum of Squared Errors 356.0
+[3.0]
+[6.0]
+[8.0]
+[7.0]
+[6.0]
+[8.0]
+[5.0]
+[9.0]
+[9.0]
+[7.0]
+[5.0]
+[9.0]
+[9.0]
+
+4 planets.csv
+Was hard to cluster due to the big discrepencies between points.
+
+Number of points in Cluster: 3
+Centroid: [49.748, 7.580667]
+Min Distance 38.350313376448184
+Max Distance 265.94015141775367
+Avg Distance 136.96349554078878
+Sum of Squared Errors 83558.47532593468
+[59.9, 5.7]
+[55.144, 4.542]
+[34.2, 12.5]
+Number of points in Cluster: 2
+Centroid: [338.979, 16.42]
+Min Distance 0.5419204055942828
+Max Distance 0.5419204055942828
+Avg Distance 0.5419204055942828
+Sum of Squared Errors 0.5873554519989439
+[338.333, 16.773]
+[339.625, 16.067]
+Number of points in Cluster: 5
+Centroid: [79.8416, 4.5288]
+Min Distance 0.9349045497949646
+Max Distance 107.07054117005305
+Avg Distance 44.23661412781166
+Sum of Squared Errors 22527.615183993334
+[69.6, 4.7]
+[78.1, 6.6]
+[80.804, 4.622]
+[80.804, 4.622]
+[89.9, 2.1]
+Number of points in Cluster: 9
+Centroid: [141.1922, 4.309]
+Min Distance 42.22211040018374
+Max Distance 2858.6888654002028
+Avg Distance 587.2512204524542
+Sum of Squared Errors 9477249.445771946
+[130.07, 4.79]
+[115.072, 2.666]
+[130.916, 4.659]
+[115.072, 2.666]
+[132.2, 4.7]
+[135.6, 1.0]
+[153.1, 6.5]
+[164.1, 10.0]
+[194.6, 1.8]
+
