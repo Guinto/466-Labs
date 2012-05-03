@@ -16,6 +16,6 @@ public class RunApriori {
       }
       Apriori apriori = new Apriori();
       //apriori.run(data, Double.parseDouble(args[1]), Double.parseDouble(args[2]));
-      apriori.run(data, 3, 90);
+      apriori.run(data, 5, 0);
    }
 }
