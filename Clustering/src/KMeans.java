@@ -23,6 +23,8 @@ public class KMeans {
       boolean end = false;
       int clustChange = 0;
       int pointChange = 0;
+      int sse = 0;
+      int prevsse = 0;
       int close;
       Vector avg;
 
@@ -39,6 +41,11 @@ public class KMeans {
          centroids.set(i, findAvg(clusters.get(i), data.vectors.get(0).size()));
       }
 
+
+      for(int i = 0; i < numClusters; i++) {
+         prevsse += findSSE(clusters.get(i));
+      }
+      
       while(end == false) {
          clustChange = 0;
          pointChange = 0;
@@ -59,9 +66,16 @@ public class KMeans {
                clustChange++;
             }
          }
+         
+         for(int i = 0; i < numClusters; i++) {
+            sse += findSSE(clusters.get(i));
+         }
 
          if(clustChange == 0 || pointChange == 0)
             end = true;
+         if(Math.abs(prevsse - sse) <= 100)
+            end = true;
+         prevsse = sse;
       }
 
       for(int i = 0; i < numClusters; i++) {
@@ -109,7 +123,7 @@ public class KMeans {
    
    private double findSSE(ArrayList<Vector> cluster) {
 	   double sse = 0;
-	   Vector avg = findAvg(cluster);
+	   Vector avg = findAvg(cluster, cluster.get(0).size());
 	   for (int i = 0; i < cluster.size(); i++) {
 		  sse += Math.pow(cluster.get(i).getEucledianDistance(avg), 2); 
 	   }
