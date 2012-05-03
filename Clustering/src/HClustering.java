@@ -41,7 +41,7 @@ public class HClustering {
 
       for(int i = 0; i < tree.children.size(); i++) {
          for(int j = i+1; j < tree.children.size(); j++) {
-            if(value < tree.children.get(i).findDist(tree.children.get(j))) {
+            if(value > tree.children.get(i).findDist(tree.children.get(j))) {
                value = tree.children.get(i).findDist(tree.children.get(j));
                answer[0] = tree.children.get(i);
                answer[1] = tree.children.get(j);

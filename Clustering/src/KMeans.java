@@ -84,10 +84,10 @@ public class KMeans {
          System.out.println("Min Distance " + findMinDist(clusters.get(i), centroids.get(i)));
          System.out.println("Max Distance " + findMaxDist(clusters.get(i), centroids.get(i)));
          System.out.println("Avg Distance " + findAvgDist(clusters.get(i), centroids.get(i)));
+         System.out.println("Sum of Squared Errors " + findSSE(clusters.get(i)));
          for(int j = 0; j < clusters.get(i).size(); j++) {
             System.out.println(clusters.get(i).get(j));
          }
-
       }
    }
 
