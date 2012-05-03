@@ -2,6 +2,7 @@ For the kmeans algorithm picked random initial cluster centroids. To recompute w
 
 For the hclustering we used eucledean distance as the measure for the distance between two points. We use complete-link as the method for distance measures for clusters.
 
+KMeans Data
 
 4 birth_death_rate
 
@@ -630,4 +631,2231 @@ Sum of Squared Errors 9477249.445771946
 [153.1, 6.5]
 [164.1, 10.0]
 [194.6, 1.8]
+
+HCluster Data
+
+**4clusters.csv
+<tree>
+<node height="1089.0">
+<node height="169.0">
+<node height="9.0">
+<leaf data="[19.0]" height="0.0"/>
+<leaf data="[22.0]" height="0.0"/>
+</node>
+<node height="49.0">
+<node height="4.0">
+<leaf data="[6.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[8.0]" height="0.0"/>
+<leaf data="[7.0]" height="0.0"/>
+</node>
+</node>
+<node height="16.0">
+<node height="1.0">
+<leaf data="[10.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[9.0]" height="0.0"/>
+<leaf data="[9.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[13.0]" height="0.0"/>
+<leaf data="[13.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[12.0]" height="0.0"/>
+<leaf data="[12.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="169.0">
+<node height="36.0">
+<node height="1.0">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[45.0]" height="0.0"/>
+</node>
+<node height="9.0">
+<node height="4.0">
+<node height="0.0">
+<leaf data="[37.0]" height="0.0"/>
+<leaf data="[37.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[39.0]" height="0.0"/>
+<leaf data="[39.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="0.0">
+<leaf data="[42.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[42.0]" height="0.0"/>
+<leaf data="[42.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[40.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[41.0]" height="0.0"/>
+<leaf data="[41.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="81.0">
+<node height="1.0">
+<leaf data="[35.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[34.0]" height="0.0"/>
+<leaf data="[34.0]" height="0.0"/>
+</node>
+</node>
+<node height="36.0">
+<node height="1.0">
+<leaf data="[25.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<leaf data="[26.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="9.0">
+<leaf data="[29.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[32.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[31.0]" height="0.0"/>
+<leaf data="[31.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 50.0
+<tree>
+<node height="9.0">
+<leaf data="[19.0]" height="0.0"/>
+<leaf data="[22.0]" height="0.0"/>
+</node>
+<node height="49.0">
+<node height="4.0">
+<leaf data="[6.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[8.0]" height="0.0"/>
+<leaf data="[7.0]" height="0.0"/>
+</node>
+</node>
+<node height="16.0">
+<node height="1.0">
+<leaf data="[10.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[9.0]" height="0.0"/>
+<leaf data="[9.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[13.0]" height="0.0"/>
+<leaf data="[13.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[12.0]" height="0.0"/>
+<leaf data="[12.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="36.0">
+<node height="1.0">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[45.0]" height="0.0"/>
+</node>
+<node height="9.0">
+<node height="4.0">
+<node height="0.0">
+<leaf data="[37.0]" height="0.0"/>
+<leaf data="[37.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[39.0]" height="0.0"/>
+<leaf data="[39.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="0.0">
+<leaf data="[42.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[42.0]" height="0.0"/>
+<leaf data="[42.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[40.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[41.0]" height="0.0"/>
+<leaf data="[41.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[35.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[34.0]" height="0.0"/>
+<leaf data="[34.0]" height="0.0"/>
+</node>
+</node>
+<node height="36.0">
+<node height="1.0">
+<leaf data="[25.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<leaf data="[26.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="9.0">
+<leaf data="[29.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[32.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[31.0]" height="0.0"/>
+<leaf data="[31.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+
+
+**AccidentsSet01.csv
+<tree>
+<node height="196.0">
+<leaf data="[2.0, 19.0]" height="0.0"/>
+<node height="109.0">
+<node height="16.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0]" height="0.0"/>
+<leaf data="[2.0, 4.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 5.0]" height="0.0"/>
+<leaf data="[2.0, 5.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="49.0">
+<node height="4.0">
+<node height="1.0">
+<leaf data="[5.0, 10.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0, 9.0]" height="0.0"/>
+<leaf data="[5.0, 9.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[5.0, 7.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0, 8.0]" height="0.0"/>
+<leaf data="[5.0, 8.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="16.0">
+<node height="1.0">
+<leaf data="[5.0, 15.0]" height="0.0"/>
+<leaf data="[5.0, 14.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[5.0, 12.0]" height="0.0"/>
+<leaf data="[5.0, 11.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 10.0
+<tree>
+<leaf data="[2.0, 19.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0]" height="0.0"/>
+<leaf data="[2.0, 4.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 5.0]" height="0.0"/>
+<leaf data="[2.0, 5.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[5.0, 10.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0, 9.0]" height="0.0"/>
+<leaf data="[5.0, 9.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[5.0, 7.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0, 8.0]" height="0.0"/>
+<leaf data="[5.0, 8.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[5.0, 15.0]" height="0.0"/>
+<leaf data="[5.0, 14.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[5.0, 12.0]" height="0.0"/>
+<leaf data="[5.0, 11.0]" height="0.0"/>
+</node>
+</tree>
+
+
+
+**AccidentsSet02.csv
+<tree>
+<node height="1279.0">
+<node height="160.0">
+<node height="29.0">
+<node height="7.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 2.0, 4.0, 45.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="18.0">
+<leaf data="[1.0, 7.0, 0.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 6.0, 0.0, 4.0, 45.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="88.0">
+<node height="14.0">
+<node height="3.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 9.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 9.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="8.0">
+<node height="2.0">
+<leaf data="[3.0, 3.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<leaf data="[1.0, 1.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 7.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 6.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="37.0">
+<leaf data="[2.0, 9.0, 0.0, 2.0, 35.0, 1.0]" height="0.0"/>
+<node height="31.0">
+<leaf data="[1.0, 6.0, 5.0, 3.0, 35.0, 2.0]" height="0.0"/>
+<node height="10.0">
+<node height="6.0">
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 3.0, 35.0, 1.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="8.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 3.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[1.0, 5.0, 1.0, 3.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="494.0">
+<leaf data="[4.0, 25.0, 0.0, 2.0, 70.0, 2.0]" height="0.0"/>
+<node height="62.0">
+<node height="4.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="27.0">
+<leaf data="[6.0, 9.0, 0.0, 2.0, 70.0, 2.0]" height="0.0"/>
+<node height="13.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<node height="8.0">
+<leaf data="[1.0, 6.0, 0.0, 2.0, 70.0, 3.0]" height="0.0"/>
+<leaf data="[1.0, 8.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 40.0
+<tree>
+<node height="29.0">
+<node height="7.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 2.0, 4.0, 45.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="18.0">
+<leaf data="[1.0, 7.0, 0.0, 4.0, 45.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 6.0, 0.0, 4.0, 45.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="14.0">
+<node height="3.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 9.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 9.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="8.0">
+<node height="2.0">
+<leaf data="[3.0, 3.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<leaf data="[1.0, 1.0, 0.0, 6.0, 35.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 7.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 6.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="37.0">
+<leaf data="[2.0, 9.0, 0.0, 2.0, 35.0, 1.0]" height="0.0"/>
+<node height="31.0">
+<leaf data="[1.0, 6.0, 5.0, 3.0, 35.0, 2.0]" height="0.0"/>
+<node height="10.0">
+<node height="6.0">
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 3.0, 35.0, 1.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="8.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 3.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[1.0, 5.0, 1.0, 3.0, 35.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 35.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<leaf data="[4.0, 25.0, 0.0, 2.0, 70.0, 2.0]" height="0.0"/>
+<node height="4.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="27.0">
+<leaf data="[6.0, 9.0, 0.0, 2.0, 70.0, 2.0]" height="0.0"/>
+<node height="13.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+<node height="8.0">
+<leaf data="[1.0, 6.0, 0.0, 2.0, 70.0, 3.0]" height="0.0"/>
+<leaf data="[1.0, 8.0, 0.0, 2.0, 70.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</tree>
+
+
+
+**AccidentsSet03.csv
+This was an interesting set.  We discovered that many of the vectors were equal resulting in heights of zero.
+
+<tree>
+<node height="86.0">
+<leaf data="[10.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<node height="9.0">
+<node height="8.0">
+<node height="2.0">
+<leaf data="[1.0, 0.0, 4.0, 3.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 0.0, 4.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 0.0, 4.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[1.0, 2.0, 4.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="9.0">
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 2.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="4.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[4.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="5.0">
+<node height="0.0">
+<leaf data="[4.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[4.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 4.0
+<tree>
+<leaf data="[10.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 0.0, 4.0, 3.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 0.0, 4.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 0.0, 4.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<leaf data="[1.0, 2.0, 4.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 2.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[4.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0, 0.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 0.0, 4.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[4.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[4.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 0.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 0.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 1.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</tree>
+
+
+
+**birth_death_rate.csv
+We found a node that had a height of 519 which made the height of the tree much larger than compared to any others at 1681.
+
+<tree>
+<node height="1681.0">
+<node height="184.95998443603548">
+<node height="10.890001258850134">
+<node height="2.8899993515015012">
+<leaf data="[13.1]" height="0.0"/>
+<node height="0.0">
+<leaf data="[14.8]" height="0.0
+<leaf data="[14.8]" height="0.0"/>
+</node>
+</node>
+<node height="5.760002746582359">
+<node height="0.8099993133546377">
+<node height="0.04000030517636333">
+<node height="0.0">
+<leaf data="[19.0]" height="0.0"/>
+<leaf data="[19.0]" height="0.0"/>
+</node>
+<node height="0.010000076294090832">
+<leaf data="[18.8]" height="0.0"/>
+<leaf data="[18.9]" height="0.0"/>
+</node>
+</node>
+<node height="0.15999969482436427">
+<leaf data="[18.5]" height="0.0"/>
+<node height="0.010000076294090832">
+<leaf data="[18.1]" height="0.0"/>
+<node height="0.0">
+<leaf data="[18.2]" height="0.0"/>
+<leaf data="[18.2]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.960001602173179">
+<node height="0.15999969482436427">
+<node height="0.04000030517636333">
+<leaf data="[17.1]" height="0.0"/>
+<leaf data="[16.9]" height="0.0"/>
+</node>
+<node height="0.04000030517636333">
+<node height="0.010000076294090832">
+<leaf data="[17.3]" height="0.0"/>
+<node height="0.0">
+<leaf data="[17.4]" height="0.0"/>
+<leaf data="[17.4]" height="0.0"/>
+</node>
+</node>
+<node height="0.010000076294090832">
+<leaf data="[17.6]" height="0.0"/>
+<node height="0.0">
+<leaf data="[17.5]" height="0.0"/>
+<leaf data="[17.5]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.4899997329712278">
+<leaf data="[16.4]" height="0.0"/>
+<leaf data="[15.7]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="51.83998352050912">
+<node height="4.839994964600919">
+<node height="0.49000106811581645">
+<node height="0.15999969482436427">
+<leaf data="[20.5]" height="0.0"/>
+<node height="0.0">
+<leaf data="[20.9]" height="0.0"/>
+<leaf data="[20.9]" height="0.0"/>
+</node>
+</node>
+<node height="0.15999969482436427">
+<node height="0.0399995422376378">
+<leaf data="[21.6]" height="0.0"/>
+<node height="0.009999694826547056">
+<leaf data="[21.7]" height="0.0"/>
+<leaf data="[21.8]" height="0.0"/>
+</node>
+</node>
+<node height="0.0899995422369102">
+<leaf data="[21.2]" height="0.0"/>
+<node height="0.010000076294090832">
+<leaf data="[21.5]" height="0.0"/>
+<leaf data="[21.4]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.210000839233544">
+<node height="0.010000076294090832">
+<leaf data="[23.4]" height="0.0"/>
+<leaf data="[23.5]" height="0.0"/>
+</node>
+<node height="0.04000030517636333">
+<leaf data="[22.5]" height="0.0"/>
+<leaf data="[22.3]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="12.960002746582177">
+<node height="0.4899983978284581">
+<leaf data="[28.4]" height="0.0"/>
+<node height="0.0">
+<leaf data="[27.7]" height="0.0"/>
+<leaf data="[27.7]" height="0.0"/>
+</node>
+</node>
+<node height="1.9600042724632658">
+<node height="0.04000030517636333">
+<leaf data="[25.0]" height="0.0"/>
+<leaf data="[24.8]" height="0.0"/>
+</node>
+<node height="0.49000106811581645">
+<leaf data="[26.2]" height="0.0"/>
+<leaf data="[25.5]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="519.8399652099615">
+<node height="0.0899995422369102">
+<leaf data="[55.8]" height="0.0"/>
+<leaf data="[56.1]" height="0.0"/>
+</node>
+<node height="171.60996002197498">
+<node height="18.489993438721285">
+<node height="0.8100027465843596">
+<leaf data="[32.1]" height="0.0"/>
+<leaf data="[33.0]" height="0.0"/>
+</node>
+<node height="6.25">
+<node height="1.689998016358004">
+<leaf data="[34.8]" height="0.0"/>
+<node height="0.25">
+<leaf data="[34.0]" height="0.0"/>
+<node height="0.009999694826547056">
+<leaf data="[33.5]" height="0.0"/>
+<leaf data="[33.6]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.25">
+<leaf data="[37.3]" height="0.0"/>
+<node height="0.36000274658726994">
+<leaf data="[35.8]" height="0.0"/>
+<node height="0.010000457768910564">
+<leaf data="[36.4]" height="0.0"/>
+<leaf data="[36.3]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="36.0">
+<node height="14.440023193368688">
+<leaf data="[49.9]" height="0.0"/>
+<node height="2.5600073242239887">
+<leaf data="[47.7]" height="0.0"/>
+<node height="0.25">
+<leaf data="[46.6]" height="0.0"/>
+<node height="0.04000030517636333">
+<leaf data="[46.1]" height="0.0"/>
+<leaf data="[46.3]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="15.210011901857797">
+<node height="0.8099958801321918">
+<leaf data="[39.2]" height="0.0"/>
+<leaf data="[40.1]" height="0.0"/>
+</node>
+<node height="6.759992065432016">
+<node height="1.0">
+<node height="0.009999694826547056">
+<leaf data="[45.1]" height="0.0"/>
+<leaf data="[45.0]" height="0.0"/>
+</node>
+<node height="0.04000030517636333">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[44.2]" height="0.0"/>
+</node>
+</node>
+<node height="2.25">
+<node height="0.010000457768910564">
+<leaf data="[42.9]" height="0.0"/>
+<leaf data="[42.8]" height="0.0"/>
+</node>
+<node height="0.4899957275483757">
+<leaf data="[41.4]" height="0.0"/>
+<node height="0.1599981689505512">
+<leaf data="[42.1]" height="0.0"/>
+<node height="0.009999694826547056">
+<leaf data="[41.8]" height="0.0"/>
+<leaf data="[41.7]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 20.0
+<tree>
+<node height="10.890001258850134">
+<node height="2.8899993515015012">
+<leaf data="[13.1]" height="0.0"/>
+<node height="0.0">
+<leaf data="[14.8]" height="0.0"/>
+<leaf data="[14.8]" height="0.0"/>
+</node>
+</node>
+<node height="5.760002746582359">
+<node height="0.8099993133546377">
+<node height="0.04000030517636333">
+<node height="0.0">
+<leaf data="[19.0]" height="0.0"/>
+<leaf data="[19.0]" height="0.0"/>
+</node>
+<node height="0.010000076294090832">
+<leaf data="[18.8]" height="0.0"/>
+<leaf data="[18.9]" height="0.0"/>
+</node>
+</node>
+<node height="0.15999969482436427">
+<leaf data="[18.5]" height="0.0"/>
+<node height="0.010000076294090832">
+<leaf data="[18.1]" height="0.0"/>
+<node height="0.0">
+<leaf data="[18.2]" height="0.0"/>
+<leaf data="[18.2]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.960001602173179">
+<node height="0.15999969482436427">
+<node height="0.04000030517636333">
+<leaf data="[17.1]" height="0.0"/>
+<leaf data="[16.9]" height="0.0"/>
+</node>
+<node height="0.04000030517636333">
+<node height="0.010000076294090832">
+<leaf data="[17.3]" height="0.0"/>
+<node height="0.0">
+<leaf data="[17.4]" height="0.0"/>
+<leaf data="[17.4]" height="0.0"/>
+</node>
+</node>
+<node height="0.010000076294090832">
+<leaf data="[17.6]" height="0.0"/>
+<node height="0.0">
+<leaf data="[17.5]" height="0.0"/>
+<leaf data="[17.5]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.4899997329712278">
+<leaf data="[16.4]" height="0.0"/>
+<leaf data="[15.7]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="4.839994964600919">
+<node height="0.49000106811581645">
+<node height="0.15999969482436427">
+<leaf data="[20.5]" height="0.0"/>
+<node height="0.0">
+<leaf data="[20.9]" height="0.0"/>
+<leaf data="[20.9]" height="0.0"/>
+</node>
+</node>
+<node height="0.15999969482436427">
+<node height="0.0399995422376378">
+<leaf data="[21.6]" height="0.0"/>
+<node height="0.009999694826547056">
+<leaf data="[21.7]" height="0.0"/>
+<leaf data="[21.8]" height="0.0"/>
+</node>
+</node>
+<node height="0.0899995422369102">
+<leaf data="[21.2]" height="0.0"/>
+<node height="0.010000076294090832">
+<leaf data="[21.5]" height="0.0"/>
+<leaf data="[21.4]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.210000839233544">
+<node height="0.010000076294090832">
+<leaf data="[23.4]" height="0.0"/>
+<leaf data="[23.5]" height="0.0"/>
+</node>
+<node height="0.04000030517636333">
+<leaf data="[22.5]" height="0.0"/>
+<leaf data="[22.3]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="12.960002746582177">
+<node height="0.4899983978284581">
+<leaf data="[28.4]" height="0.0"/>
+<node height="0.0">
+<leaf data="[27.7]" height="0.0"/>
+<leaf data="[27.7]" height="0.0"/>
+</node>
+</node>
+<node height="1.9600042724632658">
+<node height="0.04000030517636333">
+<leaf data="[25.0]" height="0.0"/>
+<leaf data="[24.8]" height="0.0"/>
+</node>
+<node height="0.49000106811581645">
+<leaf data="[26.2]" height="0.0"/>
+<leaf data="[25.5]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0899995422369102">
+<leaf data="[55.8]" height="0.0"/>
+<leaf data="[56.1]" height="0.0"/>
+</node>
+<node height="18.489993438721285">
+<node height="0.8100027465843596">
+<leaf data="[32.1]" height="0.0"/>
+<leaf data="[33.0]" height="0.0"/>
+</node>
+<node height="6.25">
+<node height="1.689998016358004">
+<leaf data="[34.8]" height="0.0"/>
+<node height="0.25">
+<leaf data="[34.0]" height="0.0"/>
+<node height="0.009999694826547056">
+<leaf data="[33.5]" height="0.0"/>
+<leaf data="[33.6]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.25">
+<leaf data="[37.3]" height="0.0"/>
+<node height="0.36000274658726994">
+<leaf data="[35.8]" height="0.0"/>
+<node height="0.010000457768910564">
+<leaf data="[36.4]" height="0.0"/>
+<leaf data="[36.3]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="14.440023193368688">
+<leaf data="[49.9]" height="0.0"/>
+<node height="2.5600073242239887">
+<leaf data="[47.7]" height="0.0"/>
+<node height="0.25">
+<leaf data="[46.6]" height="0.0"/>
+<node height="0.04000030517636333">
+<leaf data="[46.1]" height="0.0"/>
+<leaf data="[46.3]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="15.210011901857797">
+<node height="0.8099958801321918">
+<leaf data="[39.2]" height="0.0"/>
+<leaf data="[40.1]" height="0.0"/>
+</node>
+<node height="6.759992065432016">
+<node height="1.0">
+<node height="0.009999694826547056">
+<leaf data="[45.1]" height="0.0"/>
+<leaf data="[45.0]" height="0.0"/>
+</node>
+<node height="0.04000030517636333">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[44.2]" height="0.0"/>
+</node>
+</node>
+<node height="2.25">
+<node height="0.010000457768910564">
+<leaf data="[42.9]" height="0.0"/>
+<leaf data="[42.8]" height="0.0"/>
+</node>
+<node height="0.4899957275483757">
+<leaf data="[41.4]" height="0.0"/>
+<node height="0.1599981689505512">
+<leaf data="[42.1]" height="0.0"/>
+<node height="0.009999694826547056">
+<leaf data="[41.8]" height="0.0"/>
+<leaf data="[41.7]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+
+**economy.csv
+This set had pretty similar vector values which caused the heights to be similar amoung nodes.
+
+<tree>
+<node height="327.0">
+<node height="90.0">
+<node height="47.0">
+<node height="20.0">
+<leaf data="[9.0, 6.0, 4.0, 7.0, 7.0, 11.0, 12.0, 13.0, 12.0]" height="0.0"/>
+<node height="13.0">
+<leaf data="[9.0, 8.0, 7.0, 9.0, 8.0, 12.0, 13.0, 13.0, 12.0]" height="0.0"/>
+<node height="8.0">
+<leaf data="[8.0, 7.0, 7.0, 8.0, 8.0, 10.0, 12.0, 15.0, 11.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[8.0, 6.0, 6.0, 8.0, 8.0, 10.0, 13.0, 15.0, 13.0]" height="0.0"/>
+<leaf data="[9.0, 7.0, 5.0, 8.0, 8.0, 10.0, 13.0, 14.0, 12.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="42.0">
+<node height="19.0">
+<node height="10.0">
+<leaf data="[10.0, 8.0, 8.0, 9.0, 10.0, 13.0, 14.0, 15.0, 13.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[10.0, 9.0, 9.0, 10.0, 10.0, 12.0, 13.0, 13.0, 12.0]" height="0.0"/>
+<leaf data="[10.0, 9.0, 8.0, 10.0, 10.0, 12.0, 14.0, 14.0, 12.0]" height="0.0"/>
+</node>
+</node>
+<node height="11.0">
+<leaf data="[13.0, 10.0, 9.0, 10.0, 10.0, 11.0, 14.0, 15.0, 13.0]" height="0.0"/>
+<leaf data="[11.0, 11.0, 9.0, 10.0, 9.0, 13.0, 14.0, 16.0, 13.0]" height="0.0"/>
+</node>
+</node>
+<node height="21.0">
+<leaf data="[9.0, 9.0, 10.0, 9.0, 9.0, 10.0, 11.0, 15.0, 13.0]" height="0.0"/>
+<node height="15.0">
+<node height="4.0">
+<leaf data="[10.0, 10.0, 10.0, 10.0, 10.0, 12.0, 12.0, 13.0, 12.0]" height="0.0"/>
+<leaf data="[10.0, 10.0, 10.0, 10.0, 11.0, 11.0, 12.0, 12.0, 13.0]" height="0.0"/>
+</node>
+<node height="9.0">
+<leaf data="[9.0, 9.0, 9.0, 9.0, 9.0, 10.0, 11.0, 11.0, 11.0]" height="0.0"/>
+<leaf data="[11.0, 9.0, 9.0, 10.0, 9.0, 11.0, 12.0, 12.0, 10.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="88.0">
+<node height="17.0">
+<leaf data="[13.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 8.0]" height="0.0"/>
+<leaf data="[10.0, 9.0, 8.0, 8.0, 8.0, 9.0, 9.0, 11.0, 9.0]" height="0.0"/>
+</node>
+<node height="18.0">
+<leaf data="[9.0, 4.0, 4.0, 6.0, 8.0, 10.0, 10.0, 10.0, 9.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[8.0, 7.0, 6.0, 5.0, 7.0, 9.0, 10.0, 10.0, 8.0]" height="0.0"/>
+<leaf data="[8.0, 6.0, 5.0, 6.0, 6.0, 9.0, 11.0, 10.0, 8.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="120.0">
+<leaf data="[14.0, 14.0, 11.0, 16.0, 17.0, 17.0, 20.0, 16.0, 12.0]" height="0.0"/>
+<node height="94.0">
+<leaf data="[13.0, 12.0, 11.0, 12.0, 12.0, 14.0, 18.0, 21.0, 18.0]" height="0.0"/>
+<node height="12.0">
+<leaf data="[13.0, 13.0, 14.0, 13.0, 13.0, 13.0, 14.0, 14.0, 14.0]" height="0.0"/>
+<leaf data="[14.0, 12.0, 12.0, 12.0, 12.0, 14.0, 15.0, 15.0, 13.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 20.0
+<tree>
+<leaf data="[9.0, 6.0, 4.0, 7.0, 7.0, 11.0, 12.0, 13.0, 12.0]" height="0.0"/>
+<node height="13.0">
+<leaf data="[9.0, 8.0, 7.0, 9.0, 8.0, 12.0, 13.0, 13.0, 12.0]" height="0.0"/>
+<node height="8.0">
+<leaf data="[8.0, 7.0, 7.0, 8.0, 8.0, 10.0, 12.0, 15.0, 11.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[8.0, 6.0, 6.0, 8.0, 8.0, 10.0, 13.0, 15.0, 13.0]" height="0.0"/>
+<leaf data="[9.0, 7.0, 5.0, 8.0, 8.0, 10.0, 13.0, 14.0, 12.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="19.0">
+<node height="10.0">
+<leaf data="[10.0, 8.0, 8.0, 9.0, 10.0, 13.0, 14.0, 15.0, 13.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[10.0, 9.0, 9.0, 10.0, 10.0, 12.0, 13.0, 13.0, 12.0]" height="0.0"/>
+<leaf data="[10.0, 9.0, 8.0, 10.0, 10.0, 12.0, 14.0, 14.0, 12.0]" height="0.0"/>
+</node>
+</node>
+<node height="11.0">
+<leaf data="[13.0, 10.0, 9.0, 10.0, 10.0, 11.0, 14.0, 15.0, 13.0]" height="0.0"/>
+<leaf data="[11.0, 11.0, 9.0, 10.0, 9.0, 13.0, 14.0, 16.0, 13.0]" height="0.0"/>
+</node>
+</node>
+<leaf data="[9.0, 9.0, 10.0, 9.0, 9.0, 10.0, 11.0, 15.0, 13.0]" height="0.0"/>
+<node height="15.0">
+<node height="4.0">
+<leaf data="[10.0, 10.0, 10.0, 10.0, 10.0, 12.0, 12.0, 13.0, 12.0]" height="0.0"/>
+<leaf data="[10.0, 10.0, 10.0, 10.0, 11.0, 11.0, 12.0, 12.0, 13.0]" height="0.0"/>
+</node>
+<node height="9.0">
+<leaf data="[9.0, 9.0, 9.0, 9.0, 9.0, 10.0, 11.0, 11.0, 11.0]" height="0.0"/>
+<leaf data="[11.0, 9.0, 9.0, 10.0, 9.0, 11.0, 12.0, 12.0, 10.0]" height="0.0"/>
+</node>
+</node>
+<node height="17.0">
+<leaf data="[13.0, 10.0, 9.0, 9.0, 9.0, 10.0, 10.0, 10.0, 8.0]" height="0.0"/>
+<leaf data="[10.0, 9.0, 8.0, 8.0, 8.0, 9.0, 9.0, 11.0, 9.0]" height="0.0"/>
+</node>
+<node height="18.0">
+<leaf data="[9.0, 4.0, 4.0, 6.0, 8.0, 10.0, 10.0, 10.0, 9.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[8.0, 7.0, 6.0, 5.0, 7.0, 9.0, 10.0, 10.0, 8.0]" height="0.0"/>
+<leaf data="[8.0, 6.0, 5.0, 6.0, 6.0, 9.0, 11.0, 10.0, 8.0]" height="0.0"/>
+</node>
+</node>
+<leaf data="[14.0, 14.0, 11.0, 16.0, 17.0, 17.0, 20.0, 16.0, 12.0]" height="0.0"/>
+<leaf data="[13.0, 12.0, 11.0, 12.0, 12.0, 14.0, 18.0, 21.0, 18.0]" height="0.0"/>
+<node height="12.0">
+<leaf data="[13.0, 13.0, 14.0, 13.0, 13.0, 13.0, 14.0, 14.0, 14.0]" height="0.0"/>
+<leaf data="[14.0, 12.0, 12.0, 12.0, 12.0, 14.0, 15.0, 15.0, 13.0]" height="0.0"/>
+</node>
+</tree>
+
+
+
+**mammal_milk.csv
+<tree>
+<node height="3444.41999042511">
+<node height="54.279979319575105">
+<leaf data="[46.4, 9.7, 42.0, 0.0]" height="0.0"/>
+<leaf data="[44.9, 10.6, 34.9, 0.9]" height="0.0"/>
+</node>
+<node height="570.140189895651">
+<node height="136.22007730487758">
+<node height="48.170002799034265">
+<leaf data="[76.3, 9.3, 9.5, 3.0]" height="0.0"/>
+<node height="13.259994974145812">
+<leaf data="[71.3, 12.3, 13.1, 1.9]" height="0.0"/>
+<leaf data="[72.5, 9.2, 12.6, 3.3]" height="0.0"/>
+</node>
+</node>
+<node height="120.01993787769266">
+<leaf data="[70.7, 3.6, 17.6, 5.6]" height="0.0"/>
+<node height="4.949997472765986">
+<leaf data="[64.8, 11.1, 21.2, 1.6]" height="0.0"/>
+<node height="1.6699949073838525">
+<leaf data="[65.9, 10.4, 19.7, 2.6]" height="0.0"/>
+<leaf data="[64.8, 10.7, 20.3, 2.5]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="170.93005439759236">
+<node height="20.540001926422292">
+<leaf data="[81.6, 10.1, 6.3, 4.4]" height="0.0"/>
+<node height="6.779998226175223">
+<node height="4.779999847412228">
+<leaf data="[82.1, 5.9, 7.9, 4.7]" height="0.0"/>
+<node height="1.4500013351464531">
+<leaf data="[81.6, 6.6, 5.9, 4.9]" height="0.0"/>
+<leaf data="[82.0, 5.6, 6.4, 4.7]" height="0.0"/>
+</node>
+</node>
+<node height="6.31000246048211">
+<leaf data="[81.9, 7.4, 7.2, 2.7]" height="0.0"/>
+<leaf data="[82.8, 7.1, 5.1, 3.7]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="39.42000139236467">
+<node height="13.500007677099404">
+<leaf data="[86.9, 4.8, 1.7, 5.7]" height="0.0"/>
+<node height="4.710000267028818">
+<leaf data="[86.2, 3.0, 4.8, 5.3]" height="0.0"/>
+<node height="2.279992313394416">
+<leaf data="[87.7, 3.5, 3.4, 4.8]" height="0.0"/>
+<leaf data="[86.5, 3.9, 3.2, 5.6]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="22.590001354226857">
+<leaf data="[90.4, 0.6, 4.5, 4.4]" height="0.0"/>
+<node height="6.189989671716489">
+<node height="1.4499998092674815">
+<leaf data="[88.5, 1.4, 3.5, 6.0]" height="0.0"/>
+<leaf data="[88.4, 2.2, 2.7, 6.4]" height="0.0"/>
+</node>
+<node height="2.969999771120513">
+<leaf data="[90.1, 2.6, 1.0, 6.9]" height="0.0"/>
+<node height="0.8300015163515155">
+<leaf data="[90.3, 1.7, 1.4, 6.2]" height="0.0"/>
+<leaf data="[90.0, 2.0, 1.8, 5.5]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 25.0
+<tree>
+<leaf data="[46.4, 9.7, 42.0, 0.0]" height="0.0"/>
+<leaf data="[44.9, 10.6, 34.9, 0.9]" height="0.0"/>
+<leaf data="[76.3, 9.3, 9.5, 3.0]" height="0.0"/>
+<node height="13.259994974145812">
+<leaf data="[71.3, 12.3, 13.1, 1.9]" height="0.0"/>
+<leaf data="[72.5, 9.2, 12.6, 3.3]" height="0.0"/>
+</node>
+<leaf data="[70.7, 3.6, 17.6, 5.6]" height="0.0"/>
+<node height="4.949997472765986">
+<leaf data="[64.8, 11.1, 21.2, 1.6]" height="0.0"/>
+<node height="1.6699949073838525">
+<leaf data="[65.9, 10.4, 19.7, 2.6]" height="0.0"/>
+<leaf data="[64.8, 10.7, 20.3, 2.5]" height="0.0"/>
+</node>
+</node>
+<node height="20.540001926422292">
+<leaf data="[81.6, 10.1, 6.3, 4.4]" height="0.0"/>
+<node height="6.779998226175223">
+<node height="4.779999847412228">
+<leaf data="[82.1, 5.9, 7.9, 4.7]" height="0.0"/>
+<node height="1.4500013351464531">
+<leaf data="[81.6, 6.6, 5.9, 4.9]" height="0.0"/>
+<leaf data="[82.0, 5.6, 6.4, 4.7]" height="0.0"/>
+</node>
+</node>
+<node height="6.31000246048211">
+<leaf data="[81.9, 7.4, 7.2, 2.7]" height="0.0"/>
+<leaf data="[82.8, 7.1, 5.1, 3.7]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="13.500007677099404">
+<leaf data="[86.9, 4.8, 1.7, 5.7]" height="0.0"/>
+<node height="4.710000267028818">
+<leaf data="[86.2, 3.0, 4.8, 5.3]" height="0.0"/>
+<node height="2.279992313394416">
+<leaf data="[87.7, 3.5, 3.4, 4.8]" height="0.0"/>
+<leaf data="[86.5, 3.9, 3.2, 5.6]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="22.590001354226857">
+<leaf data="[90.4, 0.6, 4.5, 4.4]" height="0.0"/>
+<node height="6.189989671716489">
+<node height="1.4499998092674815">
+<leaf data="[88.5, 1.4, 3.5, 6.0]" height="0.0"/>
+<leaf data="[88.4, 2.2, 2.7, 6.4]" height="0.0"/>
+</node>
+<node height="2.969999771120513">
+<leaf data="[90.1, 2.6, 1.0, 6.9]" height="0.0"/>
+<node height="0.8300015163515155">
+<leaf data="[90.3, 1.7, 1.4, 6.2]" height="0.0"/>
+<leaf data="[90.0, 2.0, 1.8, 5.5]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+
+**many_clusters.csv
+<tree>
+<node height="2209.0">
+<node height="196.0">
+<node height="16.0">
+<leaf data="[46.0]" height="0.0"/>
+<leaf data="[50.0]" height="0.0"/>
+</node>
+<node height="64.0">
+<node height="4.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[42.0]" height="0.0"/>
+<leaf data="[42.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[41.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[41.0]" height="0.0"/>
+<leaf data="[41.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[43.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[43.0]" height="0.0"/>
+<leaf data="[43.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[44.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[44.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="9.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[40.0]" height="0.0"/>
+<leaf data="[40.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[39.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[39.0]" height="0.0"/>
+<leaf data="[39.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[36.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[37.0]" height="0.0"/>
+<leaf data="[37.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="324.0">
+<node height="100.0">
+<node height="16.0">
+<node height="0.0">
+<leaf data="[31.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[31.0]" height="0.0"/>
+<leaf data="[31.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[34.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[35.0]" height="0.0"/>
+<leaf data="[35.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="49.0">
+<node height="9.0">
+<node height="4.0">
+<leaf data="[18.0]" height="0.0"/>
+<leaf data="[16.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[19.0]" height="0.0"/>
+<leaf data="[20.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[22.0]" height="0.0"/>
+<leaf data="[21.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="25.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[24.0]" height="0.0"/>
+<leaf data="[24.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[23.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[23.0]" height="0.0"/>
+<leaf data="[23.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<leaf data="[26.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[28.0]" height="0.0"/>
+<leaf data="[27.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="121.0">
+<node height="16.0">
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[10.0]" height="0.0"/>
+<leaf data="[10.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[10.0]" height="0.0"/>
+<leaf data="[10.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[11.0]" height="0.0"/>
+<leaf data="[11.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[11.0]" height="0.0"/>
+<leaf data="[11.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[14.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[12.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[13.0]" height="0.0"/>
+<leaf data="[13.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="36.0">
+<node height="4.0">
+<leaf data="[3.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0]" height="0.0"/>
+<leaf data="[5.0]" height="0.0"/>
+</node>
+</node>
+<node height="9.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[6.0]" height="0.0"/>
+<leaf data="[6.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[7.0]" height="0.0"/>
+<leaf data="[7.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[8.0]" height="0.0"/>
+<leaf data="[8.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[9.0]" height="0.0"/>
+<leaf data="[9.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[9.0]" height="0.0"/>
+<leaf data="[9.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 10.0
+<tree>
+<leaf data="[46.0]" height="0.0"/>
+<leaf data="[50.0]" height="0.0"/>
+<node height="4.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[42.0]" height="0.0"/>
+<leaf data="[42.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[41.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[41.0]" height="0.0"/>
+<leaf data="[41.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[43.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[43.0]" height="0.0"/>
+<leaf data="[43.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[44.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[44.0]" height="0.0"/>
+<leaf data="[44.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="9.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[40.0]" height="0.0"/>
+<leaf data="[40.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[39.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[39.0]" height="0.0"/>
+<leaf data="[39.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[38.0]" height="0.0"/>
+<leaf data="[38.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[36.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[37.0]" height="0.0"/>
+<leaf data="[37.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[31.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[31.0]" height="0.0"/>
+<leaf data="[31.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[34.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[35.0]" height="0.0"/>
+<leaf data="[35.0]" height="0.0"/>
+</node>
+</node>
+<node height="9.0">
+<node height="4.0">
+<leaf data="[18.0]" height="0.0"/>
+<leaf data="[16.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[19.0]" height="0.0"/>
+<leaf data="[20.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[22.0]" height="0.0"/>
+<leaf data="[21.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[24.0]" height="0.0"/>
+<leaf data="[24.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[23.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[23.0]" height="0.0"/>
+<leaf data="[23.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[26.0]" height="0.0"/>
+<leaf data="[26.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[28.0]" height="0.0"/>
+<leaf data="[27.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[10.0]" height="0.0"/>
+<leaf data="[10.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[10.0]" height="0.0"/>
+<leaf data="[10.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[11.0]" height="0.0"/>
+<leaf data="[11.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[11.0]" height="0.0"/>
+<leaf data="[11.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[14.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[12.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[13.0]" height="0.0"/>
+<leaf data="[13.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[3.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[5.0]" height="0.0"/>
+<leaf data="[5.0]" height="0.0"/>
+</node>
+</node>
+<node height="9.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[6.0]" height="0.0"/>
+<leaf data="[6.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[7.0]" height="0.0"/>
+<leaf data="[7.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[8.0]" height="0.0"/>
+<leaf data="[8.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[9.0]" height="0.0"/>
+<leaf data="[9.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[9.0]" height="0.0"/>
+<leaf data="[9.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+
+**planets.csv
+<tree>
+<node height="92515.13755108495">
+<node height="2.167681622377131">
+<leaf data="[338.333, 16.773]" height="0.0"/>
+<leaf data="[339.625, 16.067]" height="0.0"/>
+</node>
+<node height="25842.652932930076">
+<node height="1313.9998409271293">
+<node height="418.85012340546587">
+<leaf data="[89.9, 2.1]" height="0.0"/>
+<node height="125.53575327568637">
+<leaf data="[69.6, 4.7]" height="0.0"/>
+<node height="11.224111635595364">
+<leaf data="[78.1, 6.6]" height="0.0"/>
+<node height="0.0">
+<leaf data="[80.804, 4.622]" height="0.0"/>
+<leaf data="[80.804, 4.622]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="706.7300418090826">
+<leaf data="[34.2, 12.5]" height="0.0"/>
+<node height="23.960504917145045">
+<leaf data="[59.9, 5.7]" height="0.0"/>
+<leaf data="[55.144, 4.542]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="6325.453933976001">
+<leaf data="[194.6, 1.8]" height="0.0"/>
+<node height="1460.828911825389">
+<node height="133.25">
+<leaf data="[153.1, 6.5]" height="0.0"/>
+<leaf data="[164.1, 10.0]" height="0.0"/>
+</node>
+<node height="424.17464785215293">
+<node height="0.0">
+<leaf data="[115.072, 2.666]" height="0.0"/>
+<leaf data="[115.072, 2.666]" height="0.0"/>
+</node>
+<node height="44.944986209870876">
+<leaf data="[135.6, 1.0]" height="0.0"/>
+<node height="4.544955825913348">
+<leaf data="[132.2, 4.7]" height="0.0"/>
+<node height="0.7328652380931544">
+<leaf data="[130.916, 4.659]" height="0.0"/>
+<leaf data="[130.07, 4.79]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+
+Tree using threshold: 500.0
+<tree>
+<node height="2.167681622377131">
+<leaf data="[338.333, 16.773]" height="0.0"/>
+<leaf data="[339.625, 16.067]" height="0.0"/>
+</node>
+<node height="418.85012340546587">
+<leaf data="[89.9, 2.1]" height="0.0"/>
+<node height="125.53575327568637">
+<leaf data="[69.6, 4.7]" height="0.0"/>
+<node height="11.224111635595364">
+<leaf data="[78.1, 6.6]" height="0.0"/>
+<node height="0.0">
+<leaf data="[80.804, 4.622]" height="0.0"/>
+<leaf data="[80.804, 4.622]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<leaf data="[34.2, 12.5]" height="0.0"/>
+<node height="23.960504917145045">
+<leaf data="[59.9, 5.7]" height="0.0"/>
+<leaf data="[55.144, 4.542]" height="0.0"/>
+</node>
+<leaf data="[194.6, 1.8]" height="0.0"/>
+<node height="133.25">
+<leaf data="[153.1, 6.5]" height="0.0"/>
+<leaf data="[164.1, 10.0]" height="0.0"/>
+</node>
+<node height="424.17464785215293">
+<node height="0.0">
+<leaf data="[115.072, 2.666]" height="0.0"/>
+<leaf data="[115.072, 2.666]" height="0.0"/>
+</node>
+<node height="44.944986209870876">
+<leaf data="[135.6, 1.0]" height="0.0"/>
+<node height="4.544955825913348">
+<leaf data="[132.2, 4.7]" height="0.0"/>
+<node height="0.7328652380931544">
+<leaf data="[130.916, 4.659]" height="0.0"/>
+<leaf data="[130.07, 4.79]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</tree>
+
+Analysis:
+HCluster worked better overall, it was more consistant finding well grouped (more closely grouped) clusters than KMeans did.  The KMeans initial clustering was random which changed the results each time it was run.  The KMeans also usually had 1 cluster with many outliers, unlike the HClustering which had pretty even clusters.
 
