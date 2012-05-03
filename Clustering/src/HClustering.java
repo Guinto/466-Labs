@@ -6,11 +6,11 @@ public class HClustering {
 
 		CSV data = null;
 		if (args.length == 2) { //TODO CHANGE BACK AFTER
-			data = new CSV("lab4data/birth_death_rate.csv");
+			data = new CSV(args[0]);
 			new HClustering(data, Integer.parseInt(args[1]));
 		} else if (args.length != 1) {
-			data = new CSV("lab4data/birth_death_rate.csv");
-			new HClustering(data, 5);
+			data = new CSV("lab4data/planets.csv");
+			new HClustering(data, 500);
 		} else {
 			System.err.println("Usage: HClustering <fileName> [<threshold>]");
 			System.exit(1);
