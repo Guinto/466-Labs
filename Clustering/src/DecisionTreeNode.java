@@ -23,7 +23,7 @@ public class DecisionTreeNode {
 		return children.get(0).toString();
 	}
 	
-	public String toXMLString() {
-		return children.get(0).toXMLString();
+	public String toXMLString(double threshold) {
+		return children.get(0).toXMLString(threshold);
 	}
 }

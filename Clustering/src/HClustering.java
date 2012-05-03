@@ -5,18 +5,27 @@ public class HClustering {
    public static void main(String[] args) {
 
 		CSV data = null;
-		if (args.length != 2) { //TODO CHANGE BACK AFTER
+		if (args.length == 2) { //TODO CHANGE BACK AFTER
 			data = new CSV("lab4data/birth_death_rate.csv");
-			new HClustering(data);
+			new HClustering(data, Integer.parseInt(args[1]));
+		} else if (args.length != 1) {
+			data = new CSV("lab4data/birth_death_rate.csv");
+			new HClustering(data, 5);
 		} else {
-			System.err.println("Usage: KMeans <fileName> <k>");
+			System.err.println("Usage: HClustering <fileName> [<threshold>]");
 			System.exit(1);
 		}
    }
    
-   public HClustering(CSV data) {
+   public HClustering(CSV data, double threshold) {
 	   DecisionTreeNode dtn = createTree(data);
-	   System.out.println(dtn.toXMLString());
+	   System.out.println(dtn.toXMLString(-1));
+	   if (threshold == -1) {
+		   System.out.println("\nNo threshold was used, so it will not be printed again");
+	   } else {
+		   System.out.println("\nTree using threshold: " + threshold);
+		   System.out.println(dtn.toXMLString(threshold));
+	   }
    }
 
    public DecisionTreeNode createTree(CSV data) {

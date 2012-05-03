@@ -85,7 +85,7 @@ public class ClusterNode {
          return other.max;
    }
 	
-	public String toXMLString() {
+	public String toXMLString(double threshold) {
 		try {
 			DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
            DocumentBuilder docBuilder = dbfac.newDocumentBuilder();
@@ -94,7 +94,7 @@ public class ClusterNode {
            Element root = doc.createElement("tree");
            doc.appendChild(root);
           
-           print(this, root, doc);
+           print(this, root, doc, threshold);
 
            //set up a transformer
            TransformerFactory transfac = TransformerFactory.newInstance();
@@ -119,23 +119,35 @@ public class ClusterNode {
 		return "";
 	}
 
-	private void print(ClusterNode cNode, Element node, Document doc) {
-       Element nodeOrDecision;
+	private void print(ClusterNode cNode, Element node, Document doc, double threshold) {
+        Element nodeOrDecision;
 		if (cNode.isLeaf()) {
-			nodeOrDecision = doc.createElement("leaf");
-			nodeOrDecision.setAttribute("height", Double.toString(cNode.value));
-			nodeOrDecision.setAttribute("data", cNode.points.toString());
-		} else {
-			nodeOrDecision = doc.createElement("node");
-			nodeOrDecision.setAttribute("height", Double.toString(cNode.value));
-			if (cNode.left != null) {
-				print(cNode.left, nodeOrDecision, doc);
+			if (cNode.value < threshold || threshold == -1) {
+				nodeOrDecision = doc.createElement("leaf");
+				nodeOrDecision.setAttribute("height", Double.toString(cNode.value));
+				nodeOrDecision.setAttribute("data", cNode.points.toString());
+				node.appendChild(nodeOrDecision);
 			}
-			if (cNode.right != null) {
-				print(cNode.right, nodeOrDecision, doc);
+		} else {
+			if (cNode.value < threshold || threshold == -1) {
+				nodeOrDecision = doc.createElement("node");
+				nodeOrDecision.setAttribute("height", Double.toString(cNode.value));
+				if (cNode.left != null) {
+					print(cNode.left, nodeOrDecision, doc, threshold);
+				}
+				if (cNode.right != null) {
+					print(cNode.right, nodeOrDecision, doc, threshold);
+				}
+				node.appendChild(nodeOrDecision);
+			} else {
+				if (cNode.left != null) {
+					print(cNode.left, node, doc, threshold);
+				}
+				if (cNode.right != null) {
+					print(cNode.right, node, doc, threshold);
+				}
 			}
 		}
-		node.appendChild(nodeOrDecision);
 	}
 	
 	private boolean isLeaf() {
