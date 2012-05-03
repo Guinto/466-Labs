@@ -6,7 +6,7 @@ public class KMeans {
    public static void main(String[] args) {
       CSV data = null;
       if (args.length != 2) {
-         data = new CSV("lab4data/birth_death_rate.csv");
+         data = new CSV("lab4data/AccidentsSet03.csv");
          System.out.println(data);
 
          new KMeans(data, 4);

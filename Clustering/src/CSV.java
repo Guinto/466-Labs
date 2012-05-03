@@ -32,13 +32,14 @@ public class CSV {
          while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             String[] tokens = line.split("[,]");
+            
             if(count == 0) {
                restrictions = new Vector(Arrays.asList(tokens));
             }
             else {
             	Vector v = new Vector();
             	for (int i = 0; i < tokens.length; i++) {
-            		if (restrictions.get(i) == 1) {
+            		if (i < restrictions.size() - 1 && restrictions.get(i) == 1) {
             			v.add(Float.parseFloat(tokens[i]));
             		}
             	}
