@@ -3,6 +3,7 @@ public class HClustering {
 
 
    public static void main(String[] args) {
+
 		CSV data = null;
 		if (args.length != 2) { //TODO CHANGE BACK AFTER
 			data = new CSV("lab4data/birth_death_rate.csv");
