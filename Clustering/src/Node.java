@@ -26,6 +26,7 @@ public class Node {
       Node answer = new Node(this.findDist(other), this.findMin(other), this.findMax(other), this, other);
       tree.remove(this);
       tree.remove(other);
+
       return answer;
    }
 

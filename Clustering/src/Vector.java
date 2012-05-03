@@ -40,7 +40,15 @@ public class Vector {
       return elements.toString();
    }
 
-
+   public boolean equals(Object x) {
+      for(int i = 0; i < size(); i++) {
+         if(this.get(i) != ((Vector) x).get(i)) {
+            return false;
+         }
+      }
+      return true;
+   }
+   
    public int getDotProduct(Vector v) {
       if (size() != v.size()) {
          System.err.println("Vector lengths not equal: " + size() + " vs " + v.size());
@@ -65,7 +73,7 @@ public class Vector {
       for (int i = 0; i < size(); i++) {
          total += Math.pow(get(i) - v.get(i), 2);
       }
-
+      
       return total;
    }
 
