@@ -1,4 +1,4 @@
-4clusters.csv
+**4clusters.csv
 <tree>
 <node height="1089.0">
 <node height="169.0">
@@ -232,7 +232,7 @@ Tree using threshold: 50.0
 
 
 
-AccidentsSet01.csv
+**AccidentsSet01.csv
 <tree>
 <node height="196.0">
 <leaf data="[2.0, 19.0]" height="0.0"/>
@@ -343,7 +343,7 @@ Tree using threshold: 10.0
 
 
 
-AccidentsSet02.csv
+**AccidentsSet02.csv
 <tree>
 <node height="1279.0">
 <node height="160.0">
@@ -634,7 +634,9 @@ Tree using threshold: 40.0
 
 
 
-AccidentsSet03.csv
+**AccidentsSet03.csv
+This was an interesting set.  We discovered that many of the vectors were equal resulting in heights of zero.
+
 <tree>
 <node height="86.0">
 <leaf data="[10.0, 0.0, 4.0, 1.0]" height="0.0"/>
@@ -997,7 +999,9 @@ Tree using threshold: 4.0
 
 
 
-birth_death_rate.csv
+**birth_death_rate.csv
+We found a node that had a height of 519 which made the height of the tree much larger than compared to any others at 1681.
+
 <tree>
 <node height="1681.0">
 <node height="184.95998443603548">
@@ -1005,7 +1009,7 @@ birth_death_rate.csv
 <node height="2.8899993515015012">
 <leaf data="[13.1]" height="0.0"/>
 <node height="0.0">
-<leaf data="[14.8]" height="0.0"/>
+<leaf data="[14.8]" height="0.0
 <leaf data="[14.8]" height="0.0"/>
 </node>
 </node>
@@ -1412,7 +1416,9 @@ Tree using threshold: 20.0
 
 
 
-economy.csv
+**economy.csv
+This set had pretty similar vector values which caused the heights to be similar amoung nodes.
+
 <tree>
 <node height="327.0">
 <node height="90.0">
@@ -1545,7 +1551,7 @@ Tree using threshold: 20.0
 
 
 
-mammal_milk.csv
+**mammal_milk.csv
 <tree>
 <node height="3444.41999042511">
 <node height="54.279979319575105">
@@ -1686,7 +1692,7 @@ Tree using threshold: 25.0
 
 
 
-many_clusters.csv
+**many_clusters.csv
 <tree>
 <node height="2209.0">
 <node height="196.0">
@@ -2107,7 +2113,7 @@ Tree using threshold: 10.0
 
 
 
-planets.csv
+**planets.csv
 <tree>
 <node height="92515.13755108495">
 <node height="2.167681622377131">
