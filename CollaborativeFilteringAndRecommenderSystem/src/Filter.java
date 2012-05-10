@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+
+
+public class Filter {
+	
+	private ArrayList<UserRating> userRatings;
+	private CSV data;
+	
+	public Filter(CSV data) {
+		this.data = data;
+		userRatings = new ArrayList<UserRating>();
+		System.out.println("prediction for 0, 10: " + averageRatingForJoke(0, 10));
+	}
+	
+	public float averageRatingForJoke(int user, int joke) {
+		int notNullPeople = 0;
+		float total = 0;
+		for (int i = 0; i < data.getVectors().size(); i++) {
+			if (i != user && data.getVectors().get(i).get(joke) != 99) {
+				total += data.getVectors().get(i).get(joke);
+				notNullPeople++;
+			}
+		}
+		return total / notNullPeople;
+	}
+	
+	class UserRating {
+		public int id;
+		public ArrayList<Float> ratings = new ArrayList<Float>();
+	}
+}
