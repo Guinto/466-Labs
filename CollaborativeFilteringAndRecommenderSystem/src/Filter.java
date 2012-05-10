@@ -9,10 +9,10 @@ public class Filter {
 	public Filter(CSV data) {
 		this.data = data;
 		userRatings = new ArrayList<UserRating>();
-		System.out.println("prediction for 0, 10: " + averageRatingForJoke(0, 10));
+		System.out.println("prediction for 0, 10: " + meanUtility(0, 10));
 	}
 	
-	public float averageRatingForJoke(int user, int joke) {
+	public float meanUtility(int user, int joke) {
 		int notNullPeople = 0;
 		float total = 0;
 		for (int i = 0; i < data.getVectors().size(); i++) {
@@ -22,6 +22,28 @@ public class Filter {
 			}
 		}
 		return total / notNullPeople;
+	}
+	
+	public float avgRatingForJoke(int joke) {
+		int notNullPeople = 0;
+		float total = 0;
+		for (int i = 0; i < data.getVectors().size(); i++) {
+			if (data.getVectors().get(i).get(joke) != 99) {
+				total += data.getVectors().get(i).get(joke);
+				notNullPeople++;
+			}
+		}
+		return total / notNullPeople;
+	}
+	
+	public float avgRatingForUser(int user) {
+		float total = 0;
+		for (int i = 0; i < data.getVectors().get(user).size(); i++) {
+			if (data.getVectors().get(user).get(i) != 99) {
+				total += data.getVectors().get(user).get(i);
+			}
+		}
+		return total / data.getVectors().get(user).size();
 	}
 	
 	class UserRating {
