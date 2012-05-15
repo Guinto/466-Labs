@@ -63,6 +63,19 @@ public class Filter {
       return normalization(user, joke) * total;
    }
 	
+	public float adjustedWeightedSum(int user, int joke) {
+      float total = 0;
+      UserRating a = new UserRating(user, data.getVectors().get(user));
+      
+      for (int i = 0; i < data.getVectors().size(); i++) {
+         if (i != user && data.getVectors().get(i).get(joke) != 99) {
+            UserRating b = new UserRating(i, data.getVectors().get(i));
+            total += similarity(a, b) * (meanUtility(i, joke) - avgRatingForUser(i));
+         }
+      }
+      return avgRatingForUser(user) + normalization(user, joke) * total;
+   }
+	
 	private float normalization(int user, int joke) {
 		float total = 0;
 		UserRating a = new UserRating(user, data.getVectors().get(user));
