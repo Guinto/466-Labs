@@ -2,127 +2,193 @@ import java.util.ArrayList;
 
 
 public class Filter {
-	
-	private ArrayList<UserRating> userRatings;
-	private CSV data;
-	
-	public Filter(CSV data) {
-		this.data = data;
-		userRatings = new ArrayList<UserRating>();
-		System.out.println("mean utility prediction for 0, 10: " + meanUtility(0, 10));
-		System.out.println("weighted sum prediction for 0, 10: " + weightedSum(0, 10));
-	}
-	
-	public float meanUtility(int user, int joke) {
-		int notNullPeople = 0;
-		float total = 0;
-		for (int i = 0; i < data.getVectors().size(); i++) {
-			if (i != user && data.getVectors().get(i).get(joke) != 99) {
-				total += data.getVectors().get(i).get(joke);
-				notNullPeople++;
-			}
-		}
-		return total / notNullPeople;
-	}
-	
-	public float avgRatingForJoke(int joke) {
-		int notNullPeople = 0;
-		float total = 0;
-		for (int i = 0; i < data.getVectors().size(); i++) {
-			if (data.getVectors().get(i).get(joke) != 99) {
-				total += data.getVectors().get(i).get(joke);
-				notNullPeople++;
-			}
-		}
-		return total / notNullPeople;
-	}
-	
-	public float weightedSum(int user, int joke) {
-		float total = 0;
-		UserRating a = new UserRating(user, data.getVectors().get(user));
-		
-		for (int i = 0; i < data.getVectors().size(); i++) {
-			if (i != user && data.getVectors().get(i).get(joke) != 99) {
-				UserRating b = new UserRating(i, data.getVectors().get(i));
-				total += similarity(a, b) * data.getVectors().get(i).get(joke);
-			}
-		}
-		return normalization(user, joke) + total;
-	}
-	
-	public float weightedSum2(int user, int joke) {
+
+   private ArrayList<Joke> userRatings;
+   private CSV data;
+   private ArrayList<Float> avgRating;
+
+   public Filter(CSV data, int flag, int size) {
+      this.data = data;
+      userRatings = new ArrayList<Joke>();
+      avgRating = new ArrayList<Float>();
+      int user;
+      int joke;
+      for(int i = 0; i < data.getVectors().size(); i++) {
+         avgRating.add(avgRatingForUser(i));
+      }
+      for(int i = 0; i < size; i++) {
+         user = (int) (Math.random() * data.getVectors().size());
+         joke = (int) (Math.random() * 100);
+         while(userRatings.contains(new Joke(joke, user, 99)) || data.getVectors().get(user).get(joke) == 99) {
+            user = (int) (Math.random() * data.getVectors().size());
+            joke = (int) (Math.random() * 100);
+         }
+         if(flag == 0) {
+            userRatings.add(new Joke(joke, user, meanUtility(user, joke)));
+         }
+         if(flag == 1) {
+            userRatings.add(new Joke(joke, user, weightedSum(user, joke)));
+         }
+         if(flag == 2) {
+            userRatings.add(new Joke(joke, user, adjustedWeightedSum(user, joke)));
+         }
+         System.out.println("actual: " + data.getVectors().get(user).get(joke) + " predicted: " + userRatings.get(userRatings.size()-1).value);
+      }
+      System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings));
+   }
+
+   public Filter(CSV data, int flag, int size, ArrayList<Joke> users) {
+      this.data = data;
+      userRatings = new ArrayList<Joke>();
+      avgRating = new ArrayList<Float>();
+      int user;
+      int joke;
+      for(int i = 0; i < data.getVectors().size(); i++) {
+         avgRating.add(avgRatingForUser(i));
+      }
+      for(int i = 0; i < users.size(); i++) {
+         user = users.get(i).userNum;
+         joke = users.get(i).jokeNum;
+         if(data.getVectors().get(user).get(joke) != 99) {
+            if(flag == 0) {
+               userRatings.add(new Joke(joke, user, meanUtility(user, joke)));
+            }
+            if(flag == 1) {
+               userRatings.add(new Joke(joke, user, weightedSum(user, joke)));
+            }
+            if(flag == 2) {
+               userRatings.add(new Joke(joke, user, adjustedWeightedSum(user, joke)));
+            }
+            System.out.println("actual: " + data.getVectors().get(user).get(joke) + " predicted: " + userRatings.get(userRatings.size()-1).value);
+         }
+      }
+      System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings));
+   }
+
+   public float meanUtility(int user, int joke) {
+      int notNullPeople = 0;
+      float total = 0;
+      for (int i = 0; i < data.getVectors().size(); i++) {
+         if (i != user && data.getVectors().get(i).get(joke) != 99) {
+            total += data.getVectors().get(i).get(joke);
+            notNullPeople++;
+         }
+      }
+      return total / notNullPeople;
+   }
+
+   public float avgRatingForJoke(int joke) {
+      int notNullPeople = 0;
+      float total = 0;
+      for (int i = 0; i < data.getVectors().size(); i++) {
+         if (data.getVectors().get(i).get(joke) != 99) {
+            total += data.getVectors().get(i).get(joke);
+            notNullPeople++;
+         }
+      }
+      return total / notNullPeople;
+   }
+
+   public float weightedSum(int user, int joke) {
       float total = 0;
       UserRating a = new UserRating(user, data.getVectors().get(user));
-      
+
       for (int i = 0; i < data.getVectors().size(); i++) {
          if (i != user && data.getVectors().get(i).get(joke) != 99) {
             UserRating b = new UserRating(i, data.getVectors().get(i));
-            total += similarity(a, b) * meanUtility(i, joke);
+            total += similarity(a, b) * data.getVectors().get(i).get(joke);
          }
       }
       return normalization(user, joke) * total;
    }
-	
-	public float adjustedWeightedSum(int user, int joke) {
+
+   public float adjustedWeightedSum(int user, int joke) {
       float total = 0;
       UserRating a = new UserRating(user, data.getVectors().get(user));
-      
+
       for (int i = 0; i < data.getVectors().size(); i++) {
          if (i != user && data.getVectors().get(i).get(joke) != 99) {
             UserRating b = new UserRating(i, data.getVectors().get(i));
-            total += similarity(a, b) * (meanUtility(i, joke) - avgRatingForUser(i));
+            total += similarity(a, b) * (data.getVectors().get(i).get(joke) - avgRating.get(i));
          }
       }
-      return avgRatingForUser(user) + normalization(user, joke) * total;
+      return avgRating.get(user) + normalization(user, joke) * total;
    }
-	
-	private float normalization(int user, int joke) {
-		float total = 0;
-		UserRating a = new UserRating(user, data.getVectors().get(user));
-		
-		for (int i = 0; i < data.getVectors().size(); i++) {
-			if (i != user && data.getVectors().get(i).get(joke) != 99) {
-				UserRating b = new UserRating(i, data.getVectors().get(i));
-				total += similarity(a, b);
-			}
-		}
-		return 1 / Math.abs(total);
-	}
-		
-	private float similarity(UserRating a, UserRating b) {
-		float top = 0, bottom = 0;
-		float meanForA = avgRatingForUser(a.id);
-		float meanForB = avgRatingForUser(b.id);
-		
-		for (int i = 0; i < a.ratings.size(); i++) {
-			if (a.ratings.get(i) == 99 && b.ratings.get(i) == 99) continue;
-			top += ((a.ratings.get(i) - meanForA) * (b.ratings.get(i) - meanForB));
-		}
-		for (int i = 0; i < a.ratings.size(); i++) {
-			if (a.ratings.get(i) == 99 && b.ratings.get(i) == 99) continue;
-			bottom += Math.sqrt((Math.pow((a.ratings.get(i) - meanForA), 2) * Math.pow((b.ratings.get(i) - meanForB), 2)));
-		}
-		
-		return top / bottom;
-	}
-	
-	public float avgRatingForUser(int user) {
-		float total = 0;
-		for (int i = 0; i < data.getVectors().get(user).size(); i++) {
-			if (data.getVectors().get(user).get(i) != 99) {
-				total += data.getVectors().get(user).get(i);
-			}
-		}
-		return total / data.getVectors().get(user).size();
-	}
-	
-	class UserRating {
-		public int id;
-		public Vector ratings;
-		
-		public UserRating(int id, Vector ratings) {
-			this.id = id;
-			this.ratings = ratings;
-		}
-	}
+
+   private float normalization(int user, int joke) {
+      float total = 0;
+      UserRating a = new UserRating(user, data.getVectors().get(user));
+
+      for (int i = 0; i < data.getVectors().size(); i++) {
+         if (i != user && data.getVectors().get(i).get(joke) != 99) {
+            UserRating b = new UserRating(i, data.getVectors().get(i));
+            total += Math.abs(similarity(a, b));
+         }
+      }
+      return 1 / total;
+   }
+
+   private float similarity(UserRating a, UserRating b) {
+      float top = 0, bottom = 0;
+      float meanForA = avgRating.get(a.id);
+      float meanForB = avgRating.get(b.id);
+
+      for (int i = 0; i < a.ratings.size(); i++) {
+         if (a.ratings.get(i) == 99 && b.ratings.get(i) == 99) continue;
+         top += ((a.ratings.get(i) - meanForA) * (b.ratings.get(i) - meanForB));
+      }
+      for (int i = 0; i < a.ratings.size(); i++) {
+         if (a.ratings.get(i) == 99 && b.ratings.get(i) == 99) continue;
+         bottom += Math.sqrt((Math.pow((a.ratings.get(i) - meanForA), 2) * Math.pow((b.ratings.get(i) - meanForB), 2)));
+      }
+
+      return top / bottom;
+   }
+
+   public float avgRatingForUser(int user) {
+      float total = 0;
+      for (int i = 0; i < data.getVectors().get(user).size(); i++) {
+         if (data.getVectors().get(user).get(i) != 99) {
+            total += data.getVectors().get(user).get(i);
+         }
+      }
+      return total / data.getVectors().get(user).size();
+   }
+
+   public float meanAbsoluteError(ArrayList<Joke> users) {
+      float total = 0;
+      for(int i = 0; i < users.size(); i++) {
+         total += Math.abs(userRatings.get(i).value - data.getVectors().get(userRatings.get(i).userNum).get(userRatings.get(i).jokeNum));
+      }
+      return total/users.size();
+   }
+
+   class UserRating {
+      public int id;
+      public Vector ratings;
+
+      public UserRating(int id, Vector ratings) {
+         this.id = id;
+         this.ratings = ratings;
+      }
+   }
+
+   class Joke{
+      public int jokeNum;
+      public int userNum;
+      public float value;
+
+      public Joke(int jokeNum, int userNum, float value) {
+         this.jokeNum = jokeNum;
+         this.userNum = userNum;
+         this.value = value;
+      }
+
+      public boolean equals(Object x) {
+         if(this.jokeNum == ((Joke) x).jokeNum && this.userNum == ((Joke) x).userNum) {
+            return true;
+         }
+         return false;
+      }
+   }
 }
