@@ -13,6 +13,7 @@ public class Filter {
       avgRating = new ArrayList<Float>();
       int user;
       int joke;
+      float delta = 0;
       for(int i = 0; i < data.getVectors().size(); i++) {
          avgRating.add(avgRatingForUser(i));
       }
@@ -33,8 +34,9 @@ public class Filter {
             userRatings.add(new Joke(joke, user, adjustedWeightedSum(user, joke)));
          }
          System.out.println(user + ", " +  joke + ", " +  data.getVectors().get(user).get(joke) + ", " +  userRatings.get(userRatings.size()-1).value + ", " + (data.getVectors().get(user).get(joke) - userRatings.get(userRatings.size()-1).value));
+         delta += Math.abs(data.getVectors().get(user).get(joke) - userRatings.get(userRatings.size()-1).value);
       }
-      System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings));
+      System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings) + " average delta: " + delta/userRatings.size());
    }
 
    public Filter(CSV data, int flag, int size, ArrayList<Joke> users) {
@@ -43,6 +45,7 @@ public class Filter {
       avgRating = new ArrayList<Float>();
       int user;
       int joke;
+      float delta = 0;
       for(int i = 0; i < data.getVectors().size(); i++) {
          avgRating.add(avgRatingForUser(i));
       }
@@ -59,10 +62,11 @@ public class Filter {
             if(flag == 2) {
                userRatings.add(new Joke(joke, user, adjustedWeightedSum(user, joke)));
             }
+            delta += Math.abs(data.getVectors().get(user).get(joke) - userRatings.get(userRatings.size()-1).value);
             System.out.println(user + ", " +  joke + ", " +  data.getVectors().get(user).get(joke) + ", " +  userRatings.get(userRatings.size()-1).value + ", " + (data.getVectors().get(user).get(joke) - userRatings.get(userRatings.size()-1).value));
          }
       }
-      System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings));
+      System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings) + " average delta: " + delta/userRatings.size());
    }
 
    public float meanUtility(int user, int joke) {
