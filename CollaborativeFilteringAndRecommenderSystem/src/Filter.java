@@ -32,7 +32,7 @@ public class Filter {
          if(flag == 2) {
             userRatings.add(new Joke(joke, user, adjustedWeightedSum(user, joke)));
          }
-         System.out.println("actual: " + data.getVectors().get(user).get(joke) + " predicted: " + userRatings.get(userRatings.size()-1).value);
+         System.out.println(user + ", " +  joke + ", " +  data.getVectors().get(user).get(joke) + ", " +  userRatings.get(userRatings.size()-1).value + ", " + (data.getVectors().get(user).get(joke) - userRatings.get(userRatings.size()-1).value));
       }
       System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings));
    }
@@ -59,7 +59,7 @@ public class Filter {
             if(flag == 2) {
                userRatings.add(new Joke(joke, user, adjustedWeightedSum(user, joke)));
             }
-            System.out.println("actual: " + data.getVectors().get(user).get(joke) + " predicted: " + userRatings.get(userRatings.size()-1).value);
+            System.out.println(user + ", " +  joke + ", " +  data.getVectors().get(user).get(joke) + ", " +  userRatings.get(userRatings.size()-1).value + ", " + (data.getVectors().get(user).get(joke) - userRatings.get(userRatings.size()-1).value));
          }
       }
       System.out.println("Mean Absolute Error: " + meanAbsoluteError(userRatings));
