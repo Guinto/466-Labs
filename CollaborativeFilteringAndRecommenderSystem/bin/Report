@@ -8,3 +8,13 @@ Methods Implemented:
    
 Which method produces the lowest error overall in it's predictions?
 Which method has the lowest average delta value?
+
+100
+Mean Absolute Error: 4.3978386 average delta: 4.3978386
+Mean Absolute Error: 4.2234406 average delta: 4.2234406
+Mean Absolute Error: 3.993107 average delta: 3.993107
+
+500
+Mean Absolute Error: 4.2699814 average delta: 4.2699814
+Mean Absolute Error: 4.70437 average delta: 4.70437
+Mean Absolute Error: 4.423147 average delta: 4.423147
