@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 
 public class ir {
+	
+	boolean programIsRunning;
+	Scanner sc;
 
 	public static void main(String[] args) {
 		new ir();
@@ -7,17 +12,36 @@ public class ir {
 	
 	public ir() {
 		displayStartup();
+		startProgram();
+		runProgram();
 	}
 
-	public void displayStartup() {
+	private void displayStartup() {
 		System.out.println("IR System Version 1.0\n");
 	}
 	
-	public void runCommand(String command, String[] params) {
+	private void startProgram() {
+		sc = new Scanner(System.in);
+		programIsRunning = true;
+	}
+	
+	private void runProgram() {
+		while (programIsRunning) {
+			System.out.print("IR>");
+			String[] fullCommand = sc.nextLine().split(" ");
+			runCommand(fullCommand);
+		}
+	}
+	
+	private void runCommand(String[] fullCommand) {
+		String command = fullCommand[0];
+		String[] params = getParams(fullCommand);
 		if (command.toUpperCase().equals("READ")) {
-			read(params);
-		} else if (command.toUpperCase().equals("READ LIST")) {
-			readList(params);
+			if (params.length > 0 && params[0].toUpperCase().equals("List")) {
+				readList(params);
+			} else {
+				read(params);
+			}
 		} else if (command.toUpperCase().equals("LIST")) {
 			list();
 		} else if (command.toUpperCase().equals("CLEAR")) {
@@ -28,10 +52,12 @@ public class ir {
 			show(params);
 		} else if (command.toUpperCase().equals("SIM")) {
 			sim(params);
-		} else if (command.toUpperCase().equals("SEARCH DOC")) {
-			searchDoc(params);
 		} else if (command.toUpperCase().equals("SEARCH")) {
-			search(params);
+			if (params.length > 0 && params[0].toUpperCase().equals("DOC")) {
+				searchDoc(params);
+			} else {
+				search(params);
+			}
 		} else if (command.toUpperCase().equals("QUIT")) {
 			quit();
 		} else {
@@ -39,43 +65,71 @@ public class ir {
 		}
 	}
 	
-	public void read(String[] params) {
-		//TODO stub method
+	private String[] getParams(String[] fullCommand) {
+		String[] params = new String[fullCommand.length - 1];
+		for (int i = 1; i < fullCommand.length; i++) {
+			params[i - 1] = fullCommand[i];
+		}
+		
+		return params;
 	}
 	
-	public void readList(String[] params) {
+	private void read(String[] params) {
 		//TODO stub method
+		System.out.println("READ " + printParams(params));
 	}
 	
-	public void list() {
+	private void readList(String[] params) {
 		//TODO stub method
+		System.out.println("READ LIST" + printParams(params));
 	}
 	
-	public void clear() {
+	private void list() {
 		//TODO stub method
+		System.out.println("LIST");
 	}
 	
-	public void print(String[] params) {
+	private void clear() {
 		//TODO stub method
+		System.out.println("CLEAR");
 	}
 	
-	public void show(String[] params) {
+	private void print(String[] params) {
 		//TODO stub method
+		System.out.println("PRINT " + printParams(params));
 	}
 	
-	public void sim(String[] params) {
+	private void show(String[] params) {
 		//TODO stub method
+		System.out.println("SHOW " + printParams(params));
 	}
 	
-	public void searchDoc(String[] params) {
+	private void sim(String[] params) {
 		//TODO stub method
+		System.out.println("SIM " + printParams(params));
 	}
 	
-	public void search(String[] params) {
+	private void searchDoc(String[] params) {
 		//TODO stub method
+		System.out.println("SEARCH DOC" + printParams(params));
 	}
 	
-	public void quit() {
+	private void search(String[] params) {
 		//TODO stub method
+		System.out.println("SEARCH " + printParams(params));
+	}
+	
+	private String printParams(String[] params) {
+		String str = "";
+		
+		for (int i = 0; i < params.length; i++) {
+			str += params[i] + " ";
+		}
+		
+		return str;
+	}
+	
+	private void quit() {
+		programIsRunning = false;
 	}
 }
