@@ -12,12 +12,16 @@ public class EvaluateCFList {
          if(args[0].equals("MU")) {
             new Filter(new CSV("jester-data-1.csv"), 0, userInput.size(), userInput);
          }
-         if(args[0].equals("WS")) {
+         else if(args[0].equals("WS")) {
             new Filter(new CSV("jester-data-1.csv"), 1, userInput.size(), userInput);
          }
-         if(args[0].equals("AS")) {
+         else if(args[0].equals("AS")) {
             new Filter(new CSV("jester-data-1.csv"), 2, userInput.size(), userInput);
          }
+         else {
+             System.err.println("Method Code " + args[0] + " Incorrect.  Use MU, WS, or AS");
+         }
+         
       } else {
          System.err.println("Usage: EvaluateCFList Method FileName");
          System.exit(1);

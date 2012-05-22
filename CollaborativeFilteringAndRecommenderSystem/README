@@ -7,6 +7,6 @@ EvaluateCFList methodCode fileName
 EvaluateCFRandom methodCode Size
 
 Methods & Codes
-Mean Utility - 0
-Weighted Sum - 1
-Adjusted Weighted Sum - 2
+Mean Utility - MU 
+Weighted Sum - WS
+Adjusted Weighted Sum - AS
