@@ -11,6 +11,13 @@ public class Document {
       this.docIDs = new ArrayList<Integer>();
    }
    
+   public Document(ArrayList<Integer> docID, double tf, double idf, double weight) {
+      this.docIDs = docID;
+      this.tf = tf;
+      this.idf = idf;
+      this.weight = weight;
+   }
+   
    public ArrayList<Integer> getIDs() {
       return docIDs;
    }
