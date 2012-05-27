@@ -21,10 +21,17 @@ public class CSV {
       this.vectors = new ArrayList<Vector>();
       this.restrictions = new Vector();
       File file = new File(fileName);
-      readTextFromFile(file);
+      readTextFromFile(file, false);
+   }
+
+   public CSV(String fileName, boolean isAccidentReportFull) {
+      this.vectors = new ArrayList<Vector>();
+      this.restrictions = new Vector();
+      File file = new File(fileName);
+      readTextFromFile(file, isAccidentReportFull);
    }
    
-   private void readTextFromFile(File file) {
+   private void readTextFromFile(File file, boolean isAccidentReportFull) {
       Scanner scanner;
       try {
          scanner = new Scanner(file);
@@ -33,13 +40,20 @@ public class CSV {
             String line = scanner.nextLine();
             String[] tokens = line.split("[,]");
             
-            if(count == 0) {
+            if(count == 0 && isAccidentReportFull == false) {
                restrictions = new Vector(Arrays.asList(tokens));
-            }
-            else {
+            } else if (count == 0) {
+            	ArrayList<String> fullAccess = new ArrayList<String>();
+            	for (int i = 0; i < tokens.length; i++) {
+            		fullAccess.add("1");
+            	}
+            	restrictions = new Vector(fullAccess);
+            	count++;
+            	continue;
+            } else {
             	Vector v = new Vector();
             	for (int i = 0; i < tokens.length; i++) {
-            		if (i < restrictions.size() - 1 && restrictions.get(i) == 1) {
+            		if (i < restrictions.size() && restrictions.get(i) == 1) {
             			v.add(Float.parseFloat(tokens[i]));
             		}
             	}

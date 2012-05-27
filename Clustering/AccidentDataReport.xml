@@ -1,0 +1,5196 @@
+<tree>
+<node height="30.0">
+<leaf data="[1.0, 6.0, 0.0, 2.0, 0.0, 3.0, 0.0]" height="0.0"/>
+<node height="9.0">
+<node height="2.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 0.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 0.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 0.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 0.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<leaf data="[7.0, 10.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="42.0">
+<leaf data="[2.0, 8.0, 0.0, 2.0, 15.0, 1.0, 0.0]" height="0.0"/>
+<node height="31.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 15.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 15.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="10.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 20.0, 1.0, 0.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 20.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 20.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="75.0">
+<node height="18.0">
+<leaf data="[1.0, 1.0, 0.0, 9.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 6.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="46.0">
+<node height="28.0">
+<node height="14.0">
+<node height="6.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 30.0, 2.0, 3.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 30.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="14.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 30.0, 4.0, 1.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 5.0, 0.0, 2.0, 30.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="19.0">
+<node height="10.0">
+<node height="5.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 30.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 5.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="4.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 30.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="11.0">
+<leaf data="[2.0, 4.0, 2.0, 4.0, 30.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 4.0, 2.0, 30.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="33.0">
+<node height="2.0">
+<leaf data="[5.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[4.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="19.0">
+<node height="7.0">
+<node height="3.0">
+<node height="3.0">
+<node height="2.0">
+<node height="0.0">
+<leaf data="[3.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 2.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 2.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 2.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 1.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 25.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 0.0, 1.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="6.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 3.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 1.0, 3.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 5.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 1.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="5.0">
+<node height="1.0">
+<leaf data="[1.0, 5.0, 0.0, 2.0, 25.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 25.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="6.0">
+<node height="6.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="3.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 25.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 4.0, 25.0, 1.0, 3.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 25.0, 2.0, 3.0]" height="0.0"/>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 25.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 25.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 25.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="15.0">
+<node height="6.0">
+<leaf data="[1.0, 7.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="11.0">
+<leaf data="[4.0, 6.0, 1.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<node height="6.0">
+<node height="2.0">
+<leaf data="[2.0, 5.0, 0.0, 4.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 4.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 25.0, 2.0, 0.0]" height="0.0"/>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 25.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[2.0, 4.0, 0.0, 5.0, 25.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 4.0, 25.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="76.0">
+<node height="27.0">
+<leaf data="[2.0, 2.0, 0.0, 9.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="6.0">
+<leaf data="[2.0, 3.0, 1.0, 9.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[1.0, 1.0, 0.0, 9.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 9.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="76.0">
+<leaf data="[2.0, 2.0, 0.0, 9.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="18.0">
+<node height="7.0">
+<node height="4.0">
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[3.0, 1.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 3.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="4.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 45.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 3.0, 45.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 45.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 45.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[2.0, 3.0, 0.0, 5.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 5.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 45.0, 2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="8.0">
+<node height="3.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 6.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 6.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 6.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 6.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="7.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 2.0, 4.0, 45.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="37.0">
+<node height="3.0">
+<leaf data="[2.0, 3.0, 0.0, 9.0, 30.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 9.0, 30.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="15.0">
+<node height="6.0">
+<node height="2.0">
+<leaf data="[2.0, 2.0, 0.0, 9.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 9.0, 35.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 9.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 9.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 9.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="5.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 1.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="3.0">
+<leaf data="[2.0, 3.0, 0.0, 6.0, 35.0, 2.0, 2.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[3.0, 3.0, 0.0, 6.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 6.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<leaf data="[1.0, 2.0, 1.0, 6.0, 35.0, 1.0, 2.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 7.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="73.0">
+<leaf data="[1.0, 6.0, 5.0, 3.0, 35.0, 2.0, 0.0]" height="0.0"/>
+<node height="59.0">
+<node height="31.0">
+<leaf data="[2.0, 9.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[2.0, 11.0, 0.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 11.0, 0.0, 2.0, 40.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="46.0">
+<node height="5.0">
+<leaf data="[3.0, 5.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[5.0, 6.0, 0.0, 6.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="46.0">
+<node height="30.0">
+<node height="19.0">
+<node height="6.0">
+<leaf data="[4.0, 9.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 8.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="19.0">
+<leaf data="[3.0, 7.0, 0.0, 4.0, 40.0, 3.0, 4.0]" height="0.0"/>
+<node height="13.0">
+<node height="7.0">
+<leaf data="[5.0, 6.0, 0.0, 4.0, 40.0, 2.0, 1.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[3.0, 6.0, 0.0, 5.0, 40.0, 3.0, 0.0]" height="0.0"/>
+<node height="3.0">
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 4.0, 40.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 4.0, 40.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 6.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="1.0">
+<leaf data="[3.0, 6.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 7.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 40.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 2.0, 40.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="26.0">
+<leaf data="[5.0, 4.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="15.0">
+<node height="8.0">
+<node height="6.0">
+<leaf data="[3.0, 3.0, 2.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 2.0, 40.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="7.0">
+<node height="4.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 5.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 40.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[1.0, 4.0, 0.0, 1.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<node height="2.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 40.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 40.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="13.0">
+<leaf data="[3.0, 4.0, 2.0, 4.0, 40.0, 3.0, 0.0]" height="0.0"/>
+<node height="11.0">
+<node height="6.0">
+<leaf data="[3.0, 4.0, 0.0, 6.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[2.0, 4.0, 0.0, 6.0, 40.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 6.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="9.0">
+<node height="6.0">
+<leaf data="[1.0, 2.0, 1.0, 6.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 6.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 6.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 6.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 6.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="9.0">
+<node height="5.0">
+<node height="3.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 3.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 3.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 3.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 40.0, 2.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 1.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="9.0">
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="5.0">
+<leaf data="[3.0, 2.0, 0.0, 4.0, 40.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[4.0, 2.0, 0.0, 4.0, 40.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="36.0">
+<leaf data="[1.0, 6.0, 0.0, 2.0, 35.0, 1.0, 6.0]" height="0.0"/>
+<node height="20.0">
+<node height="13.0">
+<node height="10.0">
+<node height="5.0">
+<node height="4.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 4.0, 35.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 5.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="5.0">
+<node height="3.0">
+<node height="2.0">
+<leaf data="[1.0, 4.0, 1.0, 4.0, 35.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[2.0, 4.0, 2.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 2.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 2.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 1.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="8.0">
+<node height="6.0">
+<node height="2.0">
+<leaf data="[4.0, 5.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="4.0">
+<node height="2.0">
+<leaf data="[1.0, 3.0, 0.0, 4.0, 35.0, 2.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 1.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[3.0, 2.0, 0.0, 4.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="13.0">
+<node height="6.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 35.0, 3.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 35.0, 3.0, 0.0]" height="0.0"/>
+</node>
+<node height="6.0">
+<node height="5.0">
+<node height="2.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[3.0, 6.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 4.0, 35.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[2.0, 6.0, 0.0, 4.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="3.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[1.0, 5.0, 1.0, 3.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="15.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 35.0, 2.0, 3.0]" height="0.0"/>
+<node height="6.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 1.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 1.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="2.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 35.0, 1.0, 2.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 35.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 35.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 35.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="77.0">
+<node height="6.0">
+<leaf data="[1.0, 3.0, 1.0, 9.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 9.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 9.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 9.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="53.0">
+<node height="50.0">
+<node height="17.0">
+<node height="6.0">
+<node height="5.0">
+<leaf data="[2.0, 10.0, 0.0, 2.0, 65.0, 3.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 10.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="6.0">
+<node height="2.0">
+<leaf data="[3.0, 9.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 10.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[2.0, 8.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 8.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="9.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 7.0, 0.0, 4.0, 65.0, 3.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 4.0, 65.0, 3.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[1.0, 6.0, 0.0, 4.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[2.0, 7.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 7.0, 0.0, 3.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 65.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 6.0, 0.0, 3.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<node height="2.0">
+<leaf data="[1.0, 7.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<leaf data="[1.0, 5.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="25.0">
+<node height="12.0">
+<node height="6.0">
+<node height="2.0">
+<leaf data="[1.0, 6.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 7.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 8.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 7.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 7.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="4.0">
+<leaf data="[2.0, 7.0, 0.0, 2.0, 70.0, 4.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 70.0, 3.0, 2.0]" height="0.0"/>
+</node>
+<node height="6.0">
+<leaf data="[1.0, 5.0, 0.0, 4.0, 70.0, 2.0, 1.0]" height="0.0"/>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 5.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 6.0, 0.0, 3.0, 70.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 70.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="14.0">
+<node height="8.0">
+<leaf data="[3.0, 9.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[3.0, 11.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 10.0, 1.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="14.0">
+<leaf data="[6.0, 9.0, 0.0, 2.0, 70.0, 2.0, 0.0]" height="0.0"/>
+<node height="5.0">
+<leaf data="[3.0, 7.0, 0.0, 3.0, 70.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[5.0, 7.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="53.0">
+<node height="12.0">
+<node height="7.0">
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 70.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 70.0, 3.0, 0.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="4.0">
+<node height="2.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[2.0, 4.0, 1.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="10.0">
+<node height="4.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 1.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 5.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="2.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 1.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 3.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 70.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="43.0">
+<node height="13.0">
+<node height="7.0">
+<node height="5.0">
+<leaf data="[1.0, 3.0, 0.0, 1.0, 65.0, 2.0, 3.0]" height="0.0"/>
+<node height="4.0">
+<node height="4.0">
+<leaf data="[1.0, 4.0, 0.0, 1.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<node height="2.0">
+<leaf data="[2.0, 4.0, 1.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 1.0, 2.0, 65.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 3.0, 65.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="4.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 2.0, 1.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 1.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="13.0">
+<node height="7.0">
+<node height="4.0">
+<node height="2.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 5.0, 0.0, 2.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[3.0, 4.0, 0.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 1.0, 1.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<leaf data="[3.0, 3.0, 2.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[4.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 2.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="4.0">
+<node height="4.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 65.0, 2.0, 2.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 5.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 4.0, 65.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[1.0, 5.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="6.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 4.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="1.0">
+<leaf data="[5.0, 6.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 6.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="5.0">
+<node height="1.0">
+<leaf data="[3.0, 7.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 7.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[3.0, 6.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 3.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[3.0, 6.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 3.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="31.0">
+<node height="20.0">
+<node height="9.0">
+<node height="2.0">
+<leaf data="[3.0, 4.0, 0.0, 7.0, 65.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 7.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="7.0">
+<node height="4.0">
+<node height="2.0">
+<leaf data="[1.0, 4.0, 0.0, 6.0, 65.0, 2.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 7.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<leaf data="[1.0, 3.0, 0.0, 5.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="5.0">
+<node height="4.0">
+<node height="3.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 1.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 1.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="5.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 7.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 7.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 7.0, 65.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 1.0, 6.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 1.0, 6.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="12.0">
+<node height="5.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 65.0, 4.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 3.0, 65.0, 3.0, 1.0]" height="0.0"/>
+</node>
+<node height="6.0">
+<node height="3.0">
+<leaf data="[1.0, 5.0, 1.0, 5.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 4.0, 65.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="5.0">
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 6.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<leaf data="[3.0, 4.0, 1.0, 5.0, 65.0, 1.0, 2.0]" height="0.0"/>
+<node height="4.0">
+<leaf data="[2.0, 5.0, 1.0, 6.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[3.0, 4.0, 1.0, 7.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 1.0, 7.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="29.0">
+<leaf data="[1.0, 7.0, 0.0, 4.0, 65.0, 5.0, 0.0]" height="0.0"/>
+<node height="15.0">
+<leaf data="[2.0, 8.0, 0.0, 7.0, 65.0, 2.0, 3.0]" height="0.0"/>
+<node height="8.0">
+<node height="5.0">
+<node height="3.0">
+<leaf data="[3.0, 7.0, 0.0, 5.0, 65.0, 3.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 7.0, 0.0, 4.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[4.0, 7.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 8.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 8.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="6.0">
+<leaf data="[2.0, 7.0, 2.0, 5.0, 65.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[4.0, 6.0, 2.0, 5.0, 65.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="33.0">
+<node height="22.0">
+<node height="9.0">
+<node height="3.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 50.0, 3.0, 3.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 3.0, 50.0, 2.0, 3.0]" height="0.0"/>
+</node>
+<node height="6.0">
+<node height="2.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 50.0, 1.0, 2.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 1.0, 4.0, 50.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 50.0, 1.0, 3.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 50.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 50.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="10.0">
+<node height="6.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 5.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="8.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 50.0, 3.0, 1.0]" height="0.0"/>
+<node height="4.0">
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<leaf data="[1.0, 2.0, 0.0, 3.0, 50.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 3.0, 50.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="28.0">
+<node height="4.0">
+<leaf data="[2.0, 2.0, 0.0, 9.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 7.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="9.0">
+<node height="6.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<node height="5.0">
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="3.0">
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 1.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 1.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 1.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 1.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 1.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="2.0">
+<node height="2.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 5.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<leaf data="[3.0, 3.0, 0.0, 5.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[2.0, 3.0, 1.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="44.0">
+<node height="24.0">
+<leaf data="[5.0, 9.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="14.0">
+<node height="5.0">
+<node height="3.0">
+<leaf data="[3.0, 5.0, 0.0, 5.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<leaf data="[3.0, 4.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 3.0, 50.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="12.0">
+<leaf data="[1.0, 5.0, 2.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<node height="4.0">
+<leaf data="[3.0, 7.0, 0.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[2.0, 6.0, 0.0, 3.0, 50.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 1.0, 2.0, 50.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="36.0">
+<node height="21.0">
+<node height="2.0">
+<leaf data="[5.0, 7.0, 0.0, 5.0, 45.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[5.0, 6.0, 0.0, 4.0, 45.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="20.0">
+<node height="5.0">
+<leaf data="[1.0, 6.0, 0.0, 6.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[1.0, 7.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 4.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="16.0">
+<node height="6.0">
+<node height="2.0">
+<leaf data="[2.0, 4.0, 0.0, 3.0, 45.0, 2.0, 3.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 45.0, 2.0, 3.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[1.0, 4.0, 0.0, 4.0, 45.0, 1.0, 2.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[2.0, 5.0, 0.0, 4.0, 45.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 1.0, 4.0, 45.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="7.0">
+<node height="3.0">
+<leaf data="[2.0, 6.0, 0.0, 3.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 45.0, 2.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 6.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="1.0">
+<leaf data="[1.0, 5.0, 1.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="5.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 45.0, 3.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 45.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<leaf data="[2.0, 5.0, 0.0, 3.0, 45.0, 3.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 45.0, 3.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 45.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 45.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="4.0">
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 3.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 1.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="27.0">
+<node height="7.0">
+<leaf data="[2.0, 11.0, 0.0, 4.0, 45.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 9.0, 0.0, 3.0, 45.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="18.0">
+<leaf data="[4.0, 11.0, 2.0, 6.0, 45.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[6.0, 11.0, 0.0, 3.0, 45.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="69.0">
+<leaf data="[2.0, 11.0, 0.0, 9.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="38.0">
+<node height="23.0">
+<node height="10.0">
+<leaf data="[3.0, 7.0, 0.0, 4.0, 60.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[4.0, 5.0, 0.0, 2.0, 60.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="14.0">
+<leaf data="[1.0, 5.0, 1.0, 4.0, 60.0, 1.0, 2.0]" height="0.0"/>
+<node height="8.0">
+<node height="3.0">
+<leaf data="[1.0, 2.0, 1.0, 4.0, 60.0, 1.0, 1.0]" height="0.0"/>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 4.0, 60.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 4.0, 60.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 60.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 4.0, 60.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 4.0, 60.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<leaf data="[1.0, 1.0, 0.0, 2.0, 60.0, 1.0, 1.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 60.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 60.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="37.0">
+<node height="10.0">
+<node height="4.0">
+<leaf data="[5.0, 6.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[4.0, 7.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 7.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="9.0">
+<node height="2.0">
+<leaf data="[5.0, 8.0, 0.0, 3.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 9.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[3.0, 9.0, 0.0, 2.0, 55.0, 3.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 9.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="30.0">
+<node height="11.0">
+<leaf data="[1.0, 6.0, 0.0, 2.0, 55.0, 6.0, 0.0]" height="0.0"/>
+<node height="3.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 4.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[2.0, 6.0, 0.0, 3.0, 55.0, 3.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 2.0, 55.0, 3.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="29.0">
+<node height="18.0">
+<node height="5.0">
+<node height="5.0">
+<node height="1.0">
+<leaf data="[3.0, 6.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 6.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<leaf data="[2.0, 6.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 6.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="5.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 7.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 7.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 8.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 8.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="3.0">
+<leaf data="[3.0, 8.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 8.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="13.0">
+<node height="13.0">
+<node height="3.0">
+<leaf data="[5.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[4.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[4.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[4.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="10.0">
+<leaf data="[4.0, 5.0, 0.0, 5.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="2.0">
+<leaf data="[2.0, 6.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<leaf data="[1.0, 5.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="13.0">
+<node height="5.0">
+<node height="2.0">
+<leaf data="[1.0, 6.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 6.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 5.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 6.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="10.0">
+<node height="4.0">
+<node height="3.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 3.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 3.0, 2.0]" height="0.0"/>
+</node>
+<node height="5.0">
+<node height="5.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 3.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 1.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="2.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 2.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 2.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="5.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 2.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 3.0, 0.0, 1.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[3.0, 3.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[3.0, 4.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="3.0">
+<leaf data="[2.0, 4.0, 1.0, 3.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="1.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="3.0">
+<node height="1.0">
+<node height="1.0">
+<leaf data="[2.0, 3.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<node height="0.0">
+<leaf data="[1.0, 3.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 1.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="0.0">
+<leaf data="[2.0, 3.0, 0.0, 3.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 3.0, 55.0, 2.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 3.0, 0.0, 2.0, 55.0, 2.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="6.0">
+<node height="2.0">
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 2.0, 2.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[1.0, 4.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[1.0, 3.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+</node>
+</node>
+<node height="4.0">
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 3.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 3.0]" height="0.0"/>
+</node>
+<node height="2.0">
+<node height="1.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 2.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="0.0">
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 4.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="2.0">
+<node height="1.0">
+<leaf data="[2.0, 4.0, 0.0, 3.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[3.0, 4.0, 0.0, 3.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+<node height="1.0">
+<leaf data="[2.0, 5.0, 0.0, 3.0, 55.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[2.0, 5.0, 0.0, 2.0, 55.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="20.0">
+<node height="2.0">
+<leaf data="[2.0, 10.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<leaf data="[1.0, 10.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+<node height="5.0">
+<leaf data="[5.0, 10.0, 0.0, 4.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[5.0, 11.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node height="37.0">
+<leaf data="[2.0, 19.0, 0.0, 2.0, 55.0, 2.0, 0.0]" height="0.0"/>
+<node height="9.0">
+<leaf data="[2.0, 13.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[2.0, 16.0, 0.0, 2.0, 55.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+<leaf data="[4.0, 25.0, 0.0, 2.0, 70.0, 2.0, 0.0]" height="0.0"/>
+<node height="40.0">
+<leaf data="[5.0, 14.0, 0.0, 4.0, 70.0, 1.0, 1.0]" height="0.0"/>
+<node height="21.0">
+<leaf data="[5.0, 15.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="6.0">
+<leaf data="[3.0, 11.0, 0.0, 5.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<node height="4.0">
+<leaf data="[4.0, 13.0, 0.0, 5.0, 65.0, 1.0, 1.0]" height="0.0"/>
+<leaf data="[5.0, 12.0, 0.0, 4.0, 65.0, 1.0, 0.0]" height="0.0"/>
+</node>
+</node>
+</node>
+</node>
+<node height="55.0">
+<leaf data="[9.0, 22.0, 0.0, 6.0, 65.0, 1.0, 0.0]" height="0.0"/>
+<leaf data="[10.0, 15.0, 0.0, 4.0, 65.0, 1.0, 1.0]" height="0.0"/>
+</node>
+</tree>
+
