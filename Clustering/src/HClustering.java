@@ -3,13 +3,14 @@ public class HClustering {
 
 
    public static void main(String[] args) {
-
-		CSV data = null;
-		if (args.length == 2) { //TODO CHANGE BACK AFTER
-			data = new CSV(args[0]);
+	   	if (args.length == 0) {
+		   	CSV data = new CSV("AccidentReports/AccidentData.csv", true);
+		   	new HClustering(data, 78);
+	   	} else if (args.length == 2) {
+			CSV data = new CSV(args[0]);
 			new HClustering(data, Integer.parseInt(args[1]));
 		} else if (args.length == 1) {
-			data = new CSV(args[0]);
+			CSV data = new CSV(args[0]);
 			new HClustering(data, -1);
 		} else {
 			System.err.println("Usage: HClustering <fileName> [<threshold>]");
@@ -47,13 +48,17 @@ public class HClustering {
       double value = tree.children.get(0).findDist(tree.children.get(1));
       answer[0] = tree.children.get(0);
       answer[1] = tree.children.get(1);
+      
+      int size = tree.children.size();
 
-      for(int i = 0; i < tree.children.size(); i++) {
-         for(int j = i+1; j < tree.children.size(); j++) {
-            if(value > tree.children.get(i).findDist(tree.children.get(j))) {
-               value = tree.children.get(i).findDist(tree.children.get(j));
-               answer[0] = tree.children.get(i);
-               answer[1] = tree.children.get(j);
+      for(int i = 0; i < size; i++) {
+         for(int j = i+1; j < size; j++) {
+        	ClusterNode a = tree.children.get(i);
+        	ClusterNode b = tree.children.get(j);
+            if(value > a.findDist(b)) {
+               value = a.findDist(b);
+               answer[0] = a;
+               answer[1] = b;
             }
          }
       }

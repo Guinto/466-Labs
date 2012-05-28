@@ -121,6 +121,9 @@ public class KMeans {
    }
    
    private double findSSE(ArrayList<Vector> cluster) {
+	   if (cluster.size() == 0) {
+		   return -1;
+	   }
 	   double sse = 0;
 	   Vector avg = findAvg(cluster, cluster.get(0).size());
 	   for (int i = 0; i < cluster.size(); i++) {

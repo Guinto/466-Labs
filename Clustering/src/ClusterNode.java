@@ -23,12 +23,8 @@ public class ClusterNode {
    public String toString() {
 	   String str = "";
 	   
-	   str += "[value: " + value + ", ";
-	   str += "max: " + max + ", ";
-	   str += "min: " + min + ", ";
-	   str += "points: " + points + "\n\t";
-	   str += "left: " + left + "\n\t";
-	   str += "right: " + right + "]";
+	   
+	   
 	   return str;
    }
 
@@ -84,7 +80,7 @@ public class ClusterNode {
       else
          return other.max;
    }
-	
+   
 	public String toXMLString(double threshold) {
 		try {
 			DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
