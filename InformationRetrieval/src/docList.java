@@ -6,5 +6,13 @@ public class docList {
       this.document = document;
       this.id = id;
    }
+   
+   public String getName() {
+      return document;
+   }
+   
+   public int getID() {
+      return id;
+   }
 
 }

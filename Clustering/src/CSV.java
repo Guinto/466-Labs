@@ -34,14 +34,14 @@ public class CSV {
             String[] tokens = line.split("[,]");
             
             if(count == 0) {
-               restrictions = new Vector(Arrays.asList(tokens));
+               //restrictions = new Vector(Arrays.asList(tokens));
             }
-            else {
+            else if(count%4 == 0){
             	Vector v = new Vector();
-            	for (int i = 0; i < tokens.length; i++) {
-            		if (i < restrictions.size() - 1 && restrictions.get(i) == 1) {
+            	for (int i = 0; i < 2; i++) {
+            	//	if (i < restrictions.size() - 1 && restrictions.get(i) == 1) {
             			v.add(Float.parseFloat(tokens[i]));
-            		}
+            		//}
             	}
                vectors.add(v);
             }

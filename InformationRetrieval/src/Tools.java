@@ -2,8 +2,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Scanner;
+
 
 
 public class Tools {
@@ -26,7 +30,7 @@ public class Tools {
       return words.get(word).getTF() * words.get(word).getIDF();
    }
    
-   private void readTextFromFile(File file) {
+   public void readTextFromFile(File file) {
       Scanner scanner;
       try {
          scanner = new Scanner(file);
@@ -51,5 +55,28 @@ public class Tools {
          System.err.println("FILE: " + file.getName() + " NOT FOUND");
          e.printStackTrace();
       }
+   }
+   /*change to output to file instead of stdout*/
+   public void writeTextFromFile(File file) {
+      for(int i = 0; i < docs.size(); i++) {
+         System.out.println(docs.get(i).getName() + "," + docs.get(i).getID());
+      }
+     Iterator iter = (Iterator) (words.values()).iterator();
+      Enumeration<String> keys = words.keys();
+      while(iter.hasNext()) {
+         String name = keys.nextElement();
+         Document val = (Document) iter.next();
+         System.out.print(name + "," + val.getTF() + "," + val.getIDF() + "," + val.getWeight());
+         for(int i = 0; i < val.getIDs().size(); i++) {
+            System.out.print("," + val.getIDs().get(i));
+         }
+         System.out.println();
+      }
+   }
+   
+   public double cosineSim(String firstWord, String secWord) {
+      double sim = words.get(firstWord).getWeight() * words.get(secWord).getWeight();
+      sim = sim / Math.sqrt(Math.pow(words.get(firstWord).getWeight(), 2.0) * Math.pow(words.get(secWord).getWeight(), 2.0));
+      return sim;
    }
 }
