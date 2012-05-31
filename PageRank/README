@@ -1,0 +1,5 @@
+Instructions to compile:
+javac pageRank.java Node.java
+
+running the program:
+java pageRank <fileName> [flag]
