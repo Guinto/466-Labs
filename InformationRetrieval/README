@@ -5,3 +5,4 @@ TF - IDF method
 
 Similarity Scores:
 Scores were based upon how frequent items were in documents and if they were shared.  The scale of similarity ranges from 0 - 1 where 1 is most similar.
+
