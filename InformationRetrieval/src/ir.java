@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.Scanner;
 
@@ -102,13 +103,38 @@ public class ir {
       System.out.println("READ " + printParams(params));
    }
 
-   private void readList(String[] params) {
-      //TODO stub method
-      System.out.println("READ LIST" + printParams(params));
+   private void readList(String[] params) throws FileNotFoundException {
+      Scanner scanner;
+      int count = 0;
+      scanner = new Scanner(new File(params[0]));
+      while (scanner.hasNextLine()) {
+         String line = scanner.nextLine();
+         PlainTextReader file = new PlainTextReader(line);
+         data.getDocs().add(new DocumentList(line, line + count));
+         Enumeration<String> keys = file.getWords().keys();
+         while(keys.hasMoreElements()) {
+            String name = keys.nextElement();
+            if(data.getWords().containsKey(name)) {
+               data.getWords().get(name).addID(line + count, data.termFrequency(name, file), 0);
+               data.getWords().get(name).setidf(data.idf(name));
+               data.getWords().get(name).getid(line + count).setweight(data.weight(name, line + count));
+            }
+            else {
+               data.getWords().put(name, new KeyWord(new ArrayList<Document>(), 0));
+               data.getWords().get(name).addID(line + count, data.termFrequency(name, file), 0);
+               data.getWords().get(name).setidf(data.idf(name));;
+               data.getWords().get(name).getid(line + count).setweight(data.weight(name, line + count));
+            }
+         }
+         System.out.println("READ " + printParams(params));
+         count++;
+      }
    }
 
    private void list() {
-      //TODO stub method
+      for(DocumentList d : data.getDocs()) {
+         System.out.println(d.getID());
+      }
       System.out.println("LIST");
    }
 
