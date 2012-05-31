@@ -4,11 +4,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Enumeration;
+import java.util.Hashtable;
 import java.util.Scanner;
 
 
 public class ir {
-
+	
    boolean programIsRunning;
    Scanner sc;
    Tools data;
@@ -86,6 +87,9 @@ public class ir {
       PlainTextReader file = new PlainTextReader(params[0]);
       data.getDocs().add(new DocumentList(params[0], params[0]));
       Enumeration<String> keys = file.getWords().keys();
+      
+      Hashtable<String, KeyWord> words = data.getWords();
+      
       while(keys.hasMoreElements()) {
          String name = keys.nextElement();
          if(data.getWords().containsKey(name)) {
@@ -96,10 +100,10 @@ public class ir {
             }
          }
          else {
-            data.getWords().put(name, new KeyWord(new ArrayList<Document>(), 0));
-            data.getWords().get(name).addID(params[0], data.termFrequency(name, file), 0);
-            data.getWords().get(name).setidf(data.idf(name));;
-            data.getWords().get(name).getid(params[0]).setweight(data.weight(name, params[0]));
+            words.put(name, new KeyWord(new ArrayList<Document>(), 0));
+            words.get(name).addID(params[0], data.termFrequency(name, file), 0);
+            words.get(name).setidf(data.idf(name));;
+            words.get(name).getid(params[0]).setweight(data.weight(name, params[0]));
          }
       }
       System.out.println("READ " + printParams(params));
@@ -166,8 +170,19 @@ public class ir {
    }
 
    private void show(String[] params) {
-      //TODO stub method
-      System.out.println("SHOW " + printParams(params));
+	   String docId = params[0];
+	   Hashtable<String, KeyWord> words = data.getWords();
+	   System.out.println("Num words " + data.getWords().keySet().size());
+	   Enumeration<String> keys = words.keys();
+	   while(keys.hasMoreElements()) {
+		   String name = keys.nextElement();
+		   System.out.println(name);
+		   if(words.containsKey(name)) {
+			   System.out.println("\nword: " + name);
+			   System.out.print("tf: " + words.get(name).getid(docId).getTF());
+			   System.out.println(", weight: " + words.get(name).getid(docId).getWeight());
+		   }
+	   }
    }
 
    private void sim(String[] params) {

@@ -21,7 +21,12 @@ public class PlainTextReader {
    private List<Paragraph> document;
 
    private Scanner scanner;
-
+   
+   public static void main(String[] args) {
+	   PlainTextReader ptr = new PlainTextReader("data/alice.txt");
+	   System.out.println(ptr);
+   }
+   
    public PlainTextReader(String fileAsString, boolean isString) {
 	   initStuff();
        scanner = new Scanner(fileAsString);
@@ -132,7 +137,7 @@ public class PlainTextReader {
          stemmed.add(word.toCharArray(), word.length());
          stemmed.stem();
          addWordToTable(stemmed.toString());
-         addWordToDocument(stemmed.toString());
+         addWordToDocument(word);
       }
       removeLastSentence();
    }
@@ -191,9 +196,10 @@ public class PlainTextReader {
          }
          if (word.contains(",") || word.contains("-") || word.contains(":") 
             || word.contains(";") || word.contains("(") || word.contains(")") 
-            || word.contains("...")) {
+            || word.contains("...") || word.contains("\n") 
+            || (word.contains(".") && word.charAt(word.length() - 1) != '.')) {
             word = word.replace("...", ",");
-            String[] split = word.split("[,:;\\(\\)]");
+            String[] split = word.split("[,:;.\\(\\)\n]");
             for (int i = 0; i < split.length; i++) {
                splitString.add(split[i]);
             }
@@ -206,7 +212,11 @@ public class PlainTextReader {
       }
       if (word.charAt(word.length() - 1) == '.' || word.charAt(word.length() - 1) == '!' || word.charAt(word.length() - 1) == '?') {
          isEndOfSentence = true;
-         word = word.substring(0, word.length() - 1);
+         try {
+        	 word = word.substring(0, word.length() - 2);
+         } catch (StringIndexOutOfBoundsException e) {
+        	 return nextWord();
+         }
       }
       
       word = stripWord(word);
@@ -228,17 +238,21 @@ public class PlainTextReader {
 		if (word.isEmpty()) {
 			return nextWord();
 		}
-		if (!Character.isLetter(word.charAt(0))) {
-			word = word.substring(1);
-			return stripWord(word);
-		} else if (!Character.isLetter(word.charAt(word.length() - 1))) {
-			word = word.substring(0, word.length() - 1);
-			return stripWord(word);
+		char c = word.charAt(0);
+		char c2 = word.charAt(word.length() - 1);
+		if (!isChar(c)) {
+			return stripWord(word.substring(1));
+		} else if (!isChar(c2)) {
+			return stripWord(word.substring(0, word.length() - 1));
 		}
 		return word;
 	}
 
-   public static void main(String[] args) {
+	private boolean isChar(char c) {
+		return (c <= 122 && c >= 65 && !(c > 90 && c < 97));
+	}
+
+   /*public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
       String answer = "";
       String word = "";
@@ -309,7 +323,7 @@ public class PlainTextReader {
          System.err.println("Usage: PlainTextReader fileName");
          System.exit(1);
       }
-   }
+   }*/
 
    private class Sentence {
       private List<String> words;
