@@ -1,8 +1,8 @@
 
 public class DocumentList {
    private String document;
-   private int id;
-   public DocumentList(String document, int id) {
+   private String id;
+   public DocumentList(String document, String id) {
       this.document = document;
       this.id = id;
    }
@@ -11,7 +11,7 @@ public class DocumentList {
       return document;
    }
    
-   public int getID() {
+   public String getID() {
       return id;
    }
 

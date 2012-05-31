@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.Scanner;
 
 
@@ -5,7 +7,7 @@ public class ir {
 	
 	boolean programIsRunning;
 	Scanner sc;
-
+   Tools data;
 	public static void main(String[] args) {
 		new ir();
 	}
@@ -36,6 +38,7 @@ public class ir {
 	private void runCommand(String[] fullCommand) {
 		String command = fullCommand[0];
 		String[] params = getParams(fullCommand);
+		data = new Tools();
 		if (command.toUpperCase().equals("READ")) {
 			if (params.length > 0 && params[0].toUpperCase().equals("List")) {
 				readList(params);
@@ -75,7 +78,23 @@ public class ir {
 	}
 	
 	private void read(String[] params) {
-		//TODO stub method
+		PlainTextReader file = new PlainTextReader(params[0]);
+      data.getDocs().add(new DocumentList(params[0], params[0]));
+      Enumeration<String> keys = file.getWords().keys();
+      while(keys.hasMoreElements()) {
+         String name = keys.nextElement();
+         if(data.getWords().containsKey(name)) {
+            data.getWords().get(name).addID(params[0], data.termFrequency(name, file), 0);
+            data.getWords().get(name).setidf(data.idf(name));
+            data.getWords().get(name).getid(params[0]).setweight(data.weight(name, params[0]));
+         }
+         else {
+            data.getWords().put(name, new KeyWord(new ArrayList<Document>(), 0));
+            data.getWords().get(name).addID(params[0], data.termFrequency(name, file), 0);
+            data.getWords().get(name).setidf(data.idf(name));;
+            data.getWords().get(name).getid(params[0]).setweight(data.weight(name, params[0]));
+         }
+      }
 		System.out.println("READ " + printParams(params));
 	}
 	

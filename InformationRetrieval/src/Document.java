@@ -1,10 +1,10 @@
 
 public class Document {
-   private int id;
+   private String id;
    private double tf;
    private double weight;
 
-   public Document(int id, double tf, double weight) {
+   public Document(String id, double tf, double weight) {
       this.id = id;
       this.tf = tf;
       this.weight = weight;
@@ -14,7 +14,7 @@ public class Document {
       this.weight = weight;
    }
    
-   public int getid() {
+   public String getid() {
       return id;
    }
    

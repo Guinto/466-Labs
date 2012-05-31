@@ -20,15 +20,23 @@ public class Tools {
       this.words = new Hashtable<String, KeyWord>();
       this.docs = new ArrayList<DocumentList>();
    }
-   public int termFrequency(String word, PlainTextReader words) {
+   public double termFrequency(String word, PlainTextReader words) {
       return words.getWords().get(word);
+   }
+   
+   public Hashtable<String, KeyWord> getWords() {
+      return words;
+   }
+   
+   public ArrayList<DocumentList> getDocs() {
+      return docs;
    }
 
    public double idf(String word) {
       return Math.log((double) (docs.size()/words.get(word).getdocs().size()));
    }
 
-   public double weight(String word, int id) {
+   public double weight(String word, String id) {
       return words.get(word).getid(id).getTF() * words.get(word).getIDF();
    }
 
@@ -42,7 +50,7 @@ public class Tools {
             String[] tokens = line.split("[,]");
 
             if(flag == 0 && tokens.length == 2) {
-               docs.add(new DocumentList(tokens[0], Integer.parseInt(tokens[1])));
+               docs.add(new DocumentList(tokens[0], tokens[1]));
             }
             else if(tokens.length == 0) {
                flag = 1;
@@ -51,7 +59,7 @@ public class Tools {
                for(int i = 2; i < tokens.length; i = i + 3) {
                   if(i == 2)
                      words.put(tokens[0], new KeyWord(new ArrayList<Document>(), Double.parseDouble(tokens[1])));
-                  words.get(tokens[0]).getdocs().add(new Document(Integer.parseInt(tokens[i]), Double.parseDouble(tokens[i+1]), Double.parseDouble(tokens[i+2])));
+                  words.get(tokens[0]).getdocs().add(new Document(tokens[i], Double.parseDouble(tokens[i+1]), Double.parseDouble(tokens[i+2])));
                }
             }
          }
@@ -79,7 +87,7 @@ public class Tools {
       }
    }
 
-   public double cosineSim(String firstWord, String secWord, int firstID, int secID) {
+   public double cosineSim(String firstWord, String secWord, String firstID, String secID) {
       double sim = words.get(firstWord).getid(firstID).getWeight() * words.get(secWord).getid(secID).getWeight();
       sim = sim / Math.sqrt(Math.pow(words.get(firstWord).getid(firstID).getWeight(), 2.0) * Math.pow(words.get(secWord).getid(secID).getWeight(), 2.0));
       return sim;

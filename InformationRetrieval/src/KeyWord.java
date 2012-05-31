@@ -5,7 +5,7 @@ public class KeyWord {
    private ArrayList<Document> docs;
    private double idf;
    
-   public KeyWord(int docID) {
+   public KeyWord(String docID) {
       this.docs = new ArrayList<Document>();
    }
    
@@ -18,7 +18,7 @@ public class KeyWord {
       return docs;
    }
    
-   public void addID(int id, double tf, double weight) {
+   public void addID(String id, double tf, double weight) {
       docs.add(new Document(id, tf, weight));
    }
    
@@ -31,10 +31,10 @@ public class KeyWord {
       this.idf = idf;
    }
    
-   public Document getid(int id) {
+   public Document getid(String id) {
       int i = 0;
       for(i = 0; i < docs.size(); i++) {
-         if(docs.get(i).getid() == id) {
+         if(docs.get(i).getid().equals(id)) {
             return docs.get(i);
          }
       }
