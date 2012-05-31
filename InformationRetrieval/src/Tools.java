@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -13,7 +15,7 @@ import java.util.Scanner;
 public class Tools {
    private Hashtable<String, Document> words;
    private ArrayList<docList> docs;
-   
+
    public Tools() {
       this.words = new Hashtable<String, Document>();
       this.docs = new ArrayList<docList>();
@@ -21,15 +23,15 @@ public class Tools {
    public int termFrequency(String word, PlainTextReader words) {
       return words.getWords().get(word);
    }
-   
+
    public double idf(String word) {
       return Math.log((double) (docs.size()/words.get(word).getIDs().size()));
    }
-   
+
    public double weight(String word) {
       return words.get(word).getTF() * words.get(word).getIDF();
    }
-   
+
    public void readTextFromFile(File file) {
       Scanner scanner;
       try {
@@ -38,7 +40,7 @@ public class Tools {
          while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             String[] tokens = line.split("[,]");
-            
+
             if(tokens.length == 2) {
                docs.add(new docList(tokens[0], Integer.parseInt(tokens[1])));
             }
@@ -56,24 +58,23 @@ public class Tools {
          e.printStackTrace();
       }
    }
-   /*change to output to file instead of stdout*/
-   public void writeTextFromFile(File file) {
+
+   public void writeTextFromFile(File file) throws IOException {
+      FileWriter writer = new FileWriter(file);
       for(int i = 0; i < docs.size(); i++) {
-         System.out.println(docs.get(i).getName() + "," + docs.get(i).getID());
-      }
-     Iterator iter = (Iterator) (words.values()).iterator();
+         writer.write(docs.get(i).getName() + "," + docs.get(i).getID() + "\r\n");
+      }      
       Enumeration<String> keys = words.keys();
-      while(iter.hasNext()) {
-         String name = keys.nextElement();
-         Document val = (Document) iter.next();
-         System.out.print(name + "," + val.getTF() + "," + val.getIDF() + "," + val.getWeight());
-         for(int i = 0; i < val.getIDs().size(); i++) {
-            System.out.print("," + val.getIDs().get(i));
+      while(keys.hasMoreElements()) {
+         String obj = keys.nextElement();
+         writer.write(keys + "," + words.get(obj).getTF() + "," + words.get(obj).getIDF() + "," + words.get(obj).getWeight());
+         for(int i = 0; i < words.get(obj).getIDs().size(); i++) {
+            writer.write("," + words.get(obj).getIDs().get(i));
          }
-         System.out.println();
+         writer.write("\r\n");
       }
    }
-   
+
    public double cosineSim(String firstWord, String secWord) {
       double sim = words.get(firstWord).getWeight() * words.get(secWord).getWeight();
       sim = sim / Math.sqrt(Math.pow(words.get(firstWord).getWeight(), 2.0) * Math.pow(words.get(secWord).getWeight(), 2.0));
