@@ -16,7 +16,6 @@ public class pageRank {
       if (args.length == 1) {
          pageRank page = new pageRank();
          page.readTextFromFile(new File(args[0]));
-         System.out.println(page.getNodes().size());
 
          Enumeration<String> e = page.getNodes().keys();
          while(e.hasMoreElements()) {
@@ -25,13 +24,13 @@ public class pageRank {
             count = 0;
          }
          Collections.sort(page.ranks);
+         int num = 1;
          for(Node n : page.ranks) {
-            System.out.println(n.getName() + " " + n.getValue());
+            System.out.println(num++ + " " + n.getName() + " " + n.getValue());
          }
       } else if(args.length == 2) {
          pageRank page = new pageRank();
          page.readDirectedTextFromFile(new File(args[0]));
-         System.out.println(page.getNodes().size());
 
          Enumeration<String> e = page.getNodes().keys();
          while(e.hasMoreElements()) {
@@ -40,8 +39,9 @@ public class pageRank {
             count = 0;
          }
          Collections.sort(page.ranks);
+         int num = 1;
          for(Node n : page.ranks) {
-            System.out.println(n.getName() + " " + n.getValue());
+            System.out.println(num++ + " " + n.getName() + " " + n.getValue());
          }
       }
       else {
@@ -62,9 +62,10 @@ public class pageRank {
       if(count > 1000) {
          return 0.0;
       }
-      for(int i = 0; i < nodes.get(name.getName()).size(); i++) { 
-         if(nodes.contains(nodes.get(name.getName()).get(i)))
+      for(int i = 0; i < nodes.get(name.getName()).size(); i++) {
+         if(nodes.containsKey(nodes.get(name.getName()).get(i).getName())) {
             rank += 1.0/nodes.get(name.getName()).size() * findPageRank(nodes.get(name.getName()).get(i));
+         }
       }
       rank = rank * .803;
       rank += (1 - .803) * 1/nodes.size();
@@ -84,6 +85,11 @@ public class pageRank {
             String[] tokens = line.split("[,]");
             tokens[1] = tokens[1].replaceAll("[ ]", "");
             tokens[3] = tokens[3].replaceAll("[ ]", "");
+            for(int i = 0; i < 4; i++) {
+               if(tokens[i].startsWith(" ")) {
+                  tokens[i] = tokens[i].replaceFirst(" ", "");
+               }
+            }
             a = new Node(tokens[0], Integer.parseInt(tokens[1]));
             b = new Node(tokens[2], Integer.parseInt(tokens[3]));
             if(!nodes.containsKey(a.getName())) {
@@ -114,6 +120,11 @@ public class pageRank {
             String[] tokens = line.split("[,]");
             tokens[1] = tokens[1].replaceAll("[ ]", "");
             tokens[3] = tokens[3].replaceAll("[ ]", "");
+            for(int i = 0; i < 4; i++) {
+               if(tokens[i].startsWith(" ")) {
+                  tokens[i] = tokens[i].replaceFirst(" ", "");
+               }
+            }
             a = new Node(tokens[0], Integer.parseInt(tokens[1]));
             b = new Node(tokens[2], Integer.parseInt(tokens[3]));
 
