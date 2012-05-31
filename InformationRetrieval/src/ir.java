@@ -170,8 +170,19 @@ public class ir {
    }
 
    private void show(String[] params) {
-      //TODO stub method
-      System.out.println("SHOW " + printParams(params));
+	   String docId = params[0];
+	   Hashtable<String, KeyWord> words = data.getWords();
+	   System.out.println("Num words " + data.getWords().keySet().size());
+	   Enumeration<String> keys = words.keys();
+	   while(keys.hasMoreElements()) {
+		   String name = keys.nextElement();
+		   System.out.println(name);
+		   if(words.containsKey(name)) {
+			   System.out.println("\nword: " + name);
+			   System.out.print("tf: " + words.get(name).getid(docId).getTF());
+			   System.out.println(", weight: " + words.get(name).getid(docId).getWeight());
+		   }
+	   }
    }
 
    private void sim(String[] params) {
