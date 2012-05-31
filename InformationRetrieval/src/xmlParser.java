@@ -6,12 +6,7 @@ import java.util.Scanner;
 public class xmlParser {
 
 	private String parsedFile;
-	
-	public static void main(String[] args) {
-		xmlParser xml = new xmlParser(new File("data/Jokes.xml"));
-		xml.runPlainTextReader();
-	}
-	
+		
 	public String getParsedFile() {
 		return parsedFile;
 	}
@@ -35,13 +30,6 @@ public class xmlParser {
 		}
 		
 		sc.close();
-	}
-	
-	public void runPlainTextReader() {
-		PlainTextReader ptr = new PlainTextReader(parsedFile, true);
-		System.out.println("num Uniques " + ptr.getNumUniqueWords());
-		System.out.println("num Uniques " + ptr.getNumWords());
-	}
-	
+	}	
 
 }

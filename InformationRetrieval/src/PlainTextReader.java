@@ -6,10 +6,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Hashtable;
 import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
 
 public class PlainTextReader {
@@ -18,15 +16,9 @@ public class PlainTextReader {
    private List<String> splitString;
    private Hashtable<String, Integer> words;
    int currentParagraph, currentSentence;
-   private List<Paragraph> document;
 
    private Scanner scanner;
-   
-   public static void main(String[] args) {
-	   PlainTextReader ptr = new PlainTextReader("data/alice.txt");
-	   System.out.println(ptr);
-   }
-   
+      
    public PlainTextReader(String fileAsString, boolean isString) {
 	   initStuff();
        scanner = new Scanner(fileAsString);
@@ -53,81 +45,14 @@ public class PlainTextReader {
 	      splitString = new ArrayList<String>(); // used if symbols used in words
 	      words = new Hashtable<String, Integer>();
 	      currentParagraph = currentSentence = 0;
-	      document = new ArrayList<Paragraph>();
-	      document.add(new Paragraph());
    }
    
-   public String toString() {
-	   String str = "";
-	   str += "unique words: " + getNumUniqueWords() + "\n";
-	   str += "words: " + getNumWords() + "\n";
-	   return str;
-   }
-
    public Hashtable<String, Integer> getWords() {
       return words;
    }
    
-   public int getNumParagraphs() {
-      int count = 0;
-      for(Paragraph p : document)
-         if(p.getSentences().size() != 0)
-            count++;
-      return count - 1;
-   }
-
-   public int getNumSentences() {
-      int count = 0;
-      for(int i = 0; i < document.size(); i++) {
-         count += document.get(i).getSentences().size();
-      }
-      return count / (getNumParagraphs() + 1);
-   }
-
-   public int getNumWords() {
-      int count = 0;
-      for (int i = 0; i < document.size(); i++) {
-         for(int j = 0; j < document.get(i).getSentences().size(); j++) {
-            count += document.get(i).getSentences().get(j).getWords().size();
-         }
-         
-      }
-      return count / (getNumParagraphs() + 1);
-   }
-
    public int getNumUniqueWords() {
       return words.size();
-   }
-
-   public ArrayList<String> mostFrequency() {
-      ArrayList<String> answer = new ArrayList<String>();
-      int max = Collections.max(words.values());
-      for(Map.Entry<String, Integer> entry : words.entrySet())
-         if(entry.getValue().equals(max))
-            answer.add(entry.getKey());
-      return answer;
-   }
-   
-   public ArrayList<String> getFrequency(int max) {
-      ArrayList<String> answer = new ArrayList<String>();
-      for(Map.Entry<String, Integer> entry : words.entrySet())
-         if(entry.getValue().equals(max))
-            answer.add(entry.getKey());
-      return answer;
-   }
-   
-   public ArrayList<String> leastFrequency(int max) {
-      ArrayList<String> answer = new ArrayList<String>();
-      for(Map.Entry<String, Integer> entry : words.entrySet())
-         if(entry.getValue() > max)
-            answer.add(entry.getKey());
-      return answer;
-   }
-   
-   public boolean doesWordExist(String word) {
-      if(words.containsKey(word))
-         return true;
-      return false;
    }
 
    public void parseFile() {
@@ -138,15 +63,9 @@ public class PlainTextReader {
          stemmed.add(word.toCharArray(), word.length());
          stemmed.stem();
          addWordToTable(stemmed.toString());
-         addWordToDocument(word);
       }
-      removeLastSentence();
    }
-
-   private void removeLastSentence() {
-      document.get(currentParagraph).getSentences().remove(currentSentence);
-   }
-
+   
    private void addWordToTable(String word) {
 	   if (word == null) return;
       if (words.containsKey(word)) {
@@ -155,24 +74,7 @@ public class PlainTextReader {
          words.put(word, 0);
       }
    }
-
-   private void addWordToDocument(String word) {
-      Paragraph p = document.get(currentParagraph);
-      p.getSentences().get(currentSentence).addWord(word);
-      if (isEndOfParagraph) {
-         document.add(new Paragraph());
-         currentParagraph = document.size() - 1;
-         isEndOfParagraph = false;
-         currentSentence = 0;
-      }
-      if (isEndOfSentence) {
-         p.addSentence(new Sentence());
-         currentSentence = p.getSentences().size() - 1;
-         isEndOfSentence = false;
-      }
-      document.set(currentParagraph, p);
-   }
-
+   
    private boolean hasNextWord() {
       return scanner.hasNext();
    }
@@ -251,38 +153,4 @@ public class PlainTextReader {
 
 	private boolean isChar(char c) {
 		return (c <= 122 && c >= 65 && !(c > 90 && c < 97));
-	}
-
-   private class Sentence {
-      private List<String> words;
-
-      public List<String> getWords() {
-         return words;
-      }
-
-      public Sentence() {
-         words = new ArrayList<String>();
-      }
-
-      public void addWord(String word) {
-         words.add(word);
-      }
-   }
-
-   private class Paragraph {
-      private List<Sentence> sentences;
-
-      public Paragraph() {
-         sentences = new ArrayList<Sentence>();
-         addSentence(new Sentence());
-      }
-
-      public List<Sentence> getSentences() {
-         return sentences;
-      }
-
-      public void addSentence(Sentence sentence) {
-         sentences.add(sentence);
-      }
-   }
-}  
+	}}  

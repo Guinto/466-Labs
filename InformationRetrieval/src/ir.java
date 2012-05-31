@@ -3,7 +3,6 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Scanner;
@@ -175,10 +174,15 @@ public class ir {
      }
   }
 
-   private void readList(String[] params) throws FileNotFoundException {
-      Scanner scanner;
+   private void readList(String[] params) {
       int count = 0;
-      scanner = new Scanner(new File(params[1]));
+      Scanner scanner = null;
+      try {
+		scanner = new Scanner(new File(params[1]));
+	} catch (FileNotFoundException e) {
+		System.err.println("File " + params[1] + " not found");
+		return;
+	}
       while (scanner.hasNextLine()) {
          String line = scanner.nextLine();
          readFileList(line, count++);
