@@ -28,6 +28,10 @@ public class Tools {
       return words;
    }
    
+   public void setWords(Hashtable<String, KeyWord> words) {
+      this.words = words;
+   }
+   
    public ArrayList<DocumentList> getDocs() {
       return docs;
    }
