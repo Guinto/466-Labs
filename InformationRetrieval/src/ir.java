@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.Scanner;
@@ -8,11 +10,11 @@ public class ir {
 	boolean programIsRunning;
 	Scanner sc;
    Tools data;
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		new ir();
 	}
 	
-	public ir() {
+	public ir() throws IOException {
 		displayStartup();
 		startProgram();
 		runProgram();
@@ -27,7 +29,7 @@ public class ir {
 		programIsRunning = true;
 	}
 	
-	private void runProgram() {
+	private void runProgram() throws IOException {
 		while (programIsRunning) {
 			System.out.print("IR>");
 			String[] fullCommand = sc.nextLine().split(" ");
@@ -35,10 +37,11 @@ public class ir {
 		}
 	}
 	
-	private void runCommand(String[] fullCommand) {
+	private void runCommand(String[] fullCommand) throws IOException {
 		String command = fullCommand[0];
 		String[] params = getParams(fullCommand);
 		data = new Tools();
+		data.readTextFromFile(new File("config.txt"));
 		if (command.toUpperCase().equals("READ")) {
 			if (params.length > 0 && params[0].toUpperCase().equals("List")) {
 				readList(params);
@@ -109,12 +112,11 @@ public class ir {
 	}
 	
 	private void clear() {
-		//TODO stub method
+		data = new Tools();
 		System.out.println("CLEAR");
 	}
 	
 	private void print(String[] params) {
-		//TODO stub method
 		System.out.println("PRINT " + printParams(params));
 	}
 	
@@ -148,7 +150,9 @@ public class ir {
 		return str;
 	}
 	
-	private void quit() {
+	private void quit() throws IOException {
+	   File config = new File("config.txt");
+	   data.writeTextFromFile(config);
 		programIsRunning = false;
 	}
 }
