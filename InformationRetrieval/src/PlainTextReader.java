@@ -22,15 +22,15 @@ public class PlainTextReader {
 
    private Scanner scanner;
 
+   public PlainTextReader(String fileAsString, boolean isString) {
+	   initStuff();
+       scanner = new Scanner(fileAsString);
+       scanner.useDelimiter("[ \t\u000B\f\r\u001C\u001D\u001E\u001F]"); // Delimits all white space except \n
+       parseFile();
+   }
+   
    public PlainTextReader(String fileName) {
-      isEndOfParagraph = false;
-      isEndOfSentence = false;
-      splitString = new ArrayList<String>(); // used if symbols used in words
-      words = new Hashtable<String, Integer>();
-      currentParagraph = currentSentence = 0;
-      document = new ArrayList<Paragraph>();
-      document.add(new Paragraph());
-
+	   initStuff();
       try {
          scanner = new Scanner(new File(fileName));
          scanner.useDelimiter("[ \t\u000B\f\r\u001C\u001D\u001E\u001F]"); // Delimits all white space except \n
@@ -40,6 +40,23 @@ public class PlainTextReader {
          System.err.println("FILE " + fileName + " NOT FOUND");
          e.printStackTrace();
       }
+   }
+   
+   public void initStuff() {
+	      isEndOfParagraph = false;
+	      isEndOfSentence = false;
+	      splitString = new ArrayList<String>(); // used if symbols used in words
+	      words = new Hashtable<String, Integer>();
+	      currentParagraph = currentSentence = 0;
+	      document = new ArrayList<Paragraph>();
+	      document.add(new Paragraph());
+   }
+   
+   public String toString() {
+	   String str = "";
+	   str += "unique words: " + getNumUniqueWords() + "\n";
+	   str += "words: " + getNumWords() + "\n";
+	   return str;
    }
 
    public Hashtable<String, Integer> getWords() {
@@ -122,6 +139,7 @@ public class PlainTextReader {
    }
 
    private void addWordToTable(String word) {
+	   if (word == null) return;
       if (words.containsKey(word)) {
          words.put(word, words.get(word) + 1);
       } else {
@@ -159,7 +177,8 @@ public class PlainTextReader {
             return nextWord();
          } 
       } else {
-         word = scanner.next();
+    	  if (!scanner.hasNext()) return null;
+    		  word = scanner.next();
          if (word.isEmpty()) {
         	 return nextWord();
          }
