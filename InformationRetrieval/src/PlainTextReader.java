@@ -133,6 +133,7 @@ public class PlainTextReader {
    public void parseFile() {
       while (hasNextWord()) {
          String word = nextWord();
+         if (word == null) break;
          Stemmer stemmed = new Stemmer();
          stemmed.add(word.toCharArray(), word.length());
          stemmed.stem();
@@ -251,79 +252,6 @@ public class PlainTextReader {
 	private boolean isChar(char c) {
 		return (c <= 122 && c >= 65 && !(c > 90 && c < 97));
 	}
-
-   /*public static void main(String[] args) {
-      Scanner in = new Scanner(System.in);
-      String answer = "";
-      String word = "";
-      int num;
-      if (args.length != 0) {
-         PlainTextReader data = new PlainTextReader(args[0]);
-         System.out.println("Number of paragraphs: " + data.getNumParagraphs()); 
-
-         System.out.println("Number of sentences: " + data.getNumSentences());
-
-         System.out.println("Number of words: " + data.getNumWords());
-
-         System.out.println("Number of unique words: " + data.getNumUniqueWords()); 
-         
-         System.out.print("Highest frequency word/s:");
-         for(String s: data.mostFrequency())
-            System.out.print(" " + s);
-         System.out.println();
-         
-         System.out.println("Check to see if words with frequency? y/n");
-         answer = in.next();
-         while(!answer.equals("n")) {
-            if(answer.equals("y")) {
-               System.out.println("Enter Frequency: ");
-               num = Integer.parseInt(in.next());
-               System.out.print("Words with Frequency " + num);
-               for(String s: data.getFrequency(num))
-                  System.out.print(" " + s);
-               System.out.println();
-            }
-            System.out.println("Check Another?");
-            answer = in.next();
-         }
-         answer = "";
-         
-         System.out.println("Check to see if words greater than a frequency? y/n");
-         answer = in.next();
-         while(!answer.equals("n")) {
-            if(answer.equals("y")) {
-               System.out.println("Enter Frequency: ");
-               num = Integer.parseInt(in.next());
-               System.out.print("Words with Frequency " + num);
-               for(String s: data.leastFrequency(num))
-                  System.out.print(" " + s);
-               System.out.println();
-            }
-            System.out.println("Check Another?");
-            answer = in.next();
-         }
-         answer = "";
-         
-         System.out.println("Check to see if a word exists? y/n");
-         answer = in.next();
-         while(!answer.equals("n")) {
-            if(answer.equals("y")) {
-               System.out.println("Enter Word: ");
-               word = in.next();
-               if(data.doesWordExist(word))
-                  System.out.println("word exists");
-               else
-                  System.out.println("word does not exist");
-            }
-            System.out.println("Keep checking?");
-            answer = in.next();
-            word = "";
-         }
-      } else {
-         System.err.println("Usage: PlainTextReader fileName");
-         System.exit(1);
-      }
-   }*/
 
    private class Sentence {
       private List<String> words;

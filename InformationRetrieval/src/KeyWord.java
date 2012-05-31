@@ -38,7 +38,7 @@ public class KeyWord {
             return docs.get(i);
          }
       }
-      return docs.get(i);
+      return null;
    }
    
 

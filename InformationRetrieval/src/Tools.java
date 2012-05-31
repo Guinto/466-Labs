@@ -3,11 +3,8 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Enumeration;
 import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.Scanner;
 
 
@@ -37,7 +34,7 @@ public class Tools {
    }
 
    public double idf(String word) {
-      return Math.log((double) (docs.size()/words.get(word).getdocs().size()));
+      return Math.log(((double)docs.size()/words.get(word).getdocs().size()));
    }
 
    public double weight(String word, String id) {
@@ -53,11 +50,11 @@ public class Tools {
             String line = scanner.nextLine();
             String[] tokens = line.split("[,]");
 
+            if (tokens.length != 2) {
+            	flag = 1;
+            }
             if(flag == 0 && tokens.length == 2) {
                docs.add(new DocumentList(tokens[0], tokens[1]));
-            }
-            else if(tokens.length == 0) {
-               flag = 1;
             }
             else if(flag == 1){
                for(int i = 2; i < tokens.length; i = i + 3) {
@@ -77,18 +74,20 @@ public class Tools {
    public void writeTextFromFile(File file) throws IOException {
       FileWriter writer = new FileWriter(file);
       for(int i = 0; i < docs.size(); i++) {
-         writer.write(docs.get(i).getName() + "," + docs.get(i).getID() + "\r\n");
+    	  if (docs.get(i).getID().equals("query")) continue;
+          writer.write(docs.get(i).getName() + "," + docs.get(i).getID() + "\r\n");
       }
       writer.write("\r\n");
       Enumeration<String> keys = words.keys();
       while(keys.hasMoreElements()) {
          String obj = keys.nextElement();
-         writer.write(keys + "," + words.get(obj).getIDF());
+         writer.write(obj + "," + words.get(obj).getIDF());
          for(int i = 0; i < words.get(obj).getdocs().size(); i++) {
             writer.write("," + words.get(obj).getdocs().get(i).getid() + "," + words.get(obj).getdocs().get(i).getTF() + "," + words.get(obj).getdocs().get(i).getWeight());
          }
          writer.write("\r\n");
       }
+      writer.close();
    }
 
    public double cosineSim(String firstWord, String secWord, String firstID, String secID) {

@@ -1,0 +1,4 @@
+data/joke02.txt
+data/joke03.txt
+data/joke04.txt
+data/joke05.txt

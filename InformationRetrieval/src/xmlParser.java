@@ -25,16 +25,11 @@ public class xmlParser {
 			e.printStackTrace();
 		}
 	
-		int jokeNum = 0;
 		while (sc.hasNextLine()) {
 			String line = sc.nextLine();
-			if (line.contains("<jokes>") || line.contains("</joke")) {
+			if (line.contains("<") && line.contains(">")) {
 				continue;
-			} else if (line.contains("<joke>")) {
-				jokeNum++;
-				//System.out.println("\n********* JOKE#" + jokeNum + " ************\n");
 			} else {
-				//System.out.println(line);
 				parsedFile += line + "\n";
 			}
 		}
