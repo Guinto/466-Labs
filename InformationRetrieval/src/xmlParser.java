@@ -5,11 +5,19 @@ import java.util.Scanner;
 
 public class xmlParser {
 
+	private String parsedFile;
+	
 	public static void main(String[] args) {
-		new xmlParser(new File("data/Jokes.xml"));
+		xmlParser xml = new xmlParser(new File("data/Jokes.xml"));
+		xml.runPlainTextReader();
+	}
+	
+	public String getParsedFile() {
+		return parsedFile;
 	}
 	
 	public xmlParser(File file) {
+		parsedFile = "";
 		Scanner sc = null;
 		try {
 			sc = new Scanner(file);
@@ -24,13 +32,20 @@ public class xmlParser {
 				continue;
 			} else if (line.contains("<joke>")) {
 				jokeNum++;
-				System.out.println("\n********* JOKE#" + jokeNum + " ************\n");
+				//System.out.println("\n********* JOKE#" + jokeNum + " ************\n");
 			} else {
-				System.out.println(line);
+				//System.out.println(line);
+				parsedFile += line + "\n";
 			}
 		}
 		
 		sc.close();
+	}
+	
+	public void runPlainTextReader() {
+		PlainTextReader ptr = new PlainTextReader(parsedFile, true);
+		System.out.println("num Uniques " + ptr.getNumUniqueWords());
+		System.out.println("num Uniques " + ptr.getNumWords());
 	}
 	
 

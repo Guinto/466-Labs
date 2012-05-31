@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 
@@ -95,8 +97,21 @@ public class ir {
 	}
 	
 	private void print(String[] params) {
-		//TODO stub method
-		System.out.println("PRINT " + printParams(params));
+		if (params[0].contains(".xml")) {
+			xmlParser xml = new xmlParser(new File(params[0]));
+			System.out.println(xml.getParsedFile());
+		} else {
+			try {
+				Scanner s = new Scanner(new File(params[0]));
+				while (s.hasNextLine()) {
+					System.out.println(s.nextLine());
+				}
+			} catch (FileNotFoundException e) {
+				System.err.println("File " + params[0] + " not found.");
+				e.printStackTrace();
+			}
+			
+		}
 	}
 	
 	private void show(String[] params) {
