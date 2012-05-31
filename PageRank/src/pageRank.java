@@ -13,24 +13,39 @@ public class pageRank {
    private ArrayList<Node> ranks;
    public static int count = 0;
    public static void main(String[] args) {
-      if (args.length == 0) {
+      if (args.length == 1) {
          pageRank page = new pageRank();
-         page.readTextFromFile(new File("data/dolphins.csv"));
+         page.readTextFromFile(new File(args[0]));
          System.out.println(page.getNodes().size());
 
          Enumeration<String> e = page.getNodes().keys();
          while(e.hasMoreElements()) {
             String n = e.nextElement();
             page.ranks.add(new Node(n, page.findPageRank(new Node(n, 0.0))));
-            //         System.out.println(page.findPageRank(new Node(n, 0)) + " " + page.nodes.get(n).size() + " " + n);
             count = 0;
          }
          Collections.sort(page.ranks);
          for(Node n : page.ranks) {
             System.out.println(n.getName() + " " + n.getValue());
          }
-      } else {
-         System.err.println("Usage: HClustering <fileName> [<threshold>]");
+      } else if(args.length == 2) {
+         pageRank page = new pageRank();
+         page.readDirectedTextFromFile(new File(args[0]));
+         System.out.println(page.getNodes().size());
+
+         Enumeration<String> e = page.getNodes().keys();
+         while(e.hasMoreElements()) {
+            String n = e.nextElement();
+            page.ranks.add(new Node(n, page.findPageRank(new Node(n, 0.0))));
+            count = 0;
+         }
+         Collections.sort(page.ranks);
+         for(Node n : page.ranks) {
+            System.out.println(n.getName() + " " + n.getValue());
+         }
+      }
+      else {
+         System.err.println("Usage: pageRank <fileName> [flag]");
          System.exit(1);
       }
 
@@ -48,7 +63,8 @@ public class pageRank {
          return 0.0;
       }
       for(int i = 0; i < nodes.get(name.getName()).size(); i++) { 
-         rank += 1.0/nodes.get(name.getName()).size() * findPageRank(nodes.get(name.getName()).get(i));
+         if(nodes.contains(nodes.get(name.getName()).get(i)))
+            rank += 1.0/nodes.get(name.getName()).size() * findPageRank(nodes.get(name.getName()).get(i));
       }
       rank = rank * .803;
       rank += (1 - .803) * 1/nodes.size();
@@ -65,8 +81,9 @@ public class pageRank {
          scanner = new Scanner(file);
          while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            line = line.replaceAll("[ ]", "");
             String[] tokens = line.split("[,]");
+            tokens[1] = tokens[1].replaceAll("[ ]", "");
+            tokens[3] = tokens[3].replaceAll("[ ]", "");
             a = new Node(tokens[0], Integer.parseInt(tokens[1]));
             b = new Node(tokens[2], Integer.parseInt(tokens[3]));
             if(!nodes.containsKey(a.getName())) {
@@ -94,8 +111,9 @@ public class pageRank {
          scanner = new Scanner(file);
          while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            line = line.replaceAll("[ ]", "");
             String[] tokens = line.split("[,]");
+            tokens[1] = tokens[1].replaceAll("[ ]", "");
+            tokens[3] = tokens[3].replaceAll("[ ]", "");
             a = new Node(tokens[0], Integer.parseInt(tokens[1]));
             b = new Node(tokens[2], Integer.parseInt(tokens[3]));
 
