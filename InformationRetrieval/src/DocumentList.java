@@ -1,8 +1,8 @@
 
-public class docList {
+public class DocumentList {
    private String document;
    private int id;
-   public docList(String document, int id) {
+   public DocumentList(String document, int id) {
       this.document = document;
       this.id = id;
    }

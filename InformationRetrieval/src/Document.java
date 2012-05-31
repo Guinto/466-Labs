@@ -1,37 +1,21 @@
-import java.util.ArrayList;
-
 
 public class Document {
-   private ArrayList<Integer> docIDs;
+   private int id;
    private double tf;
-   private double idf;
    private double weight;
-   
-   public Document(int docID) {
-      this.docIDs = new ArrayList<Integer>();
-   }
-   
-   public Document(ArrayList<Integer> docID, double tf, double idf, double weight) {
-      this.docIDs = docID;
+
+   public Document(int id, double tf, double weight) {
+      this.id = id;
       this.tf = tf;
-      this.idf = idf;
       this.weight = weight;
    }
    
-   public ArrayList<Integer> getIDs() {
-      return docIDs;
+   public void setweight(double weight) {
+      this.weight = weight;
    }
    
-   public void addID(int id) {
-      docIDs.add(id);
-   }
-   
-   public double getTF() {
-      return tf;
-   }
-   
-   public double getIDF() {
-      return idf;
+   public int getid() {
+      return id;
    }
    
    public double getWeight() {
@@ -42,11 +26,7 @@ public class Document {
       this.tf = tf;
    }
    
-   public void setidf(double idf) {
-      this.idf = idf;
-   }
-   
-   public void setweight(double weight) {
-      this.weight = weight;
+   public double getTF() {
+      return tf;
    }
 }
