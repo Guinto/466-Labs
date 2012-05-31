@@ -91,7 +91,9 @@ public class ir {
          if(data.getWords().containsKey(name)) {
             data.getWords().get(name).addID(params[0], data.termFrequency(name, file), 0);
             data.getWords().get(name).setidf(data.idf(name));
-            data.getWords().get(name).getid(params[0]).setweight(data.weight(name, params[0]));
+            for(Document d: data.getWords().get(name).getdocs()) {
+               d.setweight(data.weight(name, d.getid()));
+            }
          }
          else {
             data.getWords().put(name, new KeyWord(new ArrayList<Document>(), 0));
@@ -117,7 +119,9 @@ public class ir {
             if(data.getWords().containsKey(name)) {
                data.getWords().get(name).addID(line + count, data.termFrequency(name, file), 0);
                data.getWords().get(name).setidf(data.idf(name));
-               data.getWords().get(name).getid(line + count).setweight(data.weight(name, line + count));
+               for(Document d: data.getWords().get(name).getdocs()) {
+                  d.setweight(data.weight(name, d.getid()));
+               }
             }
             else {
                data.getWords().put(name, new KeyWord(new ArrayList<Document>(), 0));

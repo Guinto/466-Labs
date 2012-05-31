@@ -128,8 +128,11 @@ public class PlainTextReader {
    public void parseFile() {
       while (hasNextWord()) {
          String word = nextWord();
-         addWordToTable(word);
-         addWordToDocument(word);
+         Stemmer stemmed = new Stemmer();
+         stemmed.add(word.toCharArray(), word.length());
+         stemmed.stem();
+         addWordToTable(stemmed.toString());
+         addWordToDocument(stemmed.toString());
       }
       removeLastSentence();
    }
